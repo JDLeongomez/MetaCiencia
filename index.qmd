@@ -3,6 +3,8 @@ title: "MetaCiencia"
 subtitle: "Semillero abierto de ciencia, reproducibilidad y transparencia"
 page-layout: full
 toc: false
+include-before-body:
+  text: "<style>#title-block-header { display: none !important; }</style>"
 ---
 
 ::: {.hero-banner}
