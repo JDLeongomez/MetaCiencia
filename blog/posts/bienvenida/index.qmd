@@ -1,0 +1,39 @@
+---
+title: "Bienvenidos a MetaCiencia"
+description: "Presentamos nuestro semillero y el propósito de este sitio web"
+date: 2025-04-05
+date-format: "D MMMM YYYY"
+author:
+  - name: Laura Gómez Rincón
+    url: ../../../people/laura-gomez.qmd
+    orcid: 0000-0000-0000-0001
+categories: [semillero, presentación, ciencia abierta]
+image: featured.jpg
+---
+
+## ¿Por qué <strong>Meta<span class="mc-ink">Ciencia</span></strong>?
+
+La psicología, como muchas otras disciplinas científicas, ha enfrentado en los últimos años
+un cuestionamiento profundo sobre la solidez de sus hallazgos. El llamado *replication crisis*
+ha puesto sobre la mesa preguntas incómodas pero necesarias: ¿cuántos de los resultados que
+enseñamos en las aulas son robustos? ¿Estamos produciendo conocimiento acumulativo?
+
+En <strong>Meta<span class="mc-ink">Ciencia</span></strong> creemos que la respuesta no es el escepticismo paralizante sino la **reforma
+metodológica**: adoptar herramientas y prácticas que hagan la ciencia más transparente,
+reproducible y, en última instancia, más útil para la sociedad.
+
+## ¿Qué encontrarás en este sitio?
+
+- **Proyectos** de investigación activos y finalizados del semillero.
+- **Publicaciones** y preprints con acceso a datos y materiales.
+- **Perfiles** de los integrantes del equipo.
+- Entradas de **blog** con tutoriales, reflexiones y noticias sobre ciencia abierta.
+
+## Únete
+
+Si eres estudiante o docente de la Universidad El Bosque y te interesa la metodología,
+la estadística o la ciencia abierta, escríbenos. Siempre hay espacio para nuevas perspectivas.
+
+---
+
+*Laura Gómez Rincón — Directora de <strong>Meta<span class="mc-ink">Ciencia</span></strong>*

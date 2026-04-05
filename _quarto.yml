@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "MetaCiencia"
+  description: "Semillero abierto de ciencia, reproducibilidad y transparencia — Facultad de Psicología, Universidad El Bosque"
+  favicon: assets/logo_MetaCiencia.svg
+  site-url: https://jdleongomez.github.io/MetaCiencia
+  repo-url: https://github.com/JDLeongomez/MetaCiencia
+  repo-actions: [issue]
+
+  navbar:
+    logo: assets/logo_MetaCiencia.svg
+    logo-alt: "MetaCiencia"
+    title: false
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Integrantes"
+        href: people/index.qmd
+      - text: "Proyectos"
+        href: projects/index.qmd
+      - text: "Publicaciones"
+        href: publications/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/JDLeongomez/MetaCiencia
+        aria-label: GitHub
+
+  page-footer:
+    left: |
+      **MetaCiencia** — Semillero abierto de ciencia, reproducibilidad y transparencia
+      Facultad de Psicología, Universidad El Bosque · Bogotá, Colombia
+    right:
+      - icon: github
+        href: https://github.com/JDLeongomez/MetaCiencia
+
+  page-navigation: true
+  back-to-top-navigation: true
+
+format:
+  html:
+    theme:
+      - darkly
+      - custom.scss
+    lang: es
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: true
+    code-copy: true
+    highlight-style: dracula
+
+execute:
+  freeze: auto

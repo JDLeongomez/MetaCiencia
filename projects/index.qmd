@@ -1,0 +1,17 @@
+---
+title: "Proyectos"
+description: "Investigaciones activas y pasadas del semillero MetaCiencia"
+toc: false
+listing:
+  id: projects-listing
+  contents: "*.qmd"
+  exclude:
+    filename: "index.qmd"
+  type: grid
+  grid-columns: 2
+  fields: [title, description, categories, date]
+  sort: "date desc"
+---
+
+::: {#projects-listing}
+:::

@@ -1,0 +1,59 @@
+---
+title: "MetaCiencia"
+subtitle: "Semillero abierto de ciencia, reproducibilidad y transparencia"
+page-layout: full
+toc: false
+---
+
+::: {.hero-banner}
+![](assets/logo_MetaCiencia.svg){.hero-logo alt="Logo MetaCiencia"}
+
+# <strong>Meta<span class="mc-ink">Ciencia</span></strong>
+
+**Semillero abierto de ciencia, reproducibilidad y transparencia**
+
+Facultad de Psicología · Universidad El Bosque · Bogotá, Colombia
+
+[Conócenos](people/index.qmd){.btn .btn-light .btn-lg .me-2}
+[Ver proyectos](projects/index.qmd){.btn .btn-outline-light .btn-lg}
+:::
+
+## ¿Quiénes somos?
+
+<strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero de investigación de la Facultad de Psicología de la Universidad El Bosque dedicado a promover prácticas científicas abiertas, reproducibles y transparentes. Nos interesa la **ciencia abierta**, la **metainvestigación**, la **estadística aplicada** y el desarrollo de herramientas que mejoren la calidad y el alcance de la investigación psicológica.
+
+## Ejes de trabajo
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### Reproducibilidad
+Estudiamos las condiciones que hacen que los hallazgos científicos puedan replicarse y auditarse, y desarrollamos recursos prácticos para mejorarlas.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Ciencia Abierta
+Promovemos el preregistro de estudios, el acceso abierto a datos y materiales, y el uso de software libre en la investigación.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Metainvestigación
+Analizamos cómo se produce, reporta y difunde la ciencia en Colombia y Latinoamérica, con especial atención a la psicología.
+:::
+
+:::
+
+---
+
+## Últimas entradas del blog
+
+```{=html}
+<p><a href="blog/index.qmd">Ver todas las entradas →</a></p>
+```
+
+---
+
+## Contacto
+
+¿Quieres unirte al semillero o colaborar con nosotros?
+Escríbenos a **jleongomez@unbosque.edu.co** o visita nuestro [repositorio en GitHub](https://github.com/JDLeongomez/MetaCiencia).

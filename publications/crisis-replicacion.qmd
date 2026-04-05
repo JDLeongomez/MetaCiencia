@@ -1,0 +1,51 @@
+---
+title: "Crisis de replicación en psicología: una revisión para contextos hispanohablantes"
+description: "Artículo de revisión · *Revista Colombiana de Psicología*, 2025"
+date: 2025-01-15
+date-format: "MMMM YYYY"
+categories: [revisión, replicabilidad, ciencia abierta, hispanohablantes]
+---
+
+::: {.pub-entry}
+**Crisis de replicación en psicología: una revisión para contextos hispanohablantes**
+
+::: {.pub-authors}
+[Gómez Rincón, L.](../people/laura-gomez.qmd) &
+[Torres Mendoza, A.](../people/andres-torres.qmd)
+:::
+
+::: {.pub-journal}
+*Revista Colombiana de Psicología*, 34(1), 45–62. <https://doi.org/10.xxxx/xxxxxx>
+:::
+
+::: {.pub-links}
+[PDF](https://doi.org/10.xxxx/xxxxxx){.btn .btn-sm .btn-outline-primary}
+[Preprint](https://osf.io/xxxxx){.btn .btn-sm .btn-outline-secondary}
+[Datos](https://osf.io/xxxxx){.btn .btn-sm .btn-outline-secondary}
+[Código](https://github.com/metaciencia){.btn .btn-sm .btn-outline-secondary}
+:::
+:::
+
+---
+
+## Resumen
+
+Esta revisión narrativa examina el debate en torno a la *crisis de replicación* en psicología,
+sintetizando los hallazgos de los principales proyectos colaborativos de replicación
+(Reproducibility Project, Many Labs, etc.) y discutiendo sus implicaciones para la investigación
+psicológica en contextos hispanohablantes. Se identifican barreras específicas para la adopción de
+prácticas de ciencia abierta en la región y se proponen estrategias para superarlas.
+
+**Palabras clave:** replicabilidad, ciencia abierta, metainvestigación, psicología latinoamericana.
+
+## Cita (APA 7)
+
+```
+Gómez Rincón, L., & Torres Mendoza, A. (2025). Crisis de replicación en psicología:
+una revisión para contextos hispanohablantes. Revista Colombiana de Psicología,
+34(1), 45–62. https://doi.org/10.xxxx/xxxxxx
+```
+
+## Proyectos relacionados
+
+- [Replicabilidad en psicología colombiana](../projects/replicabilidad-colombia.qmd)

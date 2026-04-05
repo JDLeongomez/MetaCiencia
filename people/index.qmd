@@ -1,0 +1,21 @@
+---
+title: "Integrantes"
+description: "Conoce al equipo de MetaCiencia"
+toc: false
+listing:
+  id: people-listing
+  contents: "*.qmd"
+  exclude:
+    filename: "index.qmd"
+  type: grid
+  grid-columns: 3
+  fields: [image, title, description]
+  image-height: "200px"
+  sort: "title asc"
+---
+
+Somos estudiantes y docentes de la Facultad de Psicología de la Universidad El Bosque
+comprometidos con la práctica de una ciencia abierta, rigurosa y accesible.
+
+::: {#people-listing}
+:::

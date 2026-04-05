@@ -1,0 +1,10 @@
+/.quarto/
+/.claude/
+/_site/
+/_freeze/
+.DS_Store
+*.Rhistory
+*.RData
+*.Ruserdata
+
+**/*.quarto_ipynb

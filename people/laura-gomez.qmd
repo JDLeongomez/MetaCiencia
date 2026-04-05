@@ -1,0 +1,41 @@
+---
+title: "Laura Gómez Rincón"
+description: "Directora del semillero · Docente investigadora"
+image: ../assets/people/laura-gomez.jpg
+categories: [docente, metainvestigación, estadística]
+---
+
+::: {.person-header}
+![Laura Gómez Rincón](../assets/people/laura-gomez.jpg){.avatar alt="Foto de Laura Gómez Rincón"}
+
+**Laura Gómez Rincón**
+<span class="badge-rol">Directora</span>
+<span class="badge-area">Metainvestigación</span>
+<span class="badge-area">Estadística aplicada</span>
+
+Docente investigadora de la Facultad de Psicología, Universidad El Bosque.
+Ph.D. en Metodología de las Ciencias del Comportamiento (Universidad de Granada, 2020).
+Sus intereses incluyen la evaluación de sesgos de publicación, el análisis de poder estadístico
+en psicología y el movimiento de ciencia abierta en Latinoamérica.
+
+**Contacto:** [l.gomez@unbosque.edu.co](mailto:l.gomez@unbosque.edu.co)
+**ORCID:** [0000-0000-0000-0001](https://orcid.org/0000-0000-0000-0001)
+**GitHub:** [\@lgomez-meta](https://github.com/lgomez-meta)
+:::
+
+---
+
+## Líneas de investigación
+
+- Metaanálisis y síntesis de evidencia
+- Sesgo de publicación y *p*-hacking
+- Formación en ciencia abierta
+- Estadística bayesiana aplicada a psicología
+
+## Proyectos
+
+- [Replicabilidad en psicología colombiana](../projects/replicabilidad-colombia.qmd)
+
+## Publicaciones seleccionadas
+
+- [Crisis de replicación en psicología: una revisión para contextos hispanohablantes](../publications/crisis-replicacion.qmd)

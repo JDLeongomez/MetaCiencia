@@ -1,0 +1,15 @@
+---
+title: "Blog"
+description: "Reflexiones y recursos sobre ciencia abierta, reproducibilidad y metodología"
+toc: false
+listing:
+  id: blog-listing
+  contents: "posts/*/index.qmd"
+  type: default
+  fields: [date, title, description, categories, reading-time]
+  sort: "date desc"
+  feed: true
+---
+
+::: {#blog-listing}
+:::

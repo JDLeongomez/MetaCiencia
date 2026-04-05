@@ -1,0 +1,17 @@
+---
+title: "Publicaciones"
+description: "Artículos, capítulos y reportes del semillero MetaCiencia"
+toc: false
+listing:
+  id: pubs-listing
+  contents: "*.qmd"
+  exclude:
+    filename: "index.qmd"
+  type: table
+  fields: [date, title, description, categories]
+  sort: "date desc"
+  date-format: "YYYY"
+---
+
+::: {#pubs-listing}
+:::

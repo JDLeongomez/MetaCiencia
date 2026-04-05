@@ -1,0 +1,43 @@
+---
+title: "Andrés Torres Mendoza"
+description: "Estudiante de Psicología · Auxiliar de investigación"
+image: ../assets/people/andres-torres.jpg
+categories: [estudiante, ciencia-abierta, R]
+---
+
+::: {.person-header}
+![Andrés Torres Mendoza](../assets/people/andres-torres.jpg){.avatar alt="Foto de Andrés Torres Mendoza"}
+
+**Andrés Torres Mendoza**
+<span class="badge-rol">Auxiliar de investigación</span>
+<span class="badge-area">Ciencia abierta</span>
+<span class="badge-area">R · Quarto</span>
+
+Estudiante de octavo semestre de Psicología en la Universidad El Bosque.
+Se unió a <strong>Meta<span class="mc-ink">Ciencia</span></strong> en 2024 interesado en el análisis de datos abiertos
+y en el desarrollo de materiales educativos sobre reproducibilidad.
+Es el principal responsable del mantenimiento de este sitio web.
+
+**Contacto:** [a.torres@unbosque.edu.co](mailto:a.torres@unbosque.edu.co)
+**ORCID:** [0000-0000-0000-0002](https://orcid.org/0000-0000-0000-0002)
+**GitHub:** [\@andres-meta](https://github.com/andres-meta)
+:::
+
+---
+
+## Áreas de interés
+
+- Herramientas de reproducibilidad (R, Quarto, Git)
+- Visualización de datos en psicología
+- Preregistros y planes de análisis
+- Divulgación científica
+
+## Proyectos
+
+- [Replicabilidad en psicología colombiana](../projects/replicabilidad-colombia.qmd)
+
+## Publicaciones
+
+Aún no tiene publicaciones como primer autor. Participa como coautor en:
+
+- [Crisis de replicación en psicología: una revisión para contextos hispanohablantes](../publications/crisis-replicacion.qmd)
