@@ -1,0 +1,21 @@
+---
+title: "Divulgación"
+description: "Productos de divulgación científica de MetaCiencia en distintos formatos y plataformas"
+toc: false
+listing:
+  id: div-listing
+  contents: "posts/*/index.qmd"
+  type: grid
+  grid-columns: 3
+  fields: [image, date, title, description, categories]
+  sort: "date desc"
+  filter-ui: [categories]
+  feed: true
+---
+
+Aquí encontrarás materiales de divulgación científica producidos por
+<strong>Meta<span class="mc-ink">Ciencia</span></strong>: hilos de redes sociales,
+infografías, videos, episodios de podcast y más.
+
+::: {#div-listing}
+:::

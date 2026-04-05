@@ -23,6 +23,8 @@ website:
         href: projects/index.qmd
       - text: "Publicaciones"
         href: publications/index.qmd
+      - text: "Divulgación"
+        href: divulgacion/index.qmd
       - text: "Blog"
         href: blog/index.qmd
     right:
