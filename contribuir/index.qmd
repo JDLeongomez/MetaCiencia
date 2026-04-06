@@ -1,0 +1,459 @@
+---
+title: "Guía para contribuir al sitio"
+description: "Cómo instalar lo necesario, previsualizar el sitio localmente y enviar cambios"
+toc: true
+toc-depth: 3
+---
+
+Esta guía está dirigida a los integrantes de **MetaCiencia** que quieran contribuir al sitio web sin necesidad de usar Git o GitHub directamente. Solo necesitas instalar dos programas, descargar los archivos del sitio y editar texto plano.
+
+---
+
+## 1. Instalación (una sola vez)
+
+### 1.1 Instala Quarto
+
+Quarto es el programa que convierte los archivos de texto del sitio en páginas web.
+
+1. Ve a [quarto.org/docs/get-started](https://quarto.org/docs/get-started/)
+2. Descarga el instalador para tu sistema operativo (Windows, macOS o Linux)
+3. Sigue las instrucciones del instalador
+
+Para verificar que quedó instalado, abre una terminal (o el símbolo del sistema en Windows) y escribe:
+
+```bash
+quarto --version
+```
+
+Deberías ver un número de versión (p. ej., `1.6.x`).
+
+### 1.2 Instala un editor de texto
+
+Puedes usar cualquier editor, pero recomendamos **RStudio** o **VS Code**, porque ambos tienen soporte nativo para Quarto (resaltado de sintaxis, previsualización integrada, etc.).
+
+::: {.panel-tabset}
+
+#### RStudio
+
+1. Descarga RStudio Desktop desde [posit.co/download/rstudio-desktop](https://posit.co/download/rstudio-desktop/)
+2. Instálalo normalmente
+3. No necesitas saber R — simplemente úsalo como editor de texto
+
+#### VS Code
+
+1. Descarga VS Code desde [code.visualstudio.com](https://code.visualstudio.com/)
+2. Instálalo normalmente
+3. Abre VS Code, ve a la pestaña de extensiones (icono de cuatro cuadrados en la barra lateral) y busca **Quarto** — instala la extensión oficial
+
+:::
+
+---
+
+## 2. Descarga los archivos del sitio
+
+Como aún no usamos Git de forma directa, puedes descargar el sitio como un archivo ZIP:
+
+1. Ve al repositorio del sitio en GitHub: [github.com/JDLeongomez/MetaCiencia](https://github.com/JDLeongomez/MetaCiencia)
+2. Haz clic en el botón verde **Code** → **Download ZIP**
+3. Descomprime el archivo en una carpeta de tu computador (p. ej., `Documentos/MetaCiencia`)
+
+::: {.callout-tip}
+Guarda siempre la carpeta descomprimida en el mismo lugar. Es más fácil trabajar si la ruta no cambia.
+:::
+
+---
+
+## 3. Previsualiza el sitio localmente
+
+Antes de hacer cualquier cambio, verifica que el sitio funciona en tu computador.
+
+::: {.panel-tabset}
+
+#### RStudio
+
+1. Abre RStudio
+2. Ve a **File → Open Project** y busca el archivo `MetaCiencia.Rproj` dentro de la carpeta descargada
+   *(Si no existe ese archivo, ve a **File → New Project → Existing Directory** y selecciona la carpeta)*
+3. En la consola de RStudio, escribe:
+
+```r
+quarto::quarto_preview()
+```
+
+O usa el botón **Render** si tienes un archivo `.qmd` abierto.
+
+El sitio se abrirá automáticamente en tu navegador y se actualizará cada vez que guardes un archivo.
+
+#### VS Code
+
+1. Abre VS Code
+2. Ve a **File → Open Folder** y selecciona la carpeta `MetaCiencia`
+3. Abre la paleta de comandos con `Ctrl + Shift + P` (o `Cmd + Shift + P` en Mac)
+4. Escribe **Quarto: Preview Project** y selecciónalo
+
+Alternativamente, abre cualquier archivo `.qmd` y haz clic en el botón **Preview** que aparece en la esquina superior derecha del editor.
+
+El sitio se abrirá en el panel de previsualización de VS Code y también en tu navegador. Se actualizará automáticamente al guardar.
+
+Para detener la previsualización, cierra el panel o presiona `Ctrl + C` en la terminal integrada.
+
+:::
+
+::: {.callout-note}
+En ambos editores, la previsualización corre en `http://localhost:4242` (o un puerto similar). Para detenerla desde la terminal, presiona `Ctrl + C`.
+:::
+
+---
+
+## 4. Estructura del sitio
+
+Esta es la organización de carpetas y archivos más importantes:
+
+```
+MetaCiencia/
+├── _quarto.yml          ← Configuración general del sitio (menú, tema, etc.)
+├── index.qmd            ← Página de inicio
+│
+├── people/
+│   ├── index.qmd        ← Listado de integrantes (no editar)
+│   ├── tu-nombre.qmd    ← Tu perfil personal
+│   └── ...
+│
+├── projects/
+│   ├── index.qmd        ← Listado de proyectos (no editar)
+│   └── nombre-proyecto.qmd
+│
+├── publications/
+│   ├── index.qmd        ← Listado de publicaciones (no editar)
+│   └── nombre-articulo.qmd
+│
+├── divulgacion/
+│   ├── index.qmd        ← Listado de divulgación (no editar)
+│   └── posts/
+│       └── nombre-post/
+│           ├── index.qmd
+│           └── featured.png  ← Imagen de portada (opcional)
+│
+├── blog/
+│   ├── index.qmd        ← Listado del blog (no editar)
+│   └── posts/
+│       └── nombre-entrada/
+│           ├── index.qmd
+│           └── featured.jpg  ← Imagen de portada (opcional)
+│
+└── assets/
+    ├── logo_MetaCiencia.svg
+    └── people/
+        └── tu-foto.jpg  ← Foto de perfil
+```
+
+Los archivos `index.qmd` dentro de cada sección generan automáticamente el listado — **no los modifiques**. Solo crea o edita los archivos de contenido.
+
+---
+
+## 5. Sintaxis básica de Quarto/Markdown
+
+Los archivos `.qmd` son texto plano con un encabezado especial (el YAML, entre `---`) y contenido en formato Markdown. No necesitas saber HTML.
+
+### Encabezado YAML
+
+Cada archivo comienza con un bloque entre `---`:
+
+```yaml
+---
+title: "Título de la página"
+description: "Descripción breve"
+date: 2025-06-01
+---
+```
+
+El encabezado YAML no aparece como contenido — define metadatos como el título, la fecha y el autor de la página.
+
+### Texto
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+**Código**
+
+```markdown
+Párrafo normal. Puedes escribir
+**negrita**, *cursiva* o `código`.
+
+Nuevo párrafo (deja una línea
+en blanco entre ellos).
+```
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Resultado**
+
+Párrafo normal. Puedes escribir **negrita**, *cursiva* o `código`.
+
+Nuevo párrafo (deja una línea en blanco entre ellos).
+:::
+
+:::
+
+### Títulos
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+**Código**
+
+```markdown
+# Título de nivel 1
+## Título de nivel 2
+### Título de nivel 3
+```
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Resultado** *(aquí se muestran reducidos para no afectar la página)*
+
+#### Título de nivel 1 {.unnumbered .unlisted}
+##### Título de nivel 2 {.unnumbered .unlisted}
+###### Título de nivel 3 {.unnumbered .unlisted}
+:::
+
+:::
+
+### Listas
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+**Código**
+
+```markdown
+- Elemento
+- Otro elemento
+  - Sub-elemento
+
+1. Primer paso
+2. Segundo paso
+```
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Resultado**
+
+- Elemento
+- Otro elemento
+  - Sub-elemento
+
+1. Primer paso
+2. Segundo paso
+:::
+
+:::
+
+### Enlaces e imágenes
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+**Código**
+
+```markdown
+[texto del enlace](https://ejemplo.com)
+
+![logo MetaCiencia](../assets/logo_MetaCiencia.svg)
+```
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Resultado**
+
+[texto del enlace](https://ejemplo.com)
+
+![logo MetaCiencia](../assets/logo_MetaCiencia.svg){width="80px"}
+:::
+
+:::
+
+### Notas y avisos
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+**Código**
+
+```markdown
+::: {.callout-note}
+Esto es una nota informativa.
+:::
+
+::: {.callout-tip}
+Consejo útil.
+:::
+
+::: {.callout-warning}
+Advertencia importante.
+:::
+```
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Resultado**
+
+::: {.callout-note}
+Esto es una nota informativa.
+:::
+
+::: {.callout-tip}
+Consejo útil.
+:::
+
+::: {.callout-warning}
+Advertencia importante.
+:::
+:::
+
+:::
+
+---
+
+## 6. Cómo modificar cada sección
+
+### 6.1 Tu perfil de integrante
+
+Tu perfil está en `people/tu-nombre.qmd`. Si no existe, crea uno copiando el de otro integrante como punto de partida.
+
+**Estructura del archivo:**
+
+```yaml
+---
+title: "Tu Nombre Completo"
+description: "Estudiante de Psicología · Auxiliar de investigación"
+image: ../assets/people/tu-foto.jpg
+categories: [estudiante, ciencia-abierta, R]
+---
+```
+
+Luego, debajo del YAML, puedes escribir tu bio, áreas de interés, proyectos, etc. en Markdown normal.
+
+**Para agregar tu foto:**
+
+1. Coloca tu foto en `assets/people/` con el nombre `tu-nombre.jpg` (preferiblemente cuadrada, mínimo 300×300 px)
+2. Referencia la imagen en el YAML con la ruta relativa: `../assets/people/tu-nombre.jpg`
+
+### 6.2 Entrada de blog
+
+Las entradas van en `blog/posts/nombre-de-la-entrada/index.qmd`.
+
+1. Crea una carpeta nueva dentro de `blog/posts/` con un nombre corto en minúsculas y sin espacios (usa guiones: `mi-primera-entrada`)
+2. Dentro de esa carpeta, crea un archivo `index.qmd`
+3. Si tienes una imagen de portada, guárdala en esa misma carpeta con el nombre `featured.jpg`
+
+**Estructura mínima:**
+
+```yaml
+---
+title: "Título de la entrada"
+description: "Resumen en una o dos oraciones"
+date: 2025-06-01
+date-format: "D MMMM YYYY"
+author:
+  - name: Tu Nombre
+    url: ../../../people/tu-nombre.qmd
+categories: [ciencia abierta, tutoriales]
+image: featured.jpg
+---
+
+Aquí va el contenido de la entrada en Markdown...
+```
+
+### 6.3 Contenido de divulgación
+
+Funciona exactamente igual que el blog, pero la carpeta es `divulgacion/posts/nombre-del-post/`. Úsala para hilos de redes sociales, videos, infografías u otros formatos de divulgación.
+
+```yaml
+---
+title: "Título del contenido"
+description: "Breve descripción del formato y tema"
+date: 2025-06-01
+date-format: "D MMMM YYYY"
+author:
+  - name: Tu Nombre
+    url: ../../../people/tu-nombre.qmd
+categories: [Instagram, hilo, ciencia abierta]
+image: featured.png
+---
+```
+
+### 6.4 Proyecto de investigación
+
+Los proyectos van en `projects/nombre-del-proyecto.qmd`. Copia un proyecto existente y edítalo.
+
+```yaml
+---
+title: "Nombre del proyecto"
+description: "Descripción breve del objetivo y alcance"
+date: 2025-01-01
+date-format: "MMMM YYYY"
+categories: [replicabilidad, psicología]
+status: "En curso"
+---
+```
+
+### 6.5 Publicación
+
+Las publicaciones van en `publications/nombre-del-articulo.qmd`.
+
+```yaml
+---
+title: "Título del artículo o capítulo"
+description: "Referencia completa o descripción"
+date: 2025-01-01
+date-format: "YYYY"
+categories: [replicabilidad, metodología]
+---
+```
+
+Puedes incluir el resumen, enlace al PDF, DOI, repositorio de datos, etc. en el cuerpo del archivo.
+
+---
+
+## 7. Cómo enviar tus cambios
+
+Como por ahora no trabajamos directamente con Git, sigue este proceso:
+
+1. **Haz tus cambios** en la carpeta local del sitio
+2. **Previsualiza** para verificar que todo se ve bien (`quarto preview`)
+3. **Identifica los archivos que creaste o modificaste** — normalmente serán uno o dos `.qmd` y quizás una imagen
+4. **Envíalos por correo** a [jleongomez@unbosque.edu.co](mailto:jleongomez@unbosque.edu.co) con una descripción breve de qué cambiaste y por qué
+
+::: {.callout-tip}
+**Consejo:** No necesitas enviar toda la carpeta del sitio — solo los archivos nuevos o modificados. Por ejemplo, si agregaste tu perfil, envía únicamente `people/tu-nombre.qmd` y `assets/people/tu-foto.jpg`.
+:::
+
+::: {.callout-warning}
+**Antes de enviar**, asegúrate de que `quarto preview` corre sin errores y que la página que modificaste se ve como esperas.
+:::
+
+---
+
+## 8. Errores comunes
+
+| Problema | Causa probable | Solución |
+|---|---|---|
+| La imagen no aparece | Ruta incorrecta en el YAML | Verifica que la ruta empiece con `../assets/people/` desde la carpeta `people/` |
+| Mi perfil no aparece en el listado | El archivo no está en la carpeta correcta | Asegúrate de que esté directamente en `people/` (no en una subcarpeta) |
+| Error al correr `quarto preview` | YAML mal formateado | Revisa que las comillas y la indentación sean correctas; el YAML es sensible a los espacios |
+| La fecha no se muestra bien | Formato incorrecto | Usa el formato `YYYY-MM-DD` (p. ej., `2025-06-01`) |
+| El sitio se ve diferente al publicado | Diferencia de versiones | Actualiza Quarto a la versión más reciente |
+
+---
+
+## 9. Recursos útiles
+
+- [Documentación oficial de Quarto](https://quarto.org/docs/guide/) — referencia completa en inglés
+- [Guía de Markdown](https://quarto.org/docs/authoring/markdown-basics.html) — sintaxis básica
+- [Galería de Quarto](https://quarto.org/docs/gallery/) — ejemplos de sitios y documentos
+- [Cheatsheet de Markdown](https://www.markdownguide.org/cheat-sheet/) — referencia rápida
+
+---
+
+¿Tienes dudas o encontraste un error en esta guía? Escríbenos a [jleongomez@unbosque.edu.co](mailto:jleongomez@unbosque.edu.co).

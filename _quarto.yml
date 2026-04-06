@@ -27,6 +27,8 @@ website:
         href: divulgacion/index.qmd
       - text: "Blog"
         href: blog/index.qmd
+      - text: "Contribuir"
+        href: contribuir/index.qmd
     right:
       - icon: github
         href: https://github.com/JDLeongomez/MetaCiencia
