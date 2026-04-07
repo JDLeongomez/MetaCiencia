@@ -9,7 +9,7 @@ categories: [docente, metainvestigación, estadística]
 ::: {.person-photo}
 ![](../assets/people/laura-gomez.jpg){.avatar alt="Foto de Laura Gómez Rincón"}
 
-[{{< fa regular envelope >}}](mailto:l.gomez@unbosque.edu.co)
+[{{< fa solid envelope >}}](mailto:l.gomez@unbosque.edu.co)
 [{{< fa brands orcid >}}](https://orcid.org/0000-0000-0000-0001){.no-external}
 [{{< fa brands github >}}](https://github.com/lgomez-meta){.no-external}
 :::

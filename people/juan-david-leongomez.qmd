@@ -9,7 +9,7 @@ categories: [docente, metainvestigación, estadística]
 ::: {.person-photo}
 ![](../assets/people/juan-david-leongomez.jpg){.avatar alt="Foto de Juan David Leongómez"}
 
-[{{< fa regular envelope >}}](mailto:jleongomez@unbosque.edu.co)
+[{{< fa solid envelope >}}](mailto:jleongomez@unbosque.edu.co)
 [{{< fa globe >}}](https://jdleongomez.info/es/){.no-external}
 [{{< fa brands orcid >}}](https://orcid.org/0000-0002-0092-6298){.no-external}
 [{{< fa brands github >}}](https://github.com/JDLeongomez){.no-external}

@@ -93,13 +93,13 @@ El sitio se abrirá automáticamente en tu navegador y se actualizará cada vez 
 1. Abre VS Code
 2. Ve a **File → Open Folder** y selecciona la carpeta `MetaCiencia`
 3. Abre la paleta de comandos con `Ctrl + Shift + P` (o `Cmd + Shift + P` en Mac)
-4. Escribe **Quarto: Preview Project** y selecciónalo
+4. Escribe **Quarto: Preview** y selecciónalo
 
 Alternativamente, abre cualquier archivo `.qmd` y haz clic en el botón **Preview** que aparece en la esquina superior derecha del editor.
 
 El sitio se abrirá en el panel de previsualización de VS Code y también en tu navegador. Se actualizará automáticamente al guardar.
 
-Para detener la previsualización, cierra el panel o presiona `Ctrl + C` en la terminal integrada.
+Para detener la previsualización, cierra el panel.
 
 :::
 
@@ -272,7 +272,7 @@ Nuevo párrafo (deja una línea en blanco entre ellos).
 
 [texto del enlace](https://ejemplo.com)
 
-![logo MetaCiencia](../assets/logo_MetaCiencia.svg){width="80px"}
+![](../assets/logo_MetaCiencia.svg){width="80px"}
 :::
 
 :::
@@ -297,7 +297,7 @@ El sitio tiene instalada la extensión [Font Awesome](https://fontawesome.com/ic
 {{</* fa brands github */>}}
 {{</* fa brands instagram */>}}
 {{</* fa brands tiktok */>}}
-{{</* fa regular envelope */>}}
+{{</* fa solid envelope */>}}
 ```
 :::
 
@@ -308,20 +308,12 @@ El sitio tiene instalada la extensión [Font Awesome](https://fontawesome.com/ic
 {{< fa brands github >}}<br>
 {{< fa brands instagram >}}<br>
 {{< fa brands tiktok >}}<br>
-{{< fa regular envelope >}}
+{{< fa solid envelope >}}
 :::
 
 :::
 
-```markdown
-{{< fa brands r-project >}}
-{{< fa brands github >}}
-{{< fa brands instagram >}}
-{{< fa brands tiktok >}}
-{{< fa regular envelope >}}
-```
-
-El patrón es `{{< fa [estilo] [nombre] >}}`. El estilo (`brands`, `solid`, `regular`) aparece en la URL de Font Awesome al seleccionar el ícono.
+El patrón es `{{</* fa [estilo] [nombre-del-icono] */>}}`. El estilo (`brands`, `solid`, `regular`) aparece en la URL de Font Awesome al seleccionar el ícono.
 
 ::: {.callout-note}
 No todos los íconos están disponibles en todos los estilos. Si un ícono no aparece, prueba con `solid` en lugar de `regular`, o viceversa.
