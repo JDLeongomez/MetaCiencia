@@ -36,7 +36,7 @@ website:
 
   page-footer:
     left: |
-      **MetaCiencia** — Semillero abierto de ciencia, reproducibilidad y transparencia
+      <strong><span style="color: white;">Meta</span><span class="mc-ink">Ciencia</span></strong> <span style="color: white;">— Semillero abierto de ciencia, reproducibilidad y transparencia</span><br>
       Facultad de Psicología, Universidad El Bosque · Bogotá, Colombia
     right:
       - icon: github

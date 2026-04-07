@@ -22,7 +22,7 @@ Facultad de Psicología · Universidad El Bosque · Bogotá, Colombia
 
 ## ¿Quiénes somos?
 
-<strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero de investigación de la Facultad de Psicología de la Universidad El Bosque dedicado a promover prácticas científicas abiertas, reproducibles y transparentes. Nos interesa la **ciencia abierta**, la **metainvestigación**, la **estadística aplicada** y el desarrollo de herramientas que mejoren la calidad y el alcance de la investigación psicológica.
+<strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero de investigación de la Universidad El Bosque, adscrito a la Facultad de Psicología, dedicado a promover prácticas científicas abiertas, reproducibles y transparentes. Estamos abiertos a personas de todas las facultades interesadas en estos temas. Nos interesa la **ciencia abierta**, la **metainvestigación**, la **estadística aplicada** y el desarrollo de herramientas que mejoren la calidad y el alcance de la investigación.
 
 ## Ejes de trabajo
 

@@ -1,0 +1,47 @@
+---
+title: "Juan David Leongómez"
+description: "Director del semillero · Profesor Asociado"
+image: ../assets/people/juan-david-leongomez.jpg
+categories: [docente, metainvestigación, estadística]
+---
+
+::: {.person-header}
+::: {.person-photo}
+![](../assets/people/juan-david-leongomez.jpg){.avatar alt="Foto de Juan David Leongómez"}
+
+[{{< fa regular envelope >}}](mailto:jleongomez@unbosque.edu.co)
+[{{< fa globe >}}](https://jdleongomez.info/es/){.no-external}
+[{{< fa brands orcid >}}](https://orcid.org/0000-0002-0092-6298){.no-external}
+[{{< fa brands github >}}](https://github.com/JDLeongomez){.no-external}
+:::
+
+::: {.person-info}
+<span class="badge-rol">Director</span>
+<span class="badge-area">Ciencia Abierta</span>
+<span class="badge-area">Estadística</span>
+<span class="badge-area">Programación</span>
+<span class="badge-area">Equidad en ciencia</span>
+
+Profesor Asociado e investigador de [***EvoCo**: Laboratorio de Evolución y Comportamiento Humano*]([/es/team/](https://jdleongomez.info/es/lab/)), de la [Facultad de Psicología](https://www.unbosque.edu.co/psicologia) de la [Universidad El Bosque](https://www.unbosque.edu.co/) en Bogotá, Colombia. Además, lidero el grupo de investigación [***CODEC**: Ciencias Cognitivas y del Comportamiento*](https://unbosque.portalinvestigacion.com/grupos/302) (clasificado como [**A1**](https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001446)).
+
+También soy fundador y miembro del Consejo Directivo de ***Latin American Association for Human Behavioral and Evolutionary Sciences*** (***LAAHBES***). Además, sirvo como [recomendador](https://rr.peercommunityin.org/about/recommenders) (equivalente a Editor Asociado) para [***PCI Registered Reports***](https://rr.peercommunityin.org/), y como [Data Editor](https://royalsocietypublishing.org/rspb/pages/Editorial_Board) para [***Proceedings of the Royal Society B***](https://royalsocietypublishing.org/rspb).
+
+Aunque mis intereses de investigación se centran principalmente en la comunicación vocal humana, la elección de pareja y la musicalidad, soy un apasionado por los métodos cuantitativos y la programación en [{{< fa brands r-project >}}](https://www.r-project.org/about.html)&nbsp;, y abogo por promover la reproducibilidad y la ciencia abierta. En este espíritu, impulsé la creación de <strong>Meta<span class="mc-ink">Ciencia</span></strong>, con la intención de explorar críticamente cómo se hace ciencia y a formar estudiantes y profesoras/es en prácticas abiertas, colaborativas y reproducibles.  
+:::
+:::
+
+---
+
+## Líneas de investigación
+
+- Formación en ciencia abierta
+- Reproducibilidad computacional
+- Programación en {{< fa brands r-project >}}
+
+## Proyectos
+
+- [Replicabilidad en psicología colombiana](../projects/replicabilidad-colombia.qmd)
+
+## Publicaciones seleccionadas
+
+- [Crisis de replicación en psicología: una revisión para contextos hispanohablantes](../publications/crisis-replicacion.qmd)

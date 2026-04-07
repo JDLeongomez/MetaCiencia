@@ -1,6 +1,6 @@
 ---
 title: "Integrantes"
-description: "Conoce al equipo de MetaCiencia"
+description: "Conoce al equipo"
 toc: false
 listing:
   id: people-listing
@@ -14,8 +14,7 @@ listing:
   sort: "title asc"
 ---
 
-Somos estudiantes y docentes de la Facultad de Psicología de la Universidad El Bosque
-comprometidos con la práctica de una ciencia abierta, rigurosa y accesible.
+Somos estudiantes y docentes de la Universidad El Bosque comprometidos con la práctica de una ciencia abierta, rigurosa y accesible. Aunque estamos adscritos a la Facultad de Psicología, <strong>Meta<span class="mc-ink">Ciencia</span></strong> está abierto a personas de todas las facultades interesadas en estos temas.
 
 ::: {#people-listing}
 :::

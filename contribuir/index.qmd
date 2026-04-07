@@ -5,9 +5,13 @@ toc: true
 toc-depth: 3
 ---
 
-Esta guía está dirigida a los integrantes de **MetaCiencia** que quieran contribuir al sitio web sin necesidad de usar Git o GitHub directamente. Solo necesitas instalar dos programas, descargar los archivos del sitio y editar texto plano.
+::: {.callout-note}
+Esta guía está dirigida a los integrantes de <strong>Meta<span class="mc-ink">Ciencia</span></strong> que quieran contribuir al sitio web. Solo necesitas instalar dos programas, descargar los archivos del sitio y editar texto plano.
+:::
 
 ---
+
+El sitio web de <strong>Meta<span class="mc-ink">Ciencia</span></strong> está construido con [Quarto](https://quarto.org/), un programa de código abierto que convierte archivos de texto en páginas web. No necesitas saber programación para editar el contenido; solo debes crear o editar archivos de texto (.qmd), escribir o pegar el contenido (texto, imágenes, listas) y guardar los cambios; Quarto se ocupa de convertir ese texto en páginas web bien formateadas. La configuración general, el tema y el estilo los mantengo yo ([Juan David](../people/juan-david-leongomez.qmd)), así que ustedes solo editan el contenido y yo me encargo de que todo se vea coherente y se publique correctamente.
 
 ## 1. Instalación (una sola vez)
 
@@ -271,6 +275,56 @@ Nuevo párrafo (deja una línea en blanco entre ellos).
 ![logo MetaCiencia](../assets/logo_MetaCiencia.svg){width="80px"}
 :::
 
+:::
+
+### Íconos
+
+El sitio tiene instalada la extensión [Font Awesome](https://fontawesome.com/icons), que permite insertar miles de íconos directamente en el texto.
+
+**Cómo buscar un ícono:**
+
+1. Ve a [fontawesome.com/icons](https://fontawesome.com/icons) y busca por nombre (p. ej., `r-project`, `github`, `orcid`, `instagram` o `tiktok`)
+2. Haz clic en el ícono — en la URL verás el estilo (`brands`, `solid`, `regular`) y el nombre
+
+**Cómo insertarlo:**
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+**Código**
+```markdown
+{{</* fa brands r-project */>}}
+{{</* fa brands github */>}}
+{{</* fa brands instagram */>}}
+{{</* fa brands tiktok */>}}
+{{</* fa regular envelope */>}}
+```
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Resultado**
+
+{{< fa brands r-project >}}<br>
+{{< fa brands github >}}<br>
+{{< fa brands instagram >}}<br>
+{{< fa brands tiktok >}}<br>
+{{< fa regular envelope >}}
+:::
+
+:::
+
+```markdown
+{{< fa brands r-project >}}
+{{< fa brands github >}}
+{{< fa brands instagram >}}
+{{< fa brands tiktok >}}
+{{< fa regular envelope >}}
+```
+
+El patrón es `{{< fa [estilo] [nombre] >}}`. El estilo (`brands`, `solid`, `regular`) aparece en la URL de Font Awesome al seleccionar el ícono.
+
+::: {.callout-note}
+No todos los íconos están disponibles en todos los estilos. Si un ícono no aparece, prueba con `solid` en lugar de `regular`, o viceversa.
 :::
 
 ### Notas y avisos
