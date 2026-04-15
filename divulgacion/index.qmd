@@ -5,6 +5,8 @@ toc: false
 listing:
   id: div-listing
   contents: "posts/*/index.qmd"
+  exclude:
+    path: "posts/que-es-ciencia-abierta/index.qmd"
   type: grid
   grid-columns: 3
   fields: [image, date, title, description, categories]
@@ -16,6 +18,10 @@ listing:
 Aquí encontrarás materiales de divulgación científica producidos por
 <strong>Meta<span class="mc-ink">Ciencia</span></strong>: hilos de redes sociales,
 infografías, videos, episodios de podcast y más.
+
+::: {.callout-note appearance="simple"}
+El semillero MetaCiencia fue registrado formalmente en marzo de 2026. Los productos de divulgación aparecerán aquí a medida que estén disponibles.
+:::
 
 ::: {#div-listing}
 :::

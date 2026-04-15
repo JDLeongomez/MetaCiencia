@@ -1,39 +1,87 @@
 ---
 title: "Bienvenidos a MetaCiencia"
-description: "Presentamos nuestro semillero y el propósito de este sitio web"
-date: 2025-04-05
-date-format: "D MMMM YYYY"
+description: "Presentamos MetaCiencia: un semillero de investigación transdisciplinar dedicado a la ciencia abierta, la reproducibilidad y la transparencia en la Universidad El Bosque."
+date: 2026-04-13
+date-format: "D [de] MMMM [de] YYYY"
 author:
-  - name: Laura Gómez Rincón
-    url: ../../../people/laura-gomez.qmd
-    orcid: 0000-0000-0000-0001
-categories: [semillero, presentación, ciencia abierta]
-image: featured.jpg
+  - name: Andrés Lemus Morales
+    url: ../../../people/andres-lemus.qmd
+    orcid: 0009-0000-6508-2914
+  - name: Juan David Leongómez
+    url: ../../../people/juan-david-leongomez.qmd
+    orcid: 0000-0002-0092-6298
+categories: [metaciencia, ciencia abierta, reproducibilidad, semillero, presentación]
+image: logo_MetaCiencia.svg
+bibliography: ../../../references.bib
+csl: https://www.zotero.org/styles/apa
 ---
 
-## ¿Por qué <strong>Meta<span class="mc-ink">Ciencia</span></strong>?
+![](../../../assets/logo_MetaCiencia.svg){.hero-logo alt="Logo MetaCiencia" width="30%" fig-align="center"}
 
-La psicología, como muchas otras disciplinas científicas, ha enfrentado en los últimos años
-un cuestionamiento profundo sobre la solidez de sus hallazgos. El llamado *replication crisis*
-ha puesto sobre la mesa preguntas incómodas pero necesarias: ¿cuántos de los resultados que
-enseñamos en las aulas son robustos? ¿Estamos produciendo conocimiento acumulativo?
+La ciencia tiene un problema. No es nuevo, y tampoco es pequeño: una parte significativa de los resultados publicados en las revistas más prestigiosas del mundo no se puede replicar. Los datos que los sustentan no están disponibles. El código para reproducir los análisis no existe o nunca se compartió. Las hipótesis se formularon *después* de ver los datos, aunque los artículos den a entender lo contrario [@kerr1998].
 
-En <strong>Meta<span class="mc-ink">Ciencia</span></strong> creemos que la respuesta no es el escepticismo paralizante sino la **reforma
-metodológica**: adoptar herramientas y prácticas que hagan la ciencia más transparente,
-reproducible y, en última instancia, más útil para la sociedad.
+Esto no es una crisis de personas malas haciendo mala ciencia. Es, en gran medida, el resultado de un sistema de incentivos roto: uno que premia la novedad sobre la solidez, la publicación sobre la transparencia, y el impacto mediático sobre la rigurosidad metodológica.
+
+<strong>Meta<span class="mc-ink">Ciencia</span></strong> nace para hablar de esto. Y para intentar hacer algo al respecto, desde el contexto latinoamericano.
+
+## Qué es <strong>Meta<span class="mc-ink">Ciencia</span></strong>
+
+<strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero de investigación de la Universidad El Bosque, formalmente registrado en marzo de 2026 y avalado por el grupo de investigación [***CODEC*: Ciencias Cognitivas y del Comportamiento**](https://unbosque.portalinvestigacion.com/grupos/302).
+
+Su nombre no es accidental: la *metaciencia* es, literalmente, la ciencia sobre la ciencia. Es el campo que estudia cómo producimos conocimiento científico, qué tan confiable es ese conocimiento, y cómo podríamos hacerlo mejor. Es una disciplina empírica, no solo filosófica, con décadas de literatuhttps://jdleongomez.info/es/metaciencia/#proyectos3.ra acumulada y una comunidad global cada vez más activa.
+
+El semillero trabaja en torno a tres líneas principales:
+
+1. **Reproducibilidad y transparencia científica** — pre-registro, reportes registrados, análisis reproducibles, apertura de datos y código.
+2. **Prácticas de ciencia abierta** — acceso abierto no comercial (*green OA*), uso de software libre, documentación rigurosa de procesos científicos.
+3. **Educación en metaciencia y alfabetización científica** — formación crítica en todos los niveles, desde el pregrado hasta la divulgación pública.
+
+## Por qué desde el pregrado
+
+Uno de los argumentos más frecuentes contra propuestas como esta es que la metaciencia y la ciencia abierta son temas "para investigadores". Que los estudiantes de pregrado deben primero aprender a hacer ciencia antes de cuestionarla.
+
+Discrepamos con eso, y no somos los únicos.
+
+Existe un cuerpo creciente de publicaciones que documenta experiencias exitosas de integración de la ciencia abierta en la formación de pregrado [@Bakermans2024; @Hanna2021; @Jekel2020; @Read2023]. Hay cursos dedicados a estos temas ofrecidos por universidades como Stanford, Erasmus, la Universidad de Coimbra y la Linnaeus University, entre muchas otras. Y en Colombia, la Universidad de Antioquia ya ofrece un curso de ciencia abierta para estudiantes de pregrado y posgrado, reconocido por la UNESCO como ejemplo de buenas prácticas.
+
+La pregunta no es si los estudiantes pueden entender estos temas. Es si nos podemos permitir seguir formando científicas y científicos que *no* los entiendan.
+
+## Un semillero transdisciplinar
+
+<strong>Meta<span class="mc-ink">Ciencia</span></strong> no es un semillero de psicología que habla de ciencia abierta. Es un espacio pensado desde el inicio como transdisciplinar: sus integrantes vienen de psicología, filosofía, artes plásticas y la Maestría en Filosofía de la Ciencia.
+
+Esa diversidad no es decorativa. Los problemas de reproducibilidad, opacidad y mala práctica científica atraviesan todas las disciplinas. Y las soluciones también requieren perspectivas múltiples: metodológicas, filosóficas, éticas, comunicativas.
+
+## Qué haremos
+
+El semillero contempla, entre otras actividades:
+
+- Formación en herramientas para investigación reproducible (R, Quarto, OSF, pre-registro).
+- Desarrollo de proyectos de investigación en metaciencia — incluyendo una propuesta en curso sobre *Expansión y Adopción de los Reportes Registrados en Iberoamérica*.
+- Producción de materiales de divulgación científica accesibles y críticos.
+- Promoción activa de una cultura científica más abierta dentro de la Universidad.
+
+Este blog es uno de esos productos. Aquí publicaremos hilos, infografías, entradas, y reflexiones sobre ciencia abierta, reproducibilidad, y metaciencia — en español, y pensados para audiencias que no tienen por qué ser expertas.
+
+Bienvenidas y bienvenidos.
+
+---
+
+<strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero abierto. Si eres estudiante de cualquier programa de la Universidad El Bosque y te interesa participar, escríbenos.
+
 
 ## ¿Qué encontrarás en este sitio?
 
-- **Proyectos** de investigación activos y finalizados del semillero.
-- **Publicaciones** y preprints con acceso a datos y materiales.
-- **Perfiles** de los integrantes del equipo.
-- Entradas de **blog** con tutoriales, reflexiones y noticias sobre ciencia abierta.
+El semillero es nuevo, pero poco a poco iremos creando materiales. Eventualmente encontrarás:
+
+- **Proyectos** de investigación del semillero
+- **Publicaciones** y preprints con acceso a datos y materiales
+- **Perfiles** de los integrantes del equipo
+- Entradas de **blog** con reflexiones o infomación sobre ciencia abierta
+- Materiales de **divulgación** para redes sociales
 
 ## Únete
 
-Si eres estudiante o docente de la Universidad El Bosque y te interesa la metodología,
-la estadística o la ciencia abierta, escríbenos. Siempre hay espacio para nuevas perspectivas.
+Si eres estudiante o docente de la Universidad El Bosque y te interesa la metodología, la estadística o la ciencia abierta, escríbenos. Siempre hay espacio para nuevas perspectivas.
 
 ---
-
-*Laura Gómez Rincón — Directora de <strong>Meta<span class="mc-ink">Ciencia</span></strong>*

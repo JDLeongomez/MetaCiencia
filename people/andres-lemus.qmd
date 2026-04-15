@@ -1,0 +1,52 @@
+---
+title: "Andrés Lemus Morales"
+description: "Psicólogo"
+image: ../assets/people/andres-lemus.jpg
+categories: [egresado, divulgacion]
+---
+
+::: {.person-header}
+::: {.person-photo}
+![](../assets/people/andres-lemus.jpg){.avatar alt="Foto de Andrés Lemus Morales"}
+
+[{{< fa solid envelope >}}](mailto:andreslemusmorales@gmail.com)
+[{{< fa brands orcid >}}](https://orcid.org/0009-0000-6508-2914){.no-external}
+[{{< fa brands linkedin >}}](www.linkedin.com/in/juan-andres-lemus-morales-63989232a)
+:::
+
+::: {.person-info}
+<span class="badge-rol">Integrante</span>
+<span class="badge-area">Ciencia abierta</span>
+
+Psicólogo de la Universidad El Bosque, con
+sólidas habilidades investigativas en análisis del
+comportamiento humano, interpretación de
+instrumentos psicométricos, y modelos de
+intervención basada en la evidencia.
+
+Espero contribuir activamente a la promoción de la
+ciencia abierta mediante la creación y difusión de
+contenido accesible, riguroso y de impacto. De igual
+forma, espero fortalecer mis habilidades de
+investigación y aprender con mis compañeros sin
+reducirnos a una sola rama del conocimiento.
+:::
+:::
+
+---
+
+## Áreas de interés
+
+- Psicología clínica
+- Psicoterapia basada en la evidencia
+- Neuropsicología y psicofarmacología
+- Evolución y comportamiento
+- Análisis de datos (R Studio y Excel)
+
+## Proyectos
+
+- Proximamente
+
+## Publicaciones
+
+Aún no tiene publicaciones como primer autor.

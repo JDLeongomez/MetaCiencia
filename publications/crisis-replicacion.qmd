@@ -4,6 +4,7 @@ description: "Artículo de revisión · *Revista Colombiana de Psicología*, 202
 date: 2025-01-15
 date-format: "MMMM YYYY"
 categories: [revisión, replicabilidad, ciencia abierta, hispanohablantes]
+draft: true 
 ---
 
 ::: {.pub-entry}

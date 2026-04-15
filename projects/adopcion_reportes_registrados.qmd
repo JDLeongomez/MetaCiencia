@@ -1,0 +1,50 @@
+---
+title: "Expansión y Adopción de los Reportes Registrados en Iberoamérica"
+description: "Mapeo, análisis de barreras y promoción del formato de Reportes Registrados en revistas científicas de América Latina e Iberoamérica"
+date: 2026-04-01
+date-format: "MMMM YYYY"
+categories: [reportes registrados, ciencia abierta, Iberoamérica, divulgación científica, metainvestigación]
+status: "En curso"
+---
+
+## Descripción
+
+Este proyecto estudia la expansión y adopción del formato de **Reportes Registrados** en revistas
+científicas de América Latina e Iberoamérica. Los Reportes Registrados son un formato de
+publicación en el que **las preguntas de investigación y el plan de análisis se evalúan antes de
+recolectar o analizar los datos**, con el objetivo de reducir sesgos de publicación y fortalecer
+la reproducibilidad de los resultados. A partir de un mapeo sistemático de revistas de la región,
+analizamos la prevalencia del formato, identificamos barreras y facilitadores para su adopción, y
+desarrollamos materiales formativos y divulgativos dirigidos a investigadores, editores y estudiantes.
+
+## Equipo
+
+| Nombre | Rol |
+|---|---|
+| [Juan David Leongómez](../people/juan-david-leongomez.qmd) | Investigador principal |
+| [Juan Camilo García Córdoba](../people/juan-camilo-garcia.qmd) | Investigador |
+| [Mariajose Ruiz Suescún](../people/mariajose-ruiz.qmd) | Investigadora |
+| [Pilar Cardona](../people/pilar-cardona.qmd) | Investigadora |
+
+## Objetivos
+
+1. Mapear las revistas científicas de Iberoamérica que aceptan o han publicado Reportes Registrados.
+2. Identificar barreras y facilitadores para la implementación del formato en la región.
+3. Analizar el nivel de conocimiento y aceptación del formato entre investigadores y editores iberoamericanos.
+4. Desarrollar materiales formativos y de divulgación (guías, contenidos digitales, cápsulas educativas).
+5. Proponer estrategias concretas para que revistas de la región adopten el formato de Reportes Registrados.
+
+## Estado
+
+::: {.callout-note}
+**Estado:** En curso · Inicio: abril 2026 · Fin esperado: por definir
+:::
+
+## Materiales
+
+- Protocolo preregistrado: *(pendiente)*
+- Repositorio de código: *(próximamente)*
+
+## Publicaciones relacionadas
+
+- *(próximamente)*

@@ -8,6 +8,7 @@ author:
     url: ../../../people/laura-gomez.qmd
 categories: [X/Twitter, hilo, ciencia abierta, introducción]
 image: featured.png
+draft: true 
 ---
 
 ## Sobre este producto

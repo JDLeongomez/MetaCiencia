@@ -22,25 +22,43 @@ Facultad de Psicología · Universidad El Bosque · Bogotá, Colombia
 
 ## ¿Quiénes somos?
 
-<strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero de investigación de la Universidad El Bosque, adscrito a la Facultad de Psicología, dedicado a promover prácticas científicas abiertas, reproducibles y transparentes. Estamos abiertos a personas de todas las facultades interesadas en estos temas. Nos interesa la **ciencia abierta**, la **metainvestigación**, la **estadística aplicada** y el desarrollo de herramientas que mejoren la calidad y el alcance de la investigación.
+<strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero de investigación de la Universidad El Bosque, adscrito a la Facultad de Psicología, dedicado a promover prácticas científicas abiertas, reproducibles y transparentes. Estamos abiertos a personas de todas las facultades interesadas en estos temas. Nos interesa la promoción de la **ciencia abierta** a través de la investigación y divulgación.
 
-## Ejes de trabajo
+## Líneas de investigación
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-### Reproducibilidad
-Estudiamos las condiciones que hacen que los hallazgos científicos puedan replicarse y auditarse, y desarrollamos recursos prácticos para mejorarlas.
+### Reproducibilidad y transparencia científica
+Estudiamos las condiciones que hacen que los hallazgos científicos puedan replicarse y auditarse.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### Ciencia Abierta
+### Prácticas de ciencia abierta
 Promovemos el preregistro de estudios, el acceso abierto a datos y materiales, y el uso de software libre en la investigación.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### Metainvestigación
-Analizamos cómo se produce, reporta y difunde la ciencia en Colombia y Latinoamérica, con especial atención a la psicología.
+### Educación en metaciencia y alfabetización científica
+Producimos materiales divulgativos para promover el conocimiento y la adopción de estrategias de ciencia abierta. 
+:::
+
+:::
+
+## Frentes de trabajo
+
+Debido a la diversidad de intereses de los integrantes, y a la amplitud de nuestras líneas, trabajamos en dos frentes:
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### Investigación
+Estamos iniciando nuestro primer proyecto, centrado en [promoción del formato de Reportes Registrados en América Latina](/projects/adopcion_reportes_registrados.qmd).
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Divulgación
+Estamos trabajando en la creación de este sitio web para reunir la información del semillero y sus integrantes, así como de los proyectos y productos que desarrollemos, incluyendo materiales divulgativos para redes sociales.
 :::
 
 :::

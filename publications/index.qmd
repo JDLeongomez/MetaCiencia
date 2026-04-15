@@ -6,12 +6,16 @@ listing:
   id: pubs-listing
   contents: "*.qmd"
   exclude:
-    filename: "index.qmd"
+    filename: ["index.qmd", "crisis-replicacion.qmd"]
   type: table
   fields: [date, title, description, categories]
   sort: "date desc"
   date-format: "YYYY"
 ---
+
+::: {.callout-note appearance="simple"}
+El semillero MetaCiencia fue registrado formalmente en marzo de 2026. Las publicaciones aparecerán aquí a medida que estén disponibles.
+:::
 
 ::: {#pubs-listing}
 :::
