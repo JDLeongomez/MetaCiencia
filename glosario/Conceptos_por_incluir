@@ -1,26 +1,23 @@
 En las diferentes páginas, se puede hacer un cuadro al inicio (.callout-note) que tenga uina lista de los conceptos que se usan (cada uno como hipervínculo a su entrada en glosario/)
 
 # Malas prácticas
-p-hacking
-HARKing
-Bajo poder estadístico
-Sesgos de publicación
+p-hacking ✓ [JD]
+HARKing [Andrés]
+Poder estadístico [Andrés]
+Sesgos de publicación [Karen]
 
 # Ciencia abierta
-Ciencia abierta
+Ciencia abierta [Andrés]
 Acceso abierto (open access)
-Pre-registro
-Reportes Registrados
-Análisis reproducibles
-Apertura de datos y código
-pre-print
+Pre-registro ✓ [JD]
+Reportes Registrados [Karen]
+Análisis reproducibles [Karen]
+Apertura de datos y código [Karen]
+pre-print [JD]
 
 # Software
-Software libre
-Quarto
-OSF
-Zenodo
-R
-
-
-
+Software libre ✓ [JD]
+Quarto [Andrés]
+OSF [JD]
+Zenodo [JD]
+R (mencionar RStudio) [Andrés]

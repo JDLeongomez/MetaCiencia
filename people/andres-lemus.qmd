@@ -2,7 +2,7 @@
 title: "Andrés Lemus Morales"
 description: "Psicólogo"
 image: ../assets/people/andres-lemus.jpg
-categories: [egresado, divulgacion]
+categories: [egresado, divulgacion, investigación]
 ---
 
 ::: {.person-header}
