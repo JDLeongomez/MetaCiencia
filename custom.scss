@@ -220,3 +220,14 @@ h2, h3 {
   border-bottom: 1px solid rgba($mc-ink, 0.15);
   padding-bottom: 0.25rem;
 }
+
+/* ── Tarjetas de listing (grid) ──────────────────────── */
+.thumbnail {
+  height: auto;
+}
+
+.thumbnail img.thumbnail-image {
+  object-fit: contain;
+  max-height: 200px;
+  width: 100%;
+}

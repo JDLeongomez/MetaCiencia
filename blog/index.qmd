@@ -6,7 +6,7 @@ listing:
   id: blog-listing
   contents: "posts/*/index.qmd"
   type: default
-  fields: [date, title, description, categories, reading-time]
+  fields: [image, date, title, description, categories, reading-time]
   sort: "date desc"
   feed: true
 ---

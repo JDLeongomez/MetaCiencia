@@ -1,0 +1,21 @@
+---
+title: "¿Y qué significa...?"
+description: "Términos clave de ciencia abierta, metodología y reproducibilidad explicados sin jerga innecesaria"
+toc: false
+listing:
+  id: glosario-listing
+  contents: "terminos/*/index.qmd"
+  type: table
+  fields: [title, description, categories]
+  sort: "title asc"
+  filter-ui: [categories]
+  field-display-names:
+    title: "Término"
+    description: "Definición breve"
+    categories: "Temas"
+---
+
+¿Escuchaste un término en una clase, en un artículo o en una conversación sobre ciencia y no tienes claro qué significa? Aquí encontrarás explicaciones directas, sin jerga innecesaria, de conceptos clave en ciencia abierta, metodología y reproducibilidad.
+
+::: {#glosario-listing}
+:::

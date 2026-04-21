@@ -11,16 +11,26 @@ author:
     url: ../../../people/juan-david-leongomez.qmd
     orcid: 0000-0002-0092-6298
 categories: [metaciencia, ciencia abierta, reproducibilidad, semillero, presentación]
-image: logo_MetaCiencia.svg
+image: logo_MetaCiencia.png
 bibliography: ../../../references.bib
 csl: https://www.zotero.org/styles/apa
 ---
 
 ![](../../../assets/logo_MetaCiencia.svg){.hero-logo alt="Logo MetaCiencia" width="30%" fig-align="center"}
 
-La ciencia tiene un problema. No es nuevo, y tampoco es pequeño: una parte significativa de los resultados publicados en las revistas más prestigiosas del mundo no se puede replicar. Los datos que los sustentan no están disponibles. El código para reproducir los análisis no existe o nunca se compartió. Las hipótesis se formularon *después* de ver los datos, aunque los artículos den a entender lo contrario [@kerr1998].
+La ciencia tiene un problema. No es nuevo, y tampoco es pequeño: una parte significativa de los resultados publicados en las revistas más prestigiosas del mundo no se puede replicar.
 
-Esto no es una crisis de personas malas haciendo mala ciencia. Es, en gran medida, el resultado de un sistema de incentivos roto: uno que premia la novedad sobre la solidez, la publicación sobre la transparencia, y el impacto mediático sobre la rigurosidad metodológica.
+Algunos de los mayores problemas en investigación (y de los que más se repiten) son:
+
+* ***p-hacking***: El sesgo de inflación, más conocido como “*p-hacking*” o “reporte selectivo” se define como la presentación errónea de los verdaderos tamaños de efecto en estudios publicados, se presenta cuando los investigadores prueban varios análisis estadísticos y seleccionan solamente aquellos que reportan resultados significativos o que soportan sus hipótesis.
+
+* ***HARKing***: El *HARKing* se define como presentar en un informe de investigación una hipótesis formulada después de conocer los resultados (es decir, basada en ellos) como si hubiera sido planteada desde el inicio del estudio [@kerr1998]. Esto es problemático pues convierte un hallazgo exploratorio en uno aparentemente confirmatorio, inflamando artificialmente la confianza en el resultado. Cuando una hipótesis se formula después de ver los datos, hay una alta probabilidad de que simplemente esté capitalizando el ruido estadístico del conjunto de datos específico analizado. Sin embargo, al presentarla como si hubiera sido predicha de antemano, el lector no tiene forma de saberlo, lo que hace que el resultado parezca mucho más robusto de lo que realmente es.
+
+* ***Sesgo de publicación***: Por otro lado, el sesgo de publicación ocurre cuando los editores tienden a publicar resultados significativos, esperados o sorprendentes, y los investigadores seleccionan qué reportar según su probabilidad de publicación. Si no se controla, esto produce estimaciones sesgadas y conclusiones engañosas.
+
+* ***Bajo poder estadístico***: Por último, un aspecto fundamental a considerar en cualquier investigación es el tamaño de la muestra utilizada y la capacidad del experimento para evitar cometer un error de tipo I o de tipo II.
+
+Estos problemas no son fruto de investigadores malintencionados, es, en mayor medida, el resultado de un sistema que premia la novedad sobre la solidez, la publicación sobre la transparencia, y el impacto sobre la rigurosidad metodológica.
 
 <strong>Meta<span class="mc-ink">Ciencia</span></strong> nace para hablar de esto. Y para intentar hacer algo al respecto, desde el contexto latinoamericano.
 
@@ -28,7 +38,7 @@ Esto no es una crisis de personas malas haciendo mala ciencia. Es, en gran medid
 
 <strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero de investigación de la Universidad El Bosque, formalmente registrado en marzo de 2026 y avalado por el grupo de investigación [***CODEC*: Ciencias Cognitivas y del Comportamiento**](https://unbosque.portalinvestigacion.com/grupos/302).
 
-Su nombre no es accidental: la *metaciencia* es, literalmente, la ciencia sobre la ciencia. Es el campo que estudia cómo producimos conocimiento científico, qué tan confiable es ese conocimiento, y cómo podríamos hacerlo mejor. Es una disciplina empírica, no solo filosófica, con décadas de literatuhttps://jdleongomez.info/es/metaciencia/#proyectos3.ra acumulada y una comunidad global cada vez más activa.
+Su nombre no es accidental: la *metaciencia* es, literalmente, la ciencia sobre la ciencia. Es el campo que estudia cómo producimos conocimiento científico, qué tan confiable es ese conocimiento, y cómo podríamos hacerlo mejor. Es una disciplina empírica, no solo filosófica, con décadas de literatura acumulada y una comunidad global cada vez más activa.
 
 El semillero trabaja en torno a tres líneas principales:
 

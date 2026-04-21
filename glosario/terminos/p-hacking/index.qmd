@@ -1,0 +1,41 @@
+---
+title: "*p*-hacking"
+description: "Probar múltiples análisis hasta encontrar uno con p < 0.05, sin reportar los intentos fallidos"
+categories: [sesgo, estadística, mala práctica científica]
+---
+
+## En una frase
+
+El *p*-hacking ocurre cuando un investigador prueba muchas variantes de un análisis —distintas variables, subgrupos, transformaciones, o criterios de exclusión— hasta que alguna arroja un valor *p* menor a 0.05, y luego reporta solo ese resultado como si hubiera sido el plan desde el principio.
+
+## Un poco más de detalle
+
+El valor *p* es una medida estadística que indica qué tan probable es obtener los datos observados si no hubiera ningún efecto real. Por convención, se suele considerar un resultado "estadísticamente significativo" cuando *p* < 0.05.
+
+El problema: si pruebas suficientes análisis distintos, es casi inevitable que alguno supere ese umbral **por puro azar**. Hacer eso sin reportarlo se llama *p*-hacking (también conocido como *data dredging* o reporte selectivo).
+
+Algunos ejemplos concretos:
+
+- Agregar o quitar covariables hasta que el resultado sea significativo.
+- Recoger más datos hasta que el *p* baje de 0.05.
+- Reportar solo los subgrupos que dieron significativo.
+- Probar distintas transformaciones de las variables y quedarse con la que "funciona".
+
+## ¿Por qué importa?
+
+El *p*-hacking produce resultados que parecen sólidos estadísticamente pero que, en realidad, capitalizan el ruido. Esto contribuye directamente a la [crisis de replicación](../../../publications/crisis-replicacion.qmd): estudios que no se pueden reproducir porque sus resultados originales eran artefactos del análisis.
+
+No siempre es intencional. A veces sucede porque el sistema académico presiona a publicar resultados "positivos", y porque las herramientas estadísticas clásicas no están diseñadas para detectarlo.
+
+## Cómo se previene
+
+- [Pre-registrar](../prerregistro/index.qmd) el plan de análisis antes de recoger datos.
+- Reportar todos los análisis realizados, no solo los significativos.
+- Usar correcciones por comparaciones múltiples cuando se prueban varias hipótesis.
+- Adoptar el marco de estadística bayesiana, que no depende del umbral *p* < 0.05.
+
+## Relacionado con
+
+- [Pre-registro](../prerregistro/index.qmd)
+- HARKing
+- Sesgo de publicación

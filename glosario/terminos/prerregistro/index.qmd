@@ -1,0 +1,29 @@
+---
+title: "Pre-registro"
+description: "Comprometerse públicamente con las hipótesis y el plan de análisis antes de recoger datos"
+categories: [transparencia, diseño de investigación, sesgo]
+---
+
+## En una frase
+
+Pre-registrar un estudio significa declarar públicamente, *antes de recoger datos*, qué hipótesis se van a probar, cómo se van a recoger los datos y qué análisis se van a hacer.
+
+## Un poco más de detalle
+
+Cuando diseñas un estudio, tienes decisiones importantes por delante: ¿cuántos participantes voy a incluir? ¿Qué variables voy a medir? ¿Qué análisis estadísticos voy a usar para probar mi hipótesis?
+
+El pre-registro consiste en registrar todas esas decisiones en una plataforma pública (como [OSF](https://osf.io), [AsPredicted](https://aspredicted.org) o una revista con modalidad de reporte registrado) **antes de comenzar la recolección de datos**.
+
+Esto tiene una consecuencia clave: cualquiera puede comparar después lo que dijiste que ibas a hacer con lo que realmente hiciste.
+
+## ¿Por qué importa?
+
+Sin pre-registro, es fácil —a veces sin darse cuenta— adaptar las decisiones de análisis a los datos una vez que ya se tienen. Esto infla artificialmente la probabilidad de obtener resultados "significativos" y produce hallazgos que no se replican.
+
+El pre-registro no impide el análisis exploratorio. Solo exige ser honesto sobre qué era confirmatorio y qué fue exploratorio después de ver los datos.
+
+## Relacionado con
+
+- [*p*-hacking](../p-hacking/index.qmd)
+- [HARKing](../harking/index.qmd)
+- Reportes registrados (*Registered Reports*)

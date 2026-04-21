@@ -25,6 +25,8 @@ website:
         href: publications/index.qmd
       - text: "Divulgación"
         href: divulgacion/index.qmd
+      - text: "¿Y qué significa...?"
+        href: glosario/index.qmd
       - text: "Blog"
         href: blog/index.qmd
       - text: "Contribuir"

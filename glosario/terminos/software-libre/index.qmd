@@ -1,0 +1,40 @@
+---
+title: "Software libre"
+description: "Programas que pueden usarse, estudiarse, modificarse y redistribuirse sin restricciones comerciales"
+categories: [herramientas, acceso abierto, reproducibilidad]
+---
+
+## En una frase
+
+Software libre es aquel cuyo código fuente es público y que puede usarse, estudiarse, modificarse y redistribuirse libremente, sin necesidad de pagar licencias ni pedir permiso.
+
+## Un poco más de detalle
+
+El término "libre" no se refiere al precio, sino a la **libertad**. Un programa de software libre garantiza cuatro libertades fundamentales (según la definición de la [Free Software Foundation](https://www.gnu.org/philosophy/free-sw.es.html)):
+
+1. **Usar** el programa para cualquier propósito.
+2. **Estudiar** cómo funciona y adaptarlo a tus necesidades (requiere acceso al código fuente).
+3. **Distribuir** copias para ayudar a otros.
+4. **Mejorar** el programa y publicar esas mejoras.
+
+El software *open source* comparte estas características, aunque el término se usa en contextos más técnicos y con un énfasis ligeramente distinto.
+
+## ¿Por qué importa en ciencia?
+
+Usar software libre en investigación tiene implicaciones directas para la **reproducibilidad** y la **equidad**:
+
+- **Reproducibilidad:** Cualquier investigador puede acceder al mismo software, verificar cómo funciona e identificar errores. Con software propietario (como SPSS o SAS), eso no siempre es posible.
+- **Transparencia:** El código que realiza los análisis puede publicarse abiertamente sin depender de licencias.
+- **Acceso:** No requiere que instituciones (especialmente en países con menos recursos) paguen licencias costosas.
+
+Herramientas como **R**, **Python**, **Jamovi**, **JASP** y **Quarto** son ejemplos de software libre ampliamente usados en investigación científica.
+
+## Software libre ≠ gratuito
+
+Un software puede ser gratuito (*freeware*) pero no libre: puedes usarlo sin pagar, pero no puedes ver su código ni redistribuirlo. La diferencia es importante: el software libre es abierto por principio, no solo por precio.
+
+## Relacionado con
+
+- Acceso abierto (*open access*)
+- Datos abiertos
+- Ciencia reproducible
