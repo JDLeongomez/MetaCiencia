@@ -6,12 +6,17 @@ toc-depth: 3
 ---
 
 ::: {.callout-note}
+## Conceptos clave
+Algunos conceptos usados en esta página: [Quarto](../glosario/terminos/quarto/index.qmd), [R / RStudio](../glosario/terminos/r-rstudio/index.qmd).
+:::
+
+::: {.callout-note}
 Esta guía está dirigida a los integrantes de <strong>Meta<span class="mc-ink">Ciencia</span></strong> que quieran contribuir al sitio web. Solo necesitas instalar dos programas, descargar los archivos del sitio y editar texto plano.
 :::
 
 ---
 
-El sitio web de <strong>Meta<span class="mc-ink">Ciencia</span></strong> está construido con [Quarto](https://quarto.org/), un programa de código abierto que convierte archivos de texto en páginas web. No necesitas saber programación para editar el contenido; solo debes crear o editar archivos de texto (.qmd), escribir o pegar el contenido (texto, imágenes, listas) y guardar los cambios; Quarto se ocupa de convertir ese texto en páginas web bien formateadas. La configuración general, el tema y el estilo los mantengo yo ([Juan David](../people/juan-david-leongomez.qmd)), así que ustedes solo editan el contenido y yo me encargo de que todo se vea coherente y se publique correctamente.
+El sitio web de <strong>Meta<span class="mc-ink">Ciencia</span></strong> está construido con [Quarto](../glosario/terminos/quarto/index.qmd), un programa de código abierto que convierte archivos de texto en páginas web. No necesitas saber programación para editar el contenido; solo debes crear o editar archivos de texto (.qmd), escribir o pegar el contenido (texto, imágenes, listas) y guardar los cambios; Quarto se ocupa de convertir ese texto en páginas web bien formateadas. La configuración general, el tema y el estilo los mantengo yo ([Juan David](../people/juan-david-leongomez.qmd)), así que ustedes solo editan el contenido y yo me encargo de que todo se vea coherente y se publique correctamente.
 
 ## 1. Instalación (una sola vez)
 
@@ -33,7 +38,7 @@ Deberías ver un número de versión (p. ej., `1.6.x`).
 
 ### 1.2 Instala un editor de texto
 
-Puedes usar cualquier editor, pero recomendamos **RStudio** o **VS Code**, porque ambos tienen soporte nativo para Quarto (resaltado de sintaxis, previsualización integrada, etc.).
+Puedes usar cualquier editor, pero recomendamos **[RStudio](../glosario/terminos/r-rstudio/index.qmd)** o **VS Code**, porque ambos tienen soporte nativo para Quarto (resaltado de sintaxis, previsualización integrada, etc.).
 
 ::: {.panel-tabset}
 

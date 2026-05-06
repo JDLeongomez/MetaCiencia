@@ -37,5 +37,8 @@ No siempre es intencional. A veces sucede porque el sistema académico presiona 
 ## Relacionado con
 
 - [Pre-registro](../prerregistro/index.qmd)
-- HARKing
-- Sesgo de publicación
+- [HARKing](../harking/index.qmd)
+- [Sesgo de publicación](../sesgo-de-publicacion/index.qmd)
+- [Poder estadístico](../poder-estadistico/index.qmd)
+- [Errores Tipo I y Tipo II](../errores_tipo_I_y_II/index.qmd)
+- [Reportes Registrados](../reportes-registrados/index.qmd)

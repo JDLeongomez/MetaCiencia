@@ -1,0 +1,44 @@
+---
+title: "Poder estadístico"
+description: "Es la probabilidad de detectar un efecto real, y aumenta cuando se utilizan muestras suficientemente grandes y representativas"
+categories: [sesgo, estadística, mala práctica científica]
+bibliography: ../../../references.bib
+csl: https://www.zotero.org/styles/apa
+---
+
+## En una frase
+
+El poder estadístico (o potencia estadística) se refiere a la capacidad de un estudio para identificar efectos que realmente existen en la población. Cuando la muestra es pequeña o poco representativa, es más probable que se pasen por alto efectos importantes ([error tipo II](../errores_tipo_I_y_II/index.qmd)). En cambio, muestras más grandes y bien seleccionadas aumentan la precisión de los resultados y la confianza en las conclusiones.
+
+## Un poco más de detalle
+
+El poder estadístico es la probabilidad de que un estudio detecte un efecto real cuando este efectivamente existe en la población. Está fuertemente influenciado por el tamaño de la muestra y su representatividad: muestras más grandes tienden a reducir el error, mientras que muestras representativas permiten generalizar los resultados con mayor validez. Cuando el poder es bajo, el estudio puede concluir erróneamente que “no hay efecto”, incluso si sí lo hay, lo que se conoce como error tipo II. 
+
+## Un ejemplo
+
+Si un estudio evalúa a 10 personas para determinar la efectividad de un medicamento, es posible que no se encuentren resultados ni cambios significativos pues el medicamento puede tener efectos ligeramente diferentes en diferentes personas, así el medicamento tenga un efecto positivo. En cambio, si se realiza el mismo estudio con 500 participantes, tendrá mayor capacidad para detectar cambios reales.
+
+## La paradoja de los estudios con bajo poder
+
+Aunque los estudios con bajo poder rara vez detectan efectos reales, la literatura científica está repleta de estudios con muestras pequeñas que reportan efectos significativos, y además muy grandes. Esto ocurre por dos razones que se combinan. Primero, las muestras pequeñas producen estimaciones *inestables*: el efecto medido salta de un valor a otro según quiénes, por azar, quedaron en la muestra. Segundo, existe un sesgo de publicación: los estudios con resultados significativos se publican con mucha mayor facilidad que los que no encuentran nada. La consecuencia es un filtro perverso: de todos los estudios pequeños que se realizan, los que logran publicarse son principalmente aquellos que, por puro azar, estimaron un efecto lo suficientemente grande como para cruzar el umbral de significancia (entre más pequeña la muestra, mayor debe ser el efecto encontrado para ser significativo). 
+
+## ¿Cómo se previene un bajo poder estadístico?
+
+-   [Pre-registrar](../prerregistro/index.qmd) el plan de análisis antes de recoger datos.
+-   Determinar el tamaño de efecto de interés y calcular el tamaño de muestra necesario para tener una buena probabilidad de detectarlo. 
+-   Obtener un poder de al menos 80% de detectar el efecto esperado.
+
+
+
+:::{.callout-tip collapse="true"}
+## Justifica tu tamaño de muestra
+
+Garantizar un poder estadístico adecuado es muy importante si quieres confirmar una hipótesis. Sin embargo, existen otras maneras para definir y justificar la decisión de un tamaño de muestra. @lakensSampleSizeJustification2022 explica muy claramente las opciones para estudios cuantitativos. Si quieres una versión interactiva, que además incluye opciones para estudios cualitativos y mixtos, puedes usar [Just-N Framework: Aplicación Interactiva](https://jdleongomez.github.io/just_n_app/)
+:::
+
+## Relacionado con
+
+-   [Pre-registro](../prerregistro/index.qmd)
+-   [Errores Tipo I y Tipo II](../errores_tipo_I_y_II/index.qmd)
+-   [*p*-hacking](../p-hacking/index.qmd)
+-   [Sesgo de publicación](../sesgo-de-publicacion/index.qmd)

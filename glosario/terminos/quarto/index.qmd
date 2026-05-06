@@ -1,0 +1,29 @@
+---
+title: "Quarto"
+description: "Herramienta para documentos reproducibles combinando texto, gráficos y cálculos en un mismo lugar."
+categories: [ciencia abierta, transparencia, reproducibilidad, credibilidad, calidad, acceso abierto]
+bibliography: ../../../references.bib
+csl: https://www.zotero.org/styles/apa
+---
+
+## En una frase
+
+![](quarto.png)
+
+Quarto es una herramienta que permite crear documentos como trabajos, informes o presentaciones combinando texto, gráficos y cálculos en un mismo lugar, de forma automática y organizada. 
+
+Dentro de sus funciones, se puede escribir texto, pero también incluir código que hace cálculos o gráficos, y todo se actualiza automáticamente si se cambian los datos. Por ejemplo, si estás haciendo un informe con resultados de una encuesta, no tienes que copiar y pegar los números cada vez que algo cambia: Quarto lo hace automáticamente. 
+
+Con esta herramienta se pueden crear trabajos universitarios, informes profesionales, presentaciones tipo diapositivas e incluso páginas web. Además, permite exportar los documentos en diferentes formatos como PDF, Word o HTML (para verlos en internet). Es muy útil porque ahorra tiempo, reduce errores y hace que la información sea más clara y confiable, especialmente cuando se trabaja con datos. 
+
+## ¿Por qué este sitio está hecho en Quarto? 
+
+Este sitio web está creado con Quarto porque presenta una estructura clara y ordenada típica de documentos generados automáticamente, integra texto con elementos como gráficos, tablas o resultados que parecen venir directamente de análisis de datos, y mantiene un diseño consistente en todas sus páginas. Además, es común que este tipo de sitios permita actualizar contenido de forma sencilla cuando cambian los datos o el código. Y lo más importante, es gratis, de [código libre y abierto](../software-libre/index.qmd), y es mucho más sencillo de usar que otras herramientas. 
+
+## Relacionado con
+
+-   [Análisis reproducibles](../analisis-reproducibles/index.qmd)
+-   [Apertura de datos y código](../apertura-datos-codigo/index.qmd)
+-   [Ciencia abierta](../ciencia-abierta/index.qmd)
+-   [R / RStudio](../r-rstudio/index.qmd)
+-   [Software libre](../software-libre/index.qmd)

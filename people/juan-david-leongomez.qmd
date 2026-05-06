@@ -26,11 +26,16 @@ Profesor Asociado e investigador de [***EvoCo**: Laboratorio de Evolución y Com
 
 También soy fundador y miembro del Consejo Directivo de ***Latin American Association for Human Behavioral and Evolutionary Sciences*** (***LAAHBES***). Además, sirvo como [recomendador](https://rr.peercommunityin.org/about/recommenders) (equivalente a Editor Asociado) para [***PCI Registered Reports***](https://rr.peercommunityin.org/), y como [Data Editor](https://royalsocietypublishing.org/rspb/pages/Editorial_Board) para [***Proceedings of the Royal Society B***](https://royalsocietypublishing.org/rspb).
 
-Aunque mis intereses de investigación se centran principalmente en la comunicación vocal humana, la elección de pareja y la musicalidad, soy un apasionado por los métodos cuantitativos y la programación en [{{< fa brands r-project >}}](https://www.r-project.org/about.html)&nbsp;, y abogo por promover la reproducibilidad y la ciencia abierta. En este espíritu, impulsé la creación de <strong>Meta<span class="mc-ink">Ciencia</span></strong>, con la intención de explorar críticamente cómo se hace ciencia y a formar estudiantes y profesoras/es en prácticas abiertas, colaborativas y reproducibles.  
+Aunque mis intereses de investigación se centran principalmente en la comunicación vocal humana, la elección de pareja y la musicalidad, soy un apasionado por los métodos cuantitativos y la programación en [{{< fa brands r-project >}}](https://www.r-project.org/about.html)&nbsp;, y abogo por promover la reproducibilidad y la [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd). En este espíritu, impulsé la creación de <strong>Meta<span class="mc-ink">Ciencia</span></strong>, con la intención de explorar críticamente cómo se hace ciencia y a formar estudiantes y profesoras/es en prácticas abiertas, colaborativas y reproducibles.  
 :::
 :::
 
 ---
+
+::: {.callout-note}
+## Conceptos clave
+Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd), [análisis reproducibles](../glosario/terminos/analisis-reproducibles/index.qmd).
+:::
 
 ## Líneas de investigación
 

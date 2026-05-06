@@ -29,6 +29,11 @@ draft: true
 
 ---
 
+::: {.callout-note}
+## Conceptos clave
+Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd), [pre-registro](../glosario/terminos/prerregistro/index.qmd), [análisis reproducibles](../glosario/terminos/analisis-reproducibles/index.qmd).
+:::
+
 ## Resumen
 
 Esta revisión narrativa examina el debate en torno a la *crisis de replicación* en psicología,

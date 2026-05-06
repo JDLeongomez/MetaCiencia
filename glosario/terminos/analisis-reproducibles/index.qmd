@@ -1,0 +1,41 @@
+---
+title: "Análisis reproducibles"
+description: "Flujos de trabajo documentados que permiten reejecutar exactamente los mismos análisis y obtener los mismos resultados"
+categories: [reproducibilidad, herramientas, transparencia]
+---
+
+## En una frase
+
+Un análisis reproducible es aquel documentado de tal forma que cualquier persona —incluyendo el propio autor en el futuro— puede reejecutarlo exactamente y obtener los mismos resultados.
+
+## Un poco más de detalle
+
+Reproducir un análisis no es simplemente saber *qué* se hizo, sino poder *rehacerlo* exactamente: con los mismos datos, el mismo código, las mismas versiones de software, y obteniendo los mismos números.
+
+Los elementos clave de un análisis reproducible son:
+
+- **Código documentado:** el análisis se realiza con un lenguaje de programación (como [R](../r-rstudio/index.qmd) o Python) en lugar de con clics en menús de software propietario, y ese código se comparte públicamente.
+- **Datos disponibles:** los datos se depositan en un repositorio abierto como [OSF](../osf/index.qmd) o [Zenodo](../zenodo/index.qmd).
+- **Entorno registrado:** se documenta qué versiones de software y paquetes se usaron, idealmente con herramientas como `renv` (en R) o `conda` (en Python).
+- **Flujo de trabajo claro:** el proceso desde los datos crudos hasta las tablas y figuras del artículo está explícito y sin pasos manuales ocultos.
+
+Herramientas como [Quarto](../quarto/index.qmd) permiten escribir documentos que integran texto y código ejecutable, de forma que las tablas y figuras del informe se generan directamente desde los datos.
+
+## ¿Por qué importa?
+
+La reproducibilidad computacional es el piso mínimo de la transparencia científica. Si no es posible reproducir los análisis de un artículo, tampoco es posible verificar si los resultados son correctos, detectar errores, o construir sobre ese trabajo.
+
+Estudios de reproducibilidad han encontrado que una fracción sorprendentemente pequeña de artículos publicados puede reproducirse en su totalidad, incluso cuando los datos están disponibles — por ausencia de código, pasos manuales no documentados, o dependencias de software sin versionar.
+
+## Reproducible ≠ correcto
+
+Un análisis puede ser perfectamente reproducible y estar basado en un diseño deficiente o en datos erróneos. La reproducibilidad computacional es necesaria pero no suficiente: garantiza que otros puedan verificar *lo que se hizo*, no que *lo que se hizo* sea correcto.
+
+## Relacionado con
+
+- [Apertura de datos y código](../apertura-datos-codigo/index.qmd)
+- [Ciencia abierta](../ciencia-abierta/index.qmd)
+- [Quarto](../quarto/index.qmd)
+- [R / RStudio](../r-rstudio/index.qmd)
+- [OSF](../osf/index.qmd)
+- [Software libre](../software-libre/index.qmd)

@@ -14,7 +14,7 @@ listing:
   sort: "title asc"
 ---
 
-Somos estudiantes y docentes de la Universidad El Bosque comprometidos con la práctica de una ciencia abierta, rigurosa y accesible. Aunque estamos adscritos a la Facultad de Psicología, <strong>Meta<span class="mc-ink">Ciencia</span></strong> está abierto a personas de todas las facultades interesadas en estos temas.
+Somos estudiantes y docentes de la Universidad El Bosque comprometidos con la práctica de una [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd), rigurosa y accesible. Aunque estamos adscritos a la Facultad de Psicología, <strong>Meta<span class="mc-ink">Ciencia</span></strong> está abierto a personas de todas las facultades interesadas en estos temas.
 
 ::: {#people-listing}
 :::

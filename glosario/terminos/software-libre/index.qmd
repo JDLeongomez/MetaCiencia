@@ -35,6 +35,9 @@ Un software puede ser gratuito (*freeware*) pero no libre: puedes usarlo sin pag
 
 ## Relacionado con
 
-- Acceso abierto (*open access*)
-- Datos abiertos
-- Ciencia reproducible
+- [Acceso abierto](../acceso-abierto/index.qmd)
+- [Apertura de datos y código](../apertura-datos-codigo/index.qmd)
+- [Análisis reproducibles](../analisis-reproducibles/index.qmd)
+- [R / RStudio](../r-rstudio/index.qmd)
+- [Quarto](../quarto/index.qmd)
+- [Ciencia abierta](../ciencia-abierta/index.qmd)

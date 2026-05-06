@@ -1,0 +1,38 @@
+---
+title: "OSF"
+description: "Plataforma gratuita para registrar, compartir y colaborar en proyectos de investigación científica"
+categories: [herramientas, ciencia abierta, repositorio]
+---
+
+## En una frase
+
+OSF (*Open Science Framework*) es una plataforma web gratuita que permite a los investigadores organizar sus proyectos, registrar hipótesis y planes de análisis, compartir datos y materiales, y colaborar con otros equipos — todo en un mismo lugar.
+
+## Un poco más de detalle
+
+Desarrollado por el Center for Open Science (COS), OSF funciona como un hub central para la investigación abierta. Desde un proyecto en OSF se puede:
+
+- **Pre-registrar** estudios: crear un registro con fecha y hora de las hipótesis y el plan de análisis, antes de recoger datos. Este registro queda sellado y es visible públicamente.
+- **Almacenar y compartir** datos, materiales, scripts y documentos, con control sobre qué es público y qué es privado.
+- **Conectar** con otros servicios: GitHub, Google Drive, Dropbox, figshare, etc.
+- **Publicar preprints** a través de servidores como PsyArXiv o SocArXiv, que están integrados con OSF.
+- **Registrar proyectos con DOI**, lo que los hace citables de forma permanente.
+
+## ¿Por qué importa?
+
+OSF es la infraestructura práctica de buena parte del movimiento de [ciencia abierta](../ciencia-abierta/index.qmd). Cuando un artículo menciona "los datos están disponibles en OSF", quiere decir exactamente eso: hay un repositorio público donde cualquiera puede descargar los datos y verificar los análisis.
+
+Es gratuito para investigadores individuales, lo que lo hace accesible para equipos en países sin grandes presupuestos de investigación.
+
+## OSF y el pre-registro
+
+El [pre-registro](../prerregistro/index.qmd) en OSF es una de sus funciones más usadas. Una vez que el investigador sube su protocolo y lo "registra", queda una copia con fecha y hora que no puede modificarse retroactivamente. Esto crea evidencia de que las hipótesis existían *antes* de que existieran los datos.
+
+## Relacionado con
+
+- [Pre-registro](../prerregistro/index.qmd)
+- [Ciencia abierta](../ciencia-abierta/index.qmd)
+- [Apertura de datos y código](../apertura-datos-codigo/index.qmd)
+- [Preprint](../preprint/index.qmd)
+- [Zenodo](../zenodo/index.qmd)
+- [Reportes Registrados](../reportes-registrados/index.qmd)

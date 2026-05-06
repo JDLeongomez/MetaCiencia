@@ -1,0 +1,40 @@
+---
+title: "Preprint"
+description: "Versión de un artículo científico compartida públicamente antes de la revisión por pares formal"
+categories: [ciencia abierta, publicación, acceso abierto]
+---
+
+## En una frase
+
+Un preprint es una versión de un artículo científico que el autor hace pública — normalmente en un repositorio abierto — antes de que haya pasado por el proceso formal de revisión por pares de una revista.
+
+## Un poco más de detalle
+
+El proceso de publicación científica tradicional es lento: entre la finalización de un manuscrito y su publicación en una revista pueden pasar meses o incluso años, entre la revisión por pares, las correcciones y los tiempos de edición. Durante ese tiempo, el trabajo no está disponible para la comunidad.
+
+Los preprints resuelven eso parcialmente: el autor sube el manuscrito a un servidor público (como [OSF](../osf/index.qmd) Preprints, bioRxiv, PsyArXiv, o SocArXiv) y queda disponible de inmediato para cualquiera que quiera leerlo, citarlo o comentarlo, sin esperar la publicación oficial.
+
+Los servidores de preprints más usados en ciencias sociales y del comportamiento incluyen:
+
+- **PsyArXiv:** psicología y ciencias cognitivas.
+- **SocArXiv:** sociología y ciencias sociales.
+- **OSF Preprints:** multidisciplinar, integrado con la plataforma OSF.
+- **bioRxiv / medRxiv:** ciencias biológicas y médicas.
+
+## ¿Por qué importa?
+
+- **Velocidad:** los hallazgos llegan a la comunidad científica (y al público) mucho antes.
+- **[Acceso abierto](../acceso-abierto/index.qmd):** el preprint queda disponible gratuitamente incluso si la versión publicada está detrás de un muro de pago.
+- **Retroalimentación temprana:** la comunidad puede comentar y señalar problemas antes de la publicación oficial.
+- **Registro de prioridad:** establece una fecha pública de cuándo se completó el trabajo.
+
+## Preprint ≠ artículo revisado
+
+Un preprint no ha pasado por revisión por pares formal, lo que significa que sus conclusiones no han sido validadas independientemente. Eso no los hace inútiles ni poco confiables, pero sí exige leerlos con el mismo ojo crítico que cualquier otra fuente: evaluar el método, los datos y el razonamiento, no asumir que "está publicado = es correcto" (lo cual, por otro lado, tampoco es válido para artículos en revistas).
+
+## Relacionado con
+
+- [Acceso abierto](../acceso-abierto/index.qmd)
+- [OSF](../osf/index.qmd)
+- [Apertura de datos y código](../apertura-datos-codigo/index.qmd)
+- [Ciencia abierta](../ciencia-abierta/index.qmd)

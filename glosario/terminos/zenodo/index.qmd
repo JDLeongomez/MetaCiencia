@@ -1,0 +1,38 @@
+---
+title: "Zenodo"
+description: "Repositorio abierto y gratuito para depositar datos, código y publicaciones de investigación con DOI permanente"
+categories: [herramientas, ciencia abierta, repositorio]
+---
+
+## En una frase
+
+Zenodo es un repositorio digital abierto y gratuito, desarrollado por el CERN, donde los investigadores pueden depositar cualquier tipo de material científico —datos, código, presentaciones, artículos— y recibir un DOI permanente que lo hace citable.
+
+## Un poco más de detalle
+
+Zenodo fue creado por el CERN (la organización europea de física de partículas) con el apoyo de la Comisión Europea. Acepta casi cualquier tipo de archivo: conjuntos de datos, código fuente, figuras, presentaciones, videos, preprints, y más.
+
+Sus características más relevantes:
+
+- **DOI permanente:** cada depósito recibe un identificador digital permanente (DOI), lo que permite citarlo formalmente en artículos y asegura que el enlace no se rompa.
+- **Gratuito y sin límite de tamaño razonable:** los depósitos individuales pueden ser de hasta 50 GB.
+- **Versionado:** es posible actualizar los materiales manteniendo un historial de versiones, cada una con su propio DOI.
+- **Integración con GitHub:** se puede conectar un repositorio de GitHub para que cada vez que se cree una nueva versión del código, se archive automáticamente en Zenodo con un DOI.
+- **Metadatos ricos:** permite especificar licencias, autores, financiadores, y relaciones con otros registros.
+
+## ¿En qué se diferencia de OSF?
+
+[OSF](../osf/index.qmd) es más un entorno de gestión de proyectos completo (con pre-registro, colaboración, conexiones a múltiples servicios), mientras que Zenodo se especializa en el archivo y la preservación a largo plazo. Los dos se complementan: muchos investigadores gestionan su proyecto en OSF y archivan versiones definitivas de datos y código en Zenodo.
+
+## ¿Por qué importa?
+
+Zenodo resuelve el problema de los "datos disponibles previa solicitud al autor" — una frase habitual en los artículos que en la práctica a menudo significa que los datos no están realmente disponibles. Un depósito en Zenodo es inmediatamente accesible, citable y permanente.
+
+## Relacionado con
+
+- [Apertura de datos y código](../apertura-datos-codigo/index.qmd)
+- [Análisis reproducibles](../analisis-reproducibles/index.qmd)
+- [Pre-registro](../prerregistro/index.qmd)
+- [OSF](../osf/index.qmd)
+- [Ciencia abierta](../ciencia-abierta/index.qmd)
+- [Acceso abierto](../acceso-abierto/index.qmd)

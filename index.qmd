@@ -20,9 +20,14 @@ Facultad de Psicología · Universidad El Bosque · Bogotá, Colombia
 [Ver proyectos](projects/index.qmd){.btn .btn-outline-light .btn-lg}
 :::
 
+::: {.callout-note}
+## Conceptos clave
+Algunos conceptos usados en esta página: [ciencia abierta](glosario/terminos/ciencia-abierta/index.qmd), [pre-registro](glosario/terminos/prerregistro/index.qmd), [acceso abierto](glosario/terminos/acceso-abierto/index.qmd), [software libre](glosario/terminos/software-libre/index.qmd), [Reportes Registrados](glosario/terminos/reportes-registrados/index.qmd).
+:::
+
 ## ¿Quiénes somos?
 
-<strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero de investigación de la Universidad El Bosque, adscrito a la Facultad de Psicología, dedicado a promover prácticas científicas abiertas, reproducibles y transparentes. Estamos abiertos a personas de todas las facultades interesadas en estos temas. Nos interesa la promoción de la **ciencia abierta** a través de la investigación y divulgación.
+<strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero de investigación de la Universidad El Bosque, adscrito a la Facultad de Psicología, dedicado a promover prácticas científicas abiertas, reproducibles y transparentes. Estamos abiertos a personas de todas las facultades interesadas en estos temas. Nos interesa la promoción de la **[ciencia abierta](glosario/terminos/ciencia-abierta/index.qmd)** a través de la investigación y divulgación.
 
 ## Líneas de investigación
 
@@ -35,7 +40,7 @@ Estudiamos las condiciones que hacen que los hallazgos científicos puedan repli
 
 ::: {.g-col-12 .g-col-md-4}
 ### Prácticas de ciencia abierta
-Promovemos el preregistro de estudios, el acceso abierto a datos y materiales, y el uso de software libre en la investigación.
+Promovemos el [preregistro](glosario/terminos/prerregistro/index.qmd) de estudios, el [acceso abierto](glosario/terminos/acceso-abierto/index.qmd) a datos y materiales, y el uso de [software libre](glosario/terminos/software-libre/index.qmd) en la investigación.
 :::
 
 ::: {.g-col-12 .g-col-md-4}

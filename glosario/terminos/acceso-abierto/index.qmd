@@ -1,0 +1,39 @@
+---
+title: "Acceso abierto"
+description: "Publicar investigación científica de forma que cualquiera pueda leerla sin pagar"
+categories: [ciencia abierta, publicación, acceso]
+---
+
+## En una frase
+
+El acceso abierto (*open access*) es el principio de que los artículos y publicaciones científicas deben estar disponibles en internet de forma gratuita y sin restricciones, para que cualquier persona pueda leerlos.
+
+## Un poco más de detalle
+
+La investigación científica sigue un ciclo extraño: investigadores (pagados mayoritariamente con fondos públicos) producen artículos, los someten a revisión por pares (un proceso también no remunerado), y luego las editoriales venden acceso a esos artículos a precios altísimos — con frecuencia a las mismas universidades que los produjeron.
+
+El acceso abierto busca romper ese ciclo. Hay dos rutas principales:
+
+- **Vía dorada (*gold OA*):** el artículo se publica directamente en una revista de acceso abierto. A veces el costo lo asume el autor o su institución a través de cargos de procesamiento de artículos (APCs), que pueden ser considerables.
+- **Vía verde (*green OA*):** el autor deposita una versión del artículo (preprint o postprint) en un repositorio abierto, como [OSF](../osf/index.qmd), [Zenodo](../zenodo/index.qmd) o el repositorio institucional, incluso si la versión oficial está detrás de un muro de pago.
+
+También existe el modelo de **diamante** (*diamond OA*): revistas que no cobran ni a los autores ni a los lectores, sostenidas por comunidades académicas o instituciones.
+
+## ¿Por qué importa?
+
+En muchos países — y especialmente en América Latina — las instituciones académicas no tienen acceso a las suscripciones de las grandes editoriales. Investigadores, estudiantes y ciudadanos quedan excluidos del conocimiento científico que, en buena medida, ellos mismos financiaron con sus impuestos.
+
+El acceso abierto es también una cuestión de reproducibilidad: si no puedes leer el artículo original, no puedes evaluar ni replicar sus métodos.
+
+## Acceso abierto ≠ sin revisión por pares
+
+Una confusión frecuente es equiparar "acceso abierto" con "baja calidad". El modelo de acceso abierto no tiene relación con el rigor del proceso de revisión: existen revistas de acceso abierto con estándares altísimos (como *PLOS ONE* o *eLife*) y revistas de pago con estándares cuestionables.
+
+## Relacionado con
+
+- [Ciencia abierta](../ciencia-abierta/index.qmd)
+- [Preprint](../preprint/index.qmd)
+- [Apertura de datos y código](../apertura-datos-codigo/index.qmd)
+- [OSF](../osf/index.qmd)
+- [Zenodo](../zenodo/index.qmd)
+- [Software libre](../software-libre/index.qmd)

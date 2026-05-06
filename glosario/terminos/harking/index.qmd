@@ -1,0 +1,39 @@
+---
+title: "HARKing"
+description: "Formular hipótesis después de conocer los resultados y presentarlas como si fueran previas al estudio"
+categories: [sesgo, estadística, mala práctica científica]
+---
+
+## En una frase
+
+El *HARKing* (de las siglas en inglés de *Hypothesising After Results are Known*) consiste en construir o ajustar hipótesis una vez que ya se han analizado los datos, pero reportarlas como si hubieran sido planteadas antes del estudio, lo que puede sesgar la interpretación de los resultados y afectar la validez científica.
+
+[![Imagina que quieres saber si el rey tiene buena puntería. Si él siempre acierta al blanco, tendrías evidencia de que sí tiene buena puntería. Pero si él simplemente dispara flechas a una pared, y después se pintan blancos alrededor de las flechas, esto no constituye evidencia de su puntería. Imagen creada por \[Charlie Hankin\](https://charliehankin.com/2014/12/03/bullseyes/).](harking.jpeg)](https://christopherchartier.com/2017/06/02/sure-thing-hypothesis-testing/)
+
+## Un poco más de detalle
+
+Presentar una hipótesis después de conocer los resultados de un estudio es problemático porque distorsiona el proceso científico, ya que las hipótesis deberían guiar el análisis y no surgir de él, evitando así interpretaciones sesgadas o sobreajustadas a los datos.
+
+Por ejemplo, un investigador realiza un estudio sin una hipótesis clara sobre la relación entre el estrés y el rendimiento académico. Al analizar los datos, encuentra que el estrés parece afectar más a los hombres que a las mujeres. En lugar de reportarlo como un hallazgo exploratorio, redacta el artículo afirmando que desde el inicio planteó esa diferencia de género como hipótesis.
+
+Otro caso sería analizar múltiples variables (edad, género, hábitos de sueño, alimentación) y, tras encontrar una relación significativa solo con el sueño, presentar esa relación como si hubiera sido el foco principal del estudio desde el comienzo. Estas prácticas inflan la probabilidad de encontrar resultados “significativos” por azar y reducen la transparencia y replicabilidad de la investigación.
+
+## ¿Por qué importa?
+
+No toda la evidencia es igual (piensa en el rey y su puntería). El *HARKing* aumenta artificialmente la calidad de la evidencia.
+
+No siempre es intencional. A veces sucede porque el sistema académico presiona a publicar resultados "positivos", y porque las personas no siempre son conscientes de que es un error.
+
+## Cómo se previene
+
+-   [Pre-registrar](../prerregistro/index.qmd) el plan de análisis y las hipótesis antes de recoger datos.
+-   Reportar de manera clara cuáles resultados son confirmatorios (es decir, fueron pre-registrados) y cuáles son exploratorios.
+-   Formular hipótesis con base teórica sólida.
+
+## Relacionado con
+
+-   [Pre-registro](../prerregistro/index.qmd)
+-   [*p*-hacking](../p-hacking/index.qmd)
+-   [Sesgo de publicación](../sesgo-de-publicacion/index.qmd)
+-   [Reportes Registrados](../reportes-registrados/index.qmd)
+-   [Poder estadístico](../poder-estadistico/index.qmd)

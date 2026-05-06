@@ -26,4 +26,8 @@ El pre-registro no impide el análisis exploratorio. Solo exige ser honesto sobr
 
 - [*p*-hacking](../p-hacking/index.qmd)
 - [HARKing](../harking/index.qmd)
-- Reportes registrados (*Registered Reports*)
+- [Reportes Registrados](../reportes-registrados/index.qmd)
+- [Sesgo de publicación](../sesgo-de-publicacion/index.qmd)
+- [Poder estadístico](../poder-estadistico/index.qmd)
+- [Errores Tipo I y Tipo II](../errores_tipo_I_y_II/index.qmd)
+- [OSF](../osf/index.qmd)

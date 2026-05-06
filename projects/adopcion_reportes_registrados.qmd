@@ -7,6 +7,11 @@ categories: [reportes registrados, ciencia abierta, Iberoamérica, divulgación 
 status: "En curso"
 ---
 
+::: {.callout-note}
+## Conceptos clave
+Algunos conceptos usados en esta página: [Reportes Registrados](../glosario/terminos/reportes-registrados/index.qmd), [sesgo de publicación](../glosario/terminos/sesgo-de-publicacion/index.qmd), [pre-registro](../glosario/terminos/prerregistro/index.qmd), [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd), [análisis reproducibles](../glosario/terminos/analisis-reproducibles/index.qmd).
+:::
+
 ## Descripción
 
 Este proyecto estudia la expansión y adopción del formato de **Reportes Registrados** en revistas

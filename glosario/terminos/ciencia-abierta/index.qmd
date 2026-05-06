@@ -1,0 +1,24 @@
+---
+title: "Ciencia abierta"
+description: "Enfoque que promueve el acceso libre, transparente y colaborativo al conocimiento científico."
+categories: [ciencia abierta, transparencia, reproducibilidad, credibilidad, calidad, acceso abierto]
+bibliography: ../../../references.bib
+csl: https://www.zotero.org/styles/apa
+---
+
+## En una frase
+
+La ciencia abierta busca que los procesos, datos, métodos y resultados de la investigación sean accesibles para todos, favoreciendo la transparencia, la reproducibilidad y la colaboración entre investigadores y la sociedad, esto permite mejorar la calidad de la ciencia y aumentar su impacto.
+
+## Un poco más de detalle
+
+La ciencia abierta es un movimiento que propone transformar la forma en que se produce y comparte el conocimiento científico, promoviendo prácticas como el [acceso abierto](../acceso-abierto/index.qmd) a publicaciones, la [disponibilidad de datos y códigos](../apertura-datos-codigo/index.qmd), el [pre-registro](../prerregistro/index.qmd) de estudios y los [reportes registrados](../reportes-registrados/index.qmd), así como la revisión por pares más transparente. Es importante porque radica en que aumenta la confianza en la ciencia, al permitir que otros investigadores verifiquen, repliquen y amplíen los hallazgos.
+
+## Relacionado con
+
+-   [Acceso abierto](../acceso-abierto/index.qmd)
+-   [Apertura de datos y código](../apertura-datos-codigo/index.qmd)
+-   [Pre-registro](../prerregistro/index.qmd)
+-   [Reportes registrados](../reportes-registrados/index.qmd)
+-   [Software libre](../software-libre/index.qmd)
+-   [Sesgo de publicación](../sesgo-de-publicacion/index.qmd)

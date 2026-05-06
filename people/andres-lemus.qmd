@@ -25,7 +25,7 @@ instrumentos psicométricos, y modelos de
 intervención basada en la evidencia.
 
 Espero contribuir activamente a la promoción de la
-ciencia abierta mediante la creación y difusión de
+[ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd) mediante la creación y difusión de
 contenido accesible, riguroso y de impacto. De igual
 forma, espero fortalecer mis habilidades de
 investigación y aprender con mis compañeros sin
@@ -35,13 +35,18 @@ reducirnos a una sola rama del conocimiento.
 
 ---
 
+::: {.callout-note}
+## Conceptos clave
+Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd), [R / RStudio](../glosario/terminos/r-rstudio/index.qmd).
+:::
+
 ## Áreas de interés
 
 - Psicología clínica
 - Psicoterapia basada en la evidencia
 - Neuropsicología y psicofarmacología
 - Evolución y comportamiento
-- Análisis de datos (R Studio y Excel)
+- Análisis de datos ([R / RStudio](../glosario/terminos/r-rstudio/index.qmd) y Excel)
 
 ## Proyectos
 

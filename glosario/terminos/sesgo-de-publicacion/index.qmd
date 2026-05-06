@@ -1,0 +1,42 @@
+---
+title: "Sesgo de publicación"
+description: "La tendencia a publicar resultados positivos o significativos y a archivar los negativos o nulos"
+categories: [sesgo, mala práctica científica, literatura científica]
+---
+
+## En una frase
+
+El sesgo de publicación ocurre cuando los estudios con resultados significativos o positivos tienen muchas más probabilidades de publicarse que los estudios con resultados nulos o negativos, distorsionando lo que la literatura científica muestra.
+
+## Un poco más de detalle
+
+Imagina que diez equipos independientes estudian el mismo fenómeno. Por azar, uno de ellos obtiene un resultado significativo (incluso si el efecto no existe), y los otros nueve no encuentran nada. Si solo se publica el estudio "exitoso" y los demás quedan archivados en cajones, la literatura científica mostrará evidencia de un efecto que en realidad es ruido estadístico.
+
+Esto es el sesgo de publicación: una distorsión sistemática causada por el filtro de qué se publica y qué no.
+
+El problema opera en varios niveles:
+
+- **Investigadores:** tienden a no someter a publicación estudios con resultados nulos, asumiendo que serán rechazados.
+- **Editores y revisores:** históricamente han preferido resultados novedosos y significativos.
+- **Instituciones:** presionan a los investigadores a publicar resultados "impactantes".
+
+## ¿Por qué importa?
+
+El sesgo de publicación hace que la literatura científica sea sistemáticamente optimista. Los metaanálisis que intentan resumir la evidencia sobre un tema pueden llegar a conclusiones incorrectas si los estudios nulos nunca llegaron a publicarse.
+
+Un indicador del problema es el *funnel plot*: en una distribución sin sesgo, los estudios pequeños (con más variabilidad) deberían distribuirse simétricamente alrededor del efecto promedio. Una asimetría sugiere que los estudios pequeños con resultados negativos están ausentes de la literatura.
+
+## Cómo se combate
+
+- **[Pre-registro](../prerregistro/index.qmd):** al registrar el estudio antes de recoger datos, se crea un rastro de que el estudio existió, independientemente del resultado.
+- **[Reportes Registrados](../reportes-registrados/index.qmd):** formato de publicación donde la revista acepta o rechaza el artículo *antes* de conocer los resultados, basándose solo en la calidad del diseño.
+- **Repositorios de estudios nulos:** iniciativas como el *Journal of Negative Results* o plataformas como [OSF](../osf/index.qmd) permiten registrar y compartir resultados nulos.
+
+## Relacionado con
+
+- [Pre-registro](../prerregistro/index.qmd)
+- [Reportes Registrados](../reportes-registrados/index.qmd)
+- [*p*-hacking](../p-hacking/index.qmd)
+- [HARKing](../harking/index.qmd)
+- [Poder estadístico](../poder-estadistico/index.qmd)
+- [Errores Tipo I y Tipo II](../errores_tipo_I_y_II/index.qmd)

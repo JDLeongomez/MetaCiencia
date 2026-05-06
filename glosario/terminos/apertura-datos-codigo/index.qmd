@@ -1,0 +1,39 @@
+---
+title: "Apertura de datos y código"
+description: "Compartir públicamente los datos y el código de análisis de una investigación"
+categories: [ciencia abierta, transparencia, reproducibilidad, datos]
+---
+
+## En una frase
+
+La apertura de datos y código consiste en depositar y compartir públicamente los datos recolectados y el código de análisis de una investigación, para que otros puedan verificar los resultados, detectar errores y construir sobre el trabajo.
+
+## Un poco más de detalle
+
+Publicar un artículo con los resultados de un estudio es solo una parte del proceso científico. La apertura de datos y código completa esa transparencia:
+
+- **Datos abiertos:** los datos crudos (o procesados, cuando los crudos no pueden compartirse por razones éticas) se depositan en repositorios como [OSF](../osf/index.qmd) o [Zenodo](../zenodo/index.qmd), con documentación suficiente para entender su estructura.
+- **Código abierto:** los scripts que realizan el procesamiento, limpieza y análisis estadístico se comparten, idealmente en plataformas como GitHub junto con los materiales del proyecto.
+
+Compartir datos y código no significa que no haya control: existen licencias (como Creative Commons para datos o MIT/GPL para código) que especifican exactamente qué puede hacerse con los materiales compartidos.
+
+## ¿Por qué importa?
+
+Sin acceso a los datos y el código, es imposible verificar de forma independiente si los resultados de un artículo son correctos. Cualquier error aritmético, de programación, o de procesamiento queda oculto.
+
+Además, los datos compartidos pueden reutilizarse para responder nuevas preguntas, construir metaanálisis más robustos, o servir de base para replicaciones directas — maximizando el retorno de la inversión en investigación.
+
+## ¿Qué pasa con la privacidad?
+
+No todos los datos pueden compartirse abiertamente. Los datos personales o sensibles (información clínica, grabaciones de participantes, datos que podrían identificar a personas) tienen restricciones éticas y legales que deben respetarse.
+
+En esos casos, la práctica recomendada es compartir los datos de manera controlada (con acceso restringido previo a solicitud), anonimizar lo que sea posible, o al menos compartir el código y los datos sintéticos o agregados que permitan reproducir los análisis.
+
+## Relacionado con
+
+- [Análisis reproducibles](../analisis-reproducibles/index.qmd)
+- [Ciencia abierta](../ciencia-abierta/index.qmd)
+- [OSF](../osf/index.qmd)
+- [Zenodo](../zenodo/index.qmd)
+- [Software libre](../software-libre/index.qmd)
+- [Pre-registro](../prerregistro/index.qmd)

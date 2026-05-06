@@ -19,6 +19,11 @@ draft: true
 
 ---
 
+::: {.callout-note}
+## Conceptos clave
+Algunos conceptos usados en esta página: [ciencia abierta](../../../glosario/terminos/ciencia-abierta/index.qmd), [apertura de datos y código](../../../glosario/terminos/apertura-datos-codigo/index.qmd), [acceso abierto](../../../glosario/terminos/acceso-abierto/index.qmd), [pre-registro](../../../glosario/terminos/prerregistro/index.qmd), [análisis reproducibles](../../../glosario/terminos/analisis-reproducibles/index.qmd), [OSF](../../../glosario/terminos/osf/index.qmd), [Zenodo](../../../glosario/terminos/zenodo/index.qmd), [*p*-hacking](../../../glosario/terminos/p-hacking/index.qmd).
+:::
+
 ## Contenido del hilo
 
 **1/6**

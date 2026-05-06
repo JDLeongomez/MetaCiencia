@@ -18,6 +18,11 @@ csl: https://www.zotero.org/styles/apa
 
 ![](../../../assets/logo_MetaCiencia.svg){.hero-logo alt="Logo MetaCiencia" width="30%" fig-align="center"}
 
+::: {.callout-note}
+## Conceptos clave
+Algunos conceptos usados en esta página: [*p*-hacking](../../../glosario/terminos/p-hacking/index.qmd), [HARKing](../../../glosario/terminos/harking/index.qmd), [poder estadístico](../../../glosario/terminos/poder-estadistico/index.qmd), [sesgo de publicación](../../../glosario/terminos/sesgo-de-publicacion/index.qmd), [ciencia abierta](../../../glosario/terminos/ciencia-abierta/index.qmd), [pre-registro](../../../glosario/terminos/prerregistro/index.qmd), [reportes registrados](../../../glosario/terminos/reportes-registrados/index.qmd), [análisis reproducibles](../../../glosario/terminos/analisis-reproducibles/index.qmd), [apertura de datos y código](../../../glosario/terminos/apertura-datos-codigo/index.qmd), [acceso abierto](../../../glosario/terminos/acceso-abierto/index.qmd), [software libre](../../../glosario/terminos/software-libre/index.qmd), [R / RStudio](../../../glosario/terminos/r-rstudio/index.qmd), [Quarto](../../../glosario/terminos/quarto/index.qmd), [OSF](../../../glosario/terminos/osf/index.qmd), [preprint](../../../glosario/terminos/preprint/index.qmd).
+:::
+
 La ciencia tiene un problema. No es nuevo, y tampoco es pequeño: una parte significativa de los resultados publicados en las revistas más prestigiosas del mundo no se puede replicar.
 
 Algunos de los mayores problemas en investigación (y de los que más se repiten) son:
