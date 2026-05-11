@@ -1,0 +1,44 @@
+---
+title: "Juan Camilo García Córdoba"
+description: "Investigador de filosofía en formación"
+image: ../assets/people/juan-camilo-garcia.jpg
+categories: [estudiante, investigación]
+---
+
+::: {.person-header}
+::: {.person-photo}
+![](../assets/people/juan-camilo-garcia.jpg){.avatar alt="Foto de Juan Camilo García Córdoba"}
+
+[{{< fa solid envelope >}}](mailto:jgarciaco@unbosque.edu.co)
+[{{< fa brands orcid >}}](https://orcid.org/0009-0009-6966-9208){.no-external}
+[{{< fa brands linkedin >}}](https://www.linkedin.com/in/juan-camilo-g-5226421b0/){.no-external}
+:::
+
+::: {.person-info}
+<span class="badge-rol">Integrante</span>
+<span class="badge-area">Ciencia abierta</span>
+
+Soy estudiante de filosofía. Disfruto aprender cosas nuevas y leer desde Literatura hasta Ciencia Ficción. Me apasionan los temas que puedan ser relacionados con la Ciencia del Conocimiento. La Psicología y el Lenguaje; el comportamiento y el desarrollo humano son temas muy interesantes, a mi parecer.
+
+Quiero aprender más sobre los métodos de divulgación científica y relacionar mi carrera con su profesión.
+:::
+:::
+
+---
+
+## Áreas de interés
+
+- Filosofia
+- Ciencias del Comportamiento
+- Pedagogía
+- Imaginación
+- Storytelling
+- Psicología
+
+## Proyectos
+
+- [Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/adopcion_reportes_registrados.qmd)
+
+## Publicaciones seleccionadas
+
+- Pŕoximamente...

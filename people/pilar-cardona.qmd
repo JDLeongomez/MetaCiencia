@@ -1,0 +1,51 @@
+---
+title: "Gloria del Pilar Cardona"
+description: "Docente Investigadora"
+image: ../assets/people/pilar-cardona.jpeg
+categories: [docente, investigación]
+---
+
+::: {.person-header}
+::: {.person-photo}
+![](../assets/people/pilar-cardona.jpeg){.avatar alt="Foto de Gloris del Pilar Cardona"}
+
+[{{< fa solid envelope >}}](mailto:cardonagloria@unbosque.edu.co)
+[{{< fa globe >}}](https://www.desarmarlaviolencia.org/){.no-external}
+:::
+
+::: {.person-info}
+<span class="badge-rol">Docente</span>
+<span class="badge-area">Investigación cualitativa</span>
+<span class="badge-area">Procesos sociales</span>
+
+Docente Investigadora de la Facultad de Psicología y el Centro de Diversidad, Equidad e Inclusión. Psicóloga con especialización en Epidemiología y Psicología Clínica Autoeficacia y Magíster en Antropología Social. 
+
+Investigadora en Salud Pública, Derechos y Género para las facultad de psicología en pregrado y posgrado. Actualmente, esta dirigiendo tres proyectos: (1) [Programa Por Mi, Por Ti, Por los Dos](https://fundacionnataliaponcedeleon.org/programa/por-mi-por-ti-por-los-dos/
+ ) con la Fundación Natalia Ponce de león y Centro de Diversidad, Equidad e Inclusión. (2) El Centro de Pensamiento: [Saberes que transforman para desarmar la violencia](https://www.desarmarlaviolencia.org). Escuela de Saberes Comuntarios – Circulo de Mujeres Montaña Roja San Antonio del Tequendama. 
+
+Mis intereses se centran en procesos que permitan el diseño, implementación, seguimiento y monitoreo de estrategias que permitan el abordaje integral de las violencias desde un enfoque de género e intersecotorial que incluye la academia, las entidades y organizaciones público – privada, de base comuntaria y la sociedad civil.
+:::
+:::
+
+---
+
+::: {.callout-note}
+## Conceptos clave
+Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd), [análisis reproducibles](../glosario/terminos/analisis-reproducibles/index.qmd).
+:::
+
+## Áreas de interés
+
+- Salud pública
+- Psicología
+- Derechos humanos
+- Género
+- Violencia
+
+## Proyectos
+
+- [Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/adopcion_reportes_registrados.qmd)
+
+## Publicaciones seleccionadas
+
+- Pŕoximamente...

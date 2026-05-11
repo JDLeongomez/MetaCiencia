@@ -50,8 +50,8 @@ Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos
 
 ## Proyectos
 
-- Proximamente
+- [Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/adopcion_reportes_registrados.qmd)
 
-## Publicaciones
+## Publicaciones seleccionadas
 
-Aún no tiene publicaciones como primer autor.
+- Pŕoximamente...

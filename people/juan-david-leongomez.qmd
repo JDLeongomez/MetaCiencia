@@ -2,7 +2,7 @@
 title: "Juan David Leongómez"
 description: "Director del semillero · Profesor Asociado"
 image: ../assets/people/juan-david-leongomez.jpg
-categories: [docente, metainvestigación, estadística]
+categories: [docente, investigación, divulgación]
 ---
 
 ::: {.person-header}
@@ -37,7 +37,7 @@ Aunque mis intereses de investigación se centran principalmente en la comunicac
 Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd), [análisis reproducibles](../glosario/terminos/analisis-reproducibles/index.qmd).
 :::
 
-## Líneas de investigación
+## Áreas de interés
 
 - Formación en ciencia abierta
 - Reproducibilidad computacional
@@ -45,8 +45,8 @@ Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos
 
 ## Proyectos
 
-- [Replicabilidad en psicología colombiana](../projects/replicabilidad-colombia.qmd)
+- [Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/adopcion_reportes_registrados.qmd)
 
 ## Publicaciones seleccionadas
 
-- [Crisis de replicación en psicología: una revisión para contextos hispanohablantes](../publications/crisis-replicacion.qmd)
+- Pŕoximamente...
