@@ -1,0 +1,40 @@
+---
+title: "Karen Nopan Madrigal"
+description: "Psicóloga en formación"
+image: ../assets/people/karen-nopan.jpeg
+categories: [estudiante, divulgación]
+---
+
+::: {.person-header}
+::: {.person-photo}
+![](../assets/people/karen-nopan.jpg){.avatar alt="Foto de Karen Nopan Madrigal"}
+
+[{{< fa solid envelope >}}](mailto:knopan@unbosque.edu.co)
+:::
+
+::: {.person-info}
+<span class="badge-rol">Integrante</span>
+<span class="badge-area">Ciencia abierta</span>
+
+Soy estudiante de Psicología, profundamente apasionada por la ciencia y el aprendizaje constante. Me caracterizo por mi interés en comprender el comportamiento humano desde una perspectiva crítica y basada en la evidencia, lo que me motiva a mantenerme en constante actualización frente a nuevos hallazgos e información relevante en el campo.
+
+Este semillero me parece muy interesante ya que abarca temas de los que poco se habla pero son muy importantes.
+:::
+:::
+
+---
+
+## Áreas de interés
+
+- Neurosciencia
+- Psicología clínica  
+- [Ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd)
+- Revisiones sistemáticas  
+
+## Proyectos
+
+- [Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/adopcion_reportes_registrados.qmd)
+
+## Publicaciones seleccionadas
+
+- Pŕoximamente...
