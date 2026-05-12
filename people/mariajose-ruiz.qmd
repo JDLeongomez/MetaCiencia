@@ -1,0 +1,32 @@
+---
+title: "Mariajosé Ruiz Suescún"
+description: "Psicóloga en formación"
+categories: [estudiante, investigación]
+---
+
+::: {.person-header}
+::: {.person-photo}
+[{{< fa solid envelope >}}](mailto:)
+:::
+
+::: {.person-info}
+<span class="badge-rol">Integrante</span>
+<span class="badge-area">Ciencia abierta</span>
+
+*(Perfil en construcción)*
+:::
+:::
+
+---
+
+## Áreas de interés
+
+- *(próximamente)*
+
+## Proyectos
+
+- {{< fa microscope >}} [Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/adopcion_reportes_registrados.qmd)
+
+## Publicaciones seleccionadas
+
+- *(próximamente)*

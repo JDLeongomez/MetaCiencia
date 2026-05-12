@@ -7,7 +7,7 @@ categories: [estudiante, divulgación]
 
 ::: {.person-header}
 ::: {.person-photo}
-![](../assets/people/karen-nopan.jpg){.avatar alt="Foto de Karen Nopan Madrigal"}
+![](../assets/people/karen-nopan.jpeg){.avatar alt="Foto de Karen Nopan Madrigal"}
 
 [{{< fa solid envelope >}}](mailto:knopan@unbosque.edu.co)
 :::
@@ -24,6 +24,11 @@ Este semillero me parece muy interesante ya que abarca temas de los que poco se 
 
 ---
 
+::: {.callout-note}
+## Conceptos clave
+Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd), [Quarto](../glosario/terminos/quarto/index.qmd).
+:::
+
 ## Áreas de interés
 
 - Neurosciencia
@@ -33,8 +38,8 @@ Este semillero me parece muy interesante ya que abarca temas de los que poco se 
 
 ## Proyectos
 
-- [Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/adopcion_reportes_registrados.qmd)
+- {{< fa bullhorn >}} [Creación del Sitio Web de MetaCiencia](../projects/divulgacion_sitio_web.qmd)
 
 ## Publicaciones seleccionadas
 
-- Pŕoximamente...
+- Próximamente...

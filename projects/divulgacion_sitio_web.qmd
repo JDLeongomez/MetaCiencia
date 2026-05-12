@@ -1,0 +1,51 @@
+---
+title: "Creación del Sitio Web de MetaCiencia"
+description: "Diseño y desarrollo del sitio web del semillero MetaCiencia como plataforma de divulgación científica abierta"
+date: 2026-05-26
+date-format: "MMMM YYYY"
+categories: [divulgación, ciencia abierta, comunicación científica, sitio web]
+Tipo: "<i class='fa-solid fa-bullhorn'></i> Divulgación"
+status: "En curso"
+---
+
+::: {.callout-note}
+## Conceptos clave
+Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd), [Quarto](../glosario/terminos/quarto/index.qmd).
+:::
+
+## Descripción
+
+Este proyecto consiste en el diseño, desarrollo y mantenimiento del **sitio web del semillero MetaCiencia**, una plataforma de divulgación científica orientada a difundir los principios y prácticas de la [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd) en el contexto colombiano e iberoamericano. El sitio incluye perfiles del equipo, presentación de proyectos de investigación, un glosario de conceptos clave en metainvestigación y ciencia abierta, así como entradas de blog con contenido divulgativo accesible para estudiantes, docentes e investigadores.
+
+El sitio está construido con [Quarto](https://quarto.org/){.no-external}, una herramienta de publicación científica y técnica de código abierto, lo que garantiza que el propio proceso de construcción del sitio sea reproducible y transparente.
+
+## Equipo
+
+| Nombre | Rol |
+|---|---|
+| [Juan David Leongómez](../people/juan-david-leongomez.qmd) | Dirección y desarrollo |
+| [Andrés Lemus Morales](../people/andres-lemus.qmd) | Divulgación y contenidos |
+| [Karen Nopan Madrigal](../people/karen-nopan.qmd) | Divulgación y contenidos |
+| [Sarit Valentina Valencia Parra](../people/sarit-valencia.qmd) | Divulgación y contenidos |
+
+## Objetivos
+
+1. Construir una plataforma web accesible y atractiva para la divulgación de la ciencia abierta.
+2. Documentar los proyectos, integrantes y publicaciones del semillero MetaCiencia.
+3. Desarrollar un glosario de referencia sobre conceptos de metainvestigación y ciencia abierta.
+4. Publicar contenido divulgativo (blog, guías, cápsulas) dirigido a la comunidad académica iberoamericana.
+5. Modelar buenas prácticas de reproducibilidad y apertura en el propio proceso de desarrollo del sitio.
+
+## Estado
+
+::: {.callout-note}
+**Estado:** En curso · Inicio: abril 2026 · Fin esperado: continuo
+:::
+
+## Materiales
+
+- Repositorio del sitio: [GitHub](https://github.com/JDLeongomez/MetaCiencia){.no-external}
+
+## Publicaciones relacionadas
+
+- *(próximamente)*

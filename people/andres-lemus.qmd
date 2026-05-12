@@ -2,7 +2,7 @@
 title: "Andrés Lemus Morales"
 description: "Psicólogo"
 image: ../assets/people/andres-lemus.jpg
-categories: [egresado, divulgacion, investigación]
+categories: [egresado, divulgación, investigación]
 ---
 
 ::: {.person-header}
@@ -11,7 +11,7 @@ categories: [egresado, divulgacion, investigación]
 
 [{{< fa solid envelope >}}](mailto:andreslemusmorales@gmail.com)
 [{{< fa brands orcid >}}](https://orcid.org/0009-0000-6508-2914){.no-external}
-[{{< fa brands linkedin >}}](www.linkedin.com/in/juan-andres-lemus-morales-63989232a)
+[{{< fa brands linkedin >}}](https://www.linkedin.com/in/juan-andres-lemus-morales-63989232a){.no-external}
 :::
 
 ::: {.person-info}
@@ -50,8 +50,9 @@ Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos
 
 ## Proyectos
 
-- [Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/adopcion_reportes_registrados.qmd)
+- {{< fa microscope >}} [Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/adopcion_reportes_registrados.qmd)
+- {{< fa bullhorn >}} [Creación del Sitio Web de MetaCiencia](../projects/divulgacion_sitio_web.qmd)
 
 ## Publicaciones seleccionadas
 
-- Pŕoximamente...
+- Próximamente...

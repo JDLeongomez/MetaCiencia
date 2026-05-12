@@ -1,0 +1,32 @@
+---
+title: "Sarit Valentina Valencia Parra"
+description: "Psicóloga en formación"
+categories: [estudiante, divulgación]
+---
+
+::: {.person-header}
+::: {.person-photo}
+[{{< fa solid envelope >}}](mailto:)
+:::
+
+::: {.person-info}
+<span class="badge-rol">Integrante</span>
+<span class="badge-area">Ciencia abierta</span>
+
+*(Perfil en construcción)*
+:::
+:::
+
+---
+
+## Áreas de interés
+
+- *(próximamente)*
+
+## Proyectos
+
+- {{< fa bullhorn >}} [Creación del Sitio Web de MetaCiencia](../projects/divulgacion_sitio_web.qmd)
+
+## Publicaciones seleccionadas
+
+- *(próximamente)*

@@ -9,9 +9,13 @@ listing:
     filename: "index.qmd"
   type: grid
   grid-columns: 2
-  fields: [title, description, categories, date]
+  fields: [title, description, Tipo, categories, date]
+  field-types:
+    Tipo: markdown
   sort: "date desc"
 ---
+
+Desarrollamos proyectos de investigación {{< fa microscope >}} y divulgación {{< fa bullhorn >}}.
 
 ::: {#projects-listing}
 :::

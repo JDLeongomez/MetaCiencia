@@ -1,9 +1,10 @@
 ---
-title: "Expansión y Adopción de los Reportes Registrados en Iberoamérica"
-description: "Mapeo, análisis de barreras y promoción del formato de Reportes Registrados en revistas científicas de América Latina e Iberoamérica"
+title: "Expansión y Adopción de los Reportes Registrados en Latinoamérica"
+description: "Mapeo, análisis de barreras y promoción del formato de Reportes Registrados en revistas científicas de Latinoamérica"
 date: 2026-04-01
 date-format: "MMMM YYYY"
-categories: [reportes registrados, ciencia abierta, Iberoamérica, divulgación científica, metainvestigación]
+categories: [reportes registrados, ciencia abierta, Latinoamérica, divulgación científica, metainvestigación]
+Tipo: "<i class='fa-solid fa-microscope'></i> Investigación"
 status: "En curso"
 ---
 
@@ -15,7 +16,7 @@ Algunos conceptos usados en esta página: [Reportes Registrados](../glosario/ter
 ## Descripción
 
 Este proyecto estudia la expansión y adopción del formato de **Reportes Registrados** en revistas
-científicas de América Latina e Iberoamérica. Los Reportes Registrados son un formato de
+científicas de América Latina e Latinoamérica. Los Reportes Registrados son un formato de
 publicación en el que **las preguntas de investigación y el plan de análisis se evalúan antes de
 recolectar o analizar los datos**, con el objetivo de reducir sesgos de publicación y fortalecer
 la reproducibilidad de los resultados. A partir de un mapeo sistemático de revistas de la región,
@@ -30,10 +31,11 @@ desarrollamos materiales formativos y divulgativos dirigidos a investigadores, e
 | [Juan Camilo García Córdoba](../people/juan-camilo-garcia.qmd) | Investigador |
 | [Mariajose Ruiz Suescún](../people/mariajose-ruiz.qmd) | Investigadora |
 | [Pilar Cardona](../people/pilar-cardona.qmd) | Investigadora |
+| [Andrés Lemus Morales](../people/andres-lemus.qmd) | Investigador |
 
 ## Objetivos
 
-1. Mapear las revistas científicas de Iberoamérica que aceptan o han publicado Reportes Registrados.
+1. Mapear las revistas científicas de Latinoamérica que aceptan o han publicado Reportes Registrados.
 2. Identificar barreras y facilitadores para la implementación del formato en la región.
 3. Analizar el nivel de conocimiento y aceptación del formato entre investigadores y editores iberoamericanos.
 4. Desarrollar materiales formativos y de divulgación (guías, contenidos digitales, cápsulas educativas).

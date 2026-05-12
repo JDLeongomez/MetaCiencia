@@ -26,6 +26,11 @@ Quiero aprender más sobre los métodos de divulgación científica y relacionar
 
 ---
 
+::: {.callout-note}
+## Conceptos clave
+Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd), [Reportes Registrados](../glosario/terminos/reportes-registrados/index.qmd), [pre-registro](../glosario/terminos/prerregistro/index.qmd).
+:::
+
 ## Áreas de interés
 
 - Filosofia
@@ -37,8 +42,8 @@ Quiero aprender más sobre los métodos de divulgación científica y relacionar
 
 ## Proyectos
 
-- [Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/adopcion_reportes_registrados.qmd)
+- {{< fa microscope >}} [Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/adopcion_reportes_registrados.qmd)
 
 ## Publicaciones seleccionadas
 
-- Pŕoximamente...
+- Próximamente...

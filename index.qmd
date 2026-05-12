@@ -57,12 +57,12 @@ Debido a la diversidad de intereses de los integrantes, y a la amplitud de nuest
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-### Investigación
+### {{< fa microscope >}} Investigación
 Estamos iniciando nuestro primer proyecto, centrado en [promoción del formato de Reportes Registrados en América Latina](/projects/adopcion_reportes_registrados.qmd).
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### Divulgación
+### {{< fa bullhorn >}} Divulgación
 Estamos trabajando en la creación de este sitio web para reunir la información del semillero y sus integrantes, así como de los proyectos y productos que desarrollemos, incluyendo materiales divulgativos para redes sociales.
 :::
 
