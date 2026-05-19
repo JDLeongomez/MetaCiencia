@@ -29,6 +29,8 @@ Algunos conceptos usados en esta página: [ciencia abierta](glosario/terminos/ci
 
 <strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero de investigación de la Universidad El Bosque, adscrito a la Facultad de Psicología, dedicado a promover prácticas científicas abiertas, reproducibles y transparentes. Estamos abiertos a personas de todas las facultades interesadas en estos temas. Nos interesa la promoción de la **[ciencia abierta](glosario/terminos/ciencia-abierta/index.qmd)** a través de la investigación y divulgación.
 
+![](assets/objetivos.png){width="80%" fig-align="center"}
+
 ## Líneas de investigación
 
 ::: {.grid}
@@ -67,6 +69,8 @@ Estamos trabajando en la creación de este sitio web para reunir la información
 :::
 
 :::
+
+![](assets/ecosistema.jpg){width="80%" fig-align="center"}
 
 ---
 

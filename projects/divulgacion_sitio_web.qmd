@@ -17,6 +17,8 @@ Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos
 
 Este proyecto consiste en el diseño, desarrollo y mantenimiento del **sitio web del semillero MetaCiencia**, una plataforma de divulgación científica orientada a difundir los principios y prácticas de la [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd) en el contexto colombiano e iberoamericano. El sitio incluye perfiles del equipo, presentación de proyectos de investigación, un glosario de conceptos clave en metainvestigación y ciencia abierta, así como entradas de blog con contenido divulgativo accesible para estudiantes, docentes e investigadores.
 
+![](../assets/divulgacion.jpg){width="80%" fig-align="center"}
+
 El sitio está construido con [Quarto](https://quarto.org/){.no-external}, una herramienta de publicación científica y técnica de código abierto, lo que garantiza que el propio proceso de construcción del sitio sea reproducible y transparente.
 
 ## Equipo

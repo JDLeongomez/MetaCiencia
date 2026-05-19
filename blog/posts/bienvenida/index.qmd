@@ -41,6 +41,8 @@ Estos problemas no son fruto de investigadores malintencionados, es, en mayor me
 
 ## Qué es <strong>Meta<span class="mc-ink">Ciencia</span></strong>
 
+![](../../../assets/metaciencia.jpg){width="80%" fig-align="center"}
+
 <strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero de investigación de la Universidad El Bosque, formalmente registrado en marzo de 2026 y avalado por el grupo de investigación [***CODEC*: Ciencias Cognitivas y del Comportamiento**](https://unbosque.portalinvestigacion.com/grupos/302).
 
 Su nombre no es accidental: la *metaciencia* es, literalmente, la ciencia sobre la ciencia. Es el campo que estudia cómo producimos conocimiento científico, qué tan confiable es ese conocimiento, y cómo podríamos hacerlo mejor. Es una disciplina empírica, no solo filosófica, con décadas de literatura acumulada y una comunidad global cada vez más activa.
@@ -98,5 +100,7 @@ El semillero es nuevo, pero poco a poco iremos creando materiales. Eventualmente
 ## Únete
 
 Si eres estudiante o docente de la Universidad El Bosque y te interesa la metodología, la estadística o la ciencia abierta, escríbenos. Siempre hay espacio para nuevas perspectivas.
+
+![](../../../assets/participa.jpg){width="80%" fig-align="center"}
 
 ---

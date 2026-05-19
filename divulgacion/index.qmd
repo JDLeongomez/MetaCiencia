@@ -19,6 +19,8 @@ Aquí encontrarás materiales de divulgación científica producidos por
 <strong>Meta<span class="mc-ink">Ciencia</span></strong>: hilos de redes sociales,
 infografías, videos, episodios de podcast y más.
 
+![](../assets/divulgacion.jpg){width="80%" fig-align="center"}
+
 ::: {.callout-note appearance="simple"}
 El semillero MetaCiencia fue registrado formalmente en marzo de 2026. Los productos de divulgación aparecerán aquí a medida que estén disponibles.
 :::
