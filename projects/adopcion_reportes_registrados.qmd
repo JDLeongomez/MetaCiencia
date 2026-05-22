@@ -15,7 +15,7 @@ Algunos conceptos usados en esta página: [Reportes Registrados](../glosario/ter
 
 ## Descripción
 
-Este proyecto estudia la expansión y adopción del formato de **Reportes Registrados** en revistas
+Este proyecto estudia la expansión y adopción del formato de [**Reportes Registrados**](../glosario/terminos/reportes-registrados/index.qmd) en revistas
 científicas de América Latina e Latinoamérica. Los Reportes Registrados son un formato de
 publicación en el que **las preguntas de investigación y el plan de análisis se evalúan antes de
 recolectar o analizar los datos**, con el objetivo de reducir sesgos de publicación y fortalecer
