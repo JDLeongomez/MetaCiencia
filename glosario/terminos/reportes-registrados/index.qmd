@@ -58,6 +58,18 @@ investigador (en una plataforma como [OSF](../osf/index.qmd)), pero no involucra
 revista. Los Reportes Registrados van un paso más allá: la revista se compromete a
 publicar el trabajo antes de que existan resultados.
 
+## Más información
+
+Los Reportes Registrados no son una práctica marginal. Hoy, este sistema es respaldado por las
+organizaciones e instituciones más influyentes de la publicación científica mundial, incluyendo editoriales tan importantes como *Elsevier* y revistas de la magnitud de *Nature*:
+
+- [Center for Open Science](https://www.cos.io/initiatives/registered-reports):
+  descripción general de la iniciativa y lista de revistas que aceptan este formato.
+- [Elsevier](https://www.elsevier.com/researcher/author/policies-and-guidelines/registered-reports):
+  guía para autores que quieran someter un Reporte Registrado en revistas del grupo.
+- [*Nature*](https://www.nature.com/nature/for-authors/registered-reports):
+  instrucciones específicas de la revista, incluyendo criterios de evaluación en cada etapa.
+
 ## Relacionado con
 
 - [Pre-registro](../prerregistro/index.qmd)
