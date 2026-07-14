@@ -5,6 +5,14 @@ page-layout: full
 toc: false
 include-before-body:
   text: "<style>#title-block-header { display: none !important; }</style>"
+listing:
+  id: blog-preview
+  contents: "blog/posts/*/index.qmd"
+  type: grid
+  grid-columns: 3
+  max-items: 3
+  fields: [image, date, title, description]
+  sort: "date desc"
 ---
 
 ::: {.hero-banner}
@@ -27,7 +35,7 @@ Algunos conceptos usados en esta página: [ciencia abierta](glosario/terminos/ci
 
 ## ¿Quiénes somos?
 
-<strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero de investigación de la Universidad El Bosque, adscrito a la Facultad de Psicología, dedicado a promover prácticas científicas abiertas, reproducibles y transparentes. Estamos abiertos a personas de todas las facultades interesadas en estos temas. Nos interesa la promoción de la **[ciencia abierta](glosario/terminos/ciencia-abierta/index.qmd)** a través de la investigación y divulgación.
+<strong>Meta<span class="mc-ink">Ciencia</span></strong> es un semillero de investigación de la Universidad El Bosque, adscrito a la Facultad de Psicología y al grupo de investigación [*CODEC*: Ciencias Cognitivas y del Comportamiento](https://grupo-codec.netlify.app/). Promovemos prácticas científicas abiertas, reproducibles y transparentes. Dado el enfoque interdisciplinar del semillero, somos agnósticos respecto a la disciplina de origen, por lo que estamos abiertos a estudiantes de pregrado y posgrado, así como a docentes, de cualquier facultad interesados en estos temas. Nuestro objetivo es impulsar la **[ciencia abierta](glosario/terminos/ciencia-abierta/index.qmd)** a través de la investigación y la divulgación.
 
 ![](assets/objetivos.png){width="80%" fig-align="center"}
 
@@ -75,6 +83,9 @@ Estamos trabajando en la creación de este sitio web para reunir la información
 ---
 
 ## Últimas entradas del blog
+
+::: {#blog-preview}
+:::
 
 ```{=html}
 <p><a href="blog/index.qmd">Ver todas las entradas →</a></p>

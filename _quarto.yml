@@ -24,13 +24,13 @@ website:
       - text: "Publicaciones"
         href: publications/index.qmd
       - text: "Divulgación"
-        href: divulgacion/index.qmd
+        menu:
+          - text: "Productos de divulgación"
+            href: divulgacion/index.qmd
+          - text: "Blog"
+            href: blog/index.qmd
       - text: "¿Y qué significa...?"
         href: glosario/index.qmd
-      - text: "Blog"
-        href: blog/index.qmd
-      - text: "Contribuir"
-        href: contribuir/index.qmd
     right:
       - icon: github
         href: https://github.com/JDLeongomez/MetaCiencia
@@ -39,7 +39,11 @@ website:
   page-footer:
     left: |
       <strong><span style="color: white;">Meta</span><span class="mc-ink">Ciencia</span></strong> <span style="color: white;">— Semillero abierto de ciencia, reproducibilidad y transparencia</span><br>
+      Grupo de investigación [*CODEC*: Ciencias Cognitivas y del Comportamiento](https://grupo-codec.netlify.app/)<br>
       Facultad de Psicología, Universidad El Bosque · Bogotá, Colombia
+    center:
+      - text: "Contribuir"
+        href: contribuir/index.qmd
     right:
       - icon: github
         href: https://github.com/JDLeongomez/MetaCiencia

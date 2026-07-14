@@ -6,7 +6,7 @@ listing:
   id: pubs-listing
   contents: "*.qmd"
   exclude:
-    filename: ["index.qmd", "crisis-replicacion.qmd"]
+    filename: "index.qmd"
   type: table
   fields: [date, title, description, categories]
   sort: "date desc"

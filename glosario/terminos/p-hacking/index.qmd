@@ -23,7 +23,7 @@ Algunos ejemplos concretos:
 
 ## ¿Por qué importa?
 
-El *p*-hacking produce resultados que parecen sólidos estadísticamente pero que, en realidad, capitalizan el ruido. Esto contribuye directamente a la [crisis de replicación](../../../publications/crisis-replicacion.qmd): estudios que no se pueden reproducir porque sus resultados originales eran artefactos del análisis.
+El *p*-hacking produce resultados que parecen sólidos estadísticamente pero que, en realidad, capitalizan el ruido. Esto contribuye directamente a la crisis de replicación: estudios que no se pueden reproducir porque sus resultados originales eran artefactos del análisis.
 
 No siempre es intencional. A veces sucede porque el sistema académico presiona a publicar resultados "positivos", y porque las herramientas estadísticas clásicas no están diseñadas para detectarlo.
 
