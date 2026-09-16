@@ -3,18 +3,40 @@ title: "Integrantes"
 description: "Conoce al equipo"
 toc: false
 listing:
-  id: people-listing
-  contents: "*.qmd"
-  exclude:
-    filename: "index.qmd"
-  type: grid
-  grid-columns: 3
-  fields: [image, title, description]
-  image-height: "200px"
-  sort: "title asc"
+  - id: people-actuales
+    contents: "*.qmd"
+    exclude:
+      filename:
+        - "index.qmd"
+        - "_plantilla.qmd"
+        - "juan-camilo-garcia.qmd"
+        - "karen-nopan.qmd"
+        - "sarit-valencia.qmd"
+    type: grid
+    grid-columns: 3
+    fields: [image, title, description]
+    image-height: "200px"
+    sort: "order asc"
+  - id: people-alumni
+    contents:
+      - "juan-camilo-garcia.qmd"
+      - "karen-nopan.qmd"
+      - "sarit-valencia.qmd"
+    type: grid
+    grid-columns: 3
+    fields: [image, title, description]
+    image-height: "200px"
+    sort: "title asc"
 ---
 
 Somos estudiantes y docentes de la Universidad El Bosque comprometidos con la práctica de una [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd), rigurosa y accesible. Aunque estamos adscritos a la Facultad de Psicología, <strong>Meta<span class="mc-ink">Ciencia</span></strong> está abierto a personas de todas las facultades interesadas en estos temas.
 
-::: {#people-listing}
+## Integrantes actuales
+
+::: {#people-actuales}
+:::
+
+## Antiguos integrantes
+
+::: {#people-alumni}
 :::

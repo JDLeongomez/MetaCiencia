@@ -15,7 +15,7 @@ categories: [estudiante, investigación]
 :::
 
 ::: {.person-info}
-<span class="badge-rol">Integrante</span>
+<span class="badge-rol">Antiguo integrante</span>
 <span class="badge-area">Ciencia abierta</span>
 
 Soy estudiante de filosofía. Disfruto aprender cosas nuevas y leer desde Literatura hasta Ciencia Ficción. Me apasionan los temas que puedan ser relacionados con la Ciencia del Conocimiento. La Psicología y el Lenguaje; el comportamiento y el desarrollo humano son temas muy interesantes, a mi parecer.

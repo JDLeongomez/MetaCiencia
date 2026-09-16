@@ -1,7 +1,8 @@
 ---
-title: "Sarit Valentina Valencia Parra"
-description: "Psicóloga en formación"
-categories: [estudiante, divulgación]
+title: "Valentina Cepeda Monsalve"
+description: "Docente"
+categories: [docente]
+order: 4
 ---
 
 ::: {.person-header}
@@ -10,7 +11,7 @@ categories: [estudiante, divulgación]
 :::
 
 ::: {.person-info}
-<span class="badge-rol">Antigua integrante</span>
+<span class="badge-rol">Docente</span>
 <span class="badge-area">Ciencia abierta</span>
 
 *(Perfil en construcción)*
@@ -25,7 +26,7 @@ categories: [estudiante, divulgación]
 
 ## Proyectos
 
-- {{< fa bullhorn >}} [Creación del Sitio Web de MetaCiencia](../projects/divulgacion_sitio_web.qmd)
+- *(por asignar)*
 
 ## Publicaciones seleccionadas
 

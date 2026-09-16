@@ -1,0 +1,50 @@
+<!--
+Plantilla para el perfil de un/a nuevo/a integrante del semillero.
+
+Cómo usarla:
+1. Copia este archivo con el nombre de la persona, en minúsculas y sin tildes/ñ,
+   separado por guiones, ej: "maria-perez.qmd".
+2. Guarda su foto en assets/people/ con el mismo nombre base (ej: maria-perez.jpg).
+3. Rellena los campos marcados entre [corchetes] con la información de la
+   respuesta al cuestionario de ingreso.
+4. Borra este bloque de comentario antes de guardar el archivo final.
+-->
+---
+title: "[Nombre completo]"
+description: "[Descripción corta, ej: Psicóloga en formación]"
+image: ../assets/people/[nombre-archivo].jpg
+categories: [estudiante, [área: investigación|divulgación|ciencia-abierta]]
+---
+
+::: {.person-header}
+::: {.person-photo}
+![](../assets/people/[nombre-archivo].jpg){.avatar alt="Foto de [Nombre completo]"}
+
+[{{< fa solid envelope >}}](mailto:[correo]@unbosque.edu.co)
+[{{< fa brands orcid >}}]([url orcid, opcional]){.no-external}
+[{{< fa brands linkedin >}}]([url linkedin, opcional]){.no-external}
+:::
+
+::: {.person-info}
+<span class="badge-rol">Integrante</span>
+<span class="badge-area">[Etiqueta de área, ej: Ciencia abierta]</span>
+
+[Presentación breve: quién es, qué estudia, qué le apasiona y por qué se une al semillero. 3-5 líneas.]
+:::
+:::
+
+---
+
+## Áreas de interés
+
+- [Tema 1]
+- [Tema 2]
+- [Tema 3]
+
+## Proyectos
+
+- *(a asignar)*
+
+## Publicaciones seleccionadas
+
+- Próximamente...

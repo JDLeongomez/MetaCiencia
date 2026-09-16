@@ -13,7 +13,7 @@ categories: [estudiante, divulgación]
 :::
 
 ::: {.person-info}
-<span class="badge-rol">Integrante</span>
+<span class="badge-rol">Antigua integrante</span>
 <span class="badge-area">Ciencia abierta</span>
 
 Soy estudiante de Psicología, profundamente apasionada por la ciencia y el aprendizaje constante. Me caracterizo por mi interés en comprender el comportamiento humano desde una perspectiva crítica y basada en la evidencia, lo que me motiva a mantenerme en constante actualización frente a nuevos hallazgos e información relevante en el campo.
