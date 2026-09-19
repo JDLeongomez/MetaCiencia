@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://jdleongomez.github.io/MetaCiencia">Sitio web</a> ·
+  <a href="https://mc-ueb.netlify.app">Sitio web</a> ·
   <a href="https://github.com/JDLeongomez/MetaCiencia/issues">Reportar un problema</a>
 </p>
 
@@ -26,7 +26,7 @@
 
 ## Este repositorio
 
-Contiene el código fuente del sitio web de MetaCiencia, construido con [Quarto](https://quarto.org) y publicado en GitHub Pages.
+Contiene el código fuente del sitio web de MetaCiencia, construido con [Quarto](https://quarto.org) y publicado en [Netlify](https://mc-ueb.netlify.app). La URL antigua de GitHub Pages (`jdleongomez.github.io/MetaCiencia`) redirige automáticamente al nuevo sitio.
 
 ```
 MetaCiencia/

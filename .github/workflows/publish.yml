@@ -1,4 +1,4 @@
-name: Publicar sitio en GitHub Pages
+name: Publicar sitio en Netlify (con redirección en GitHub Pages)
 
 on:
   push:
@@ -52,10 +52,19 @@ jobs:
       - name: Renderizar el sitio
         run: quarto render
 
-      - name: Subir artefacto para GitHub Pages
+      - name: Desplegar sitio en Netlify
+        run: >
+          npx --yes netlify-cli@17 deploy --prod --dir=_site
+          --site="$NETLIFY_SITE_ID" --auth="$NETLIFY_AUTH_TOKEN"
+          --message "Deploy desde GitHub Actions (${{ github.sha }})"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+      - name: Subir artefacto de redirección para GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "_site"
+          path: ".github/gh-pages-redirect"
 
   deploy:
     needs: build

@@ -6,7 +6,7 @@ website:
   title: "MetaCiencia"
   description: "Semillero abierto de ciencia, reproducibilidad y transparencia — Facultad de Psicología, Universidad El Bosque"
   favicon: assets/logo_MetaCiencia.svg
-  site-url: https://jdleongomez.github.io/MetaCiencia
+  site-url: https://mc-ueb.netlify.app
   repo-url: https://github.com/JDLeongomez/MetaCiencia
   repo-actions: [issue]
 
