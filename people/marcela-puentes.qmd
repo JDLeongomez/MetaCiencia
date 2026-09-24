@@ -1,0 +1,44 @@
+---
+title: "Marcela Puentes"
+description: "Psicóloga en formación"
+image: ../assets/people/marcela-puentes.jpg
+categories: [estudiante, integrante, investigación, divulgación]
+order: 6
+semestre: 9
+---
+
+::: {.person-header}
+::: {.person-photo}
+![](../assets/people/marcela-puentes.jpg){.avatar alt="Foto de Marcela Puentes"}
+
+[{{< fa brands orcid >}}](https://orcid.org/0009-0008-4111-2590){.no-external}
+[{{< fa brands github >}}](https://github.com/marcelaapuentess){.no-external}
+[{{< fa brands linkedin >}}](https://www.linkedin.com/in/marcela-puentes-30356a399){.no-external}
+:::
+
+::: {.person-info}
+<span class="badge-rol">Integrante</span>
+<span class="badge-area">Ciencia abierta</span>
+<span class="badge-area">Filosofía de la ciencia</span>
+
+Me interesa la investigación como camino profesional. Creo que las formas de producción del conocimiento deberían ser transparentes y accesibles para todas, por eso me entusiasma mucho este proyecto. A nivel personal, me apasionan los idiomas y la literatura.
+:::
+:::
+
+---
+
+## Áreas de interés
+
+- Ciencia abierta
+- Teoría de la complejidad
+- Estadística
+- Programación
+
+## Proyectos
+
+- Funciones evolutivas del habla dirigida a bebés: impacto en la atención, las preferencias auditivas y el desarrollo lingüístico y musical temprano — Universidad El Bosque, desde 2026 (supervisor: Juan David Leongómez).
+- Correlatos atencionales de la percepción de sexo, atractivo y dominancia de los rostros en hombres y mujeres jóvenes usando rastreo ocular — [Trabajo de grado de pregrado](https://hdl.handle.net/20.500.12495/19696), Universidad El Bosque, 2025 (supervisora: Milena Vásquez-Amézquita).
+
+## Publicaciones seleccionadas
+
+- Próximamente...

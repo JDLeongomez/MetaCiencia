@@ -14,7 +14,7 @@ listing:
         - "sarit-valencia.qmd"
     type: grid
     grid-columns: 3
-    fields: [image, title, description]
+    fields: [image, title, description, categories]
     image-height: "200px"
     sort: "order asc"
   - id: people-alumni
@@ -24,7 +24,7 @@ listing:
       - "sarit-valencia.qmd"
     type: grid
     grid-columns: 3
-    fields: [image, title, description]
+    fields: [image, title, description, categories]
     image-height: "200px"
     sort: "title asc"
 ---

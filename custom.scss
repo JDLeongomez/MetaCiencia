@@ -3,11 +3,13 @@
 // Color de identidad MetaCiencia
 $mc-ink:    #d400aa;
 $primary:   #d400aa;
-$secondary: #9b30c7;   // violeta complementario
+$secondary: #9484b7;   // lavanda secundaria
 
 // Fondo oscuro
-$body-bg:       #111114;
-$body-color:    #e2e2e8;
+$body-bg:       #230c33;
+$body-bg-alt:   #010002;   // navbar, pie de página, bloques de código
+$body-color:    #c5bed1;
+$body-color-muted: #8274a1; // texto terciario (metadatos, pie de página)
 $headings-color:#ffffff;
 
 // Links
@@ -20,7 +22,7 @@ $headings-font-family:   "Inter", "Segoe UI", system-ui, sans-serif;
 $headings-font-weight:   700;
 
 // Tarjetas y superficies
-$card-bg:           #1c1c21;
+$card-bg:           #311a43;
 $card-border-color: rgba($mc-ink, 0.25);
 $border-radius:     0.5rem;
 $card-border-radius: 0.75rem;
@@ -44,7 +46,7 @@ $code-color: lighten($mc-ink, 20%);
 
 /* ── Navbar ──────────────────────────────────────────── */
 .navbar {
-  background-color: #0d0d10 !important;
+  background-color: $body-bg-alt !important;
   border-bottom: 2px solid $mc-ink;
 }
 
@@ -60,7 +62,7 @@ $code-color: lighten($mc-ink, 20%);
 
 /* ── Héroe en la página de inicio ───────────────────── */
 .hero-banner {
-  background: linear-gradient(135deg, #1a001a 0%, #0d0d10 60%, #1a0015 100%);
+  background: linear-gradient(135deg, mix($mc-ink, $body-bg, 16%) 0%, $body-bg-alt 58%, mix($mc-ink, $body-bg, 12%) 100%);
   border: 1px solid rgba($mc-ink, 0.35);
   color: #ffffff;
   padding: 4.5rem 2rem;
@@ -173,8 +175,8 @@ $code-color: lighten($mc-ink, 20%);
   margin-bottom: 1.5rem;
 
   .pub-title  { font-weight: 700; color: #ffffff; }
-  .pub-authors { font-size: 0.9rem; color: #aaa; }
-  .pub-journal { font-style: italic; color: #888; font-size: 0.9rem; }
+  .pub-authors { font-size: 0.9rem; color: $secondary; }
+  .pub-journal { font-style: italic; color: $body-color-muted; font-size: 0.9rem; }
   .pub-links a {
     margin-right: 0.5rem;
     font-size: 0.85rem;
@@ -186,28 +188,28 @@ $code-color: lighten($mc-ink, 20%);
 
 /* ── Callouts ────────────────────────────────────────── */
 .callout {
-  background-color: #1c1c21;
+  background-color: $card-bg;
   border-color: rgba($mc-ink, 0.4) !important;
 }
 
 /* ── Bloques de código ───────────────────────────────── */
 pre.sourceCode {
-  background-color: #0d0d10;
+  background-color: $body-bg-alt;
   border: 1px solid rgba($mc-ink, 0.2);
 }
 
 /* ── TOC lateral ─────────────────────────────────────── */
-#TOC a { color: #aaa; }
+#TOC a { color: $secondary; }
 #TOC a:hover,
 #TOC a.active { color: $mc-ink; }
 #TOC .active { border-left-color: $mc-ink; }
 
 /* ── Pie de página ───────────────────────────────────── */
 .nav-footer {
-  background-color: #0d0d10;
+  background-color: $body-bg-alt;
   border-top: 2px solid rgba($mc-ink, 0.35);
   font-size: 0.85rem;
-  color: #888;
+  color: $body-color-muted;
 }
 
 /* ── Separadores ─────────────────────────────────────── */
@@ -219,6 +221,49 @@ hr {
 h2, h3 {
   border-bottom: 1px solid rgba($mc-ink, 0.15);
   padding-bottom: 0.25rem;
+}
+
+/* ── Etiquetas de categoría (listados) ───────────────── */
+// Quarto define .quarto-grid-item .listing-categories .listing-category
+// y div.quarto-post .listing-categories .listing-category (3 clases) para
+// listados grid/default, que superan en especificidad a estas reglas de una
+// y dos clases. Se usa !important en color/borde para garantizar que
+// siempre ganen, en cualquier tipo de listado.
+.listing-category {
+  color: $secondary !important;
+  background: rgba($secondary, 0.12);
+  border: 1px solid rgba($secondary, 0.5) !important;
+  border-radius: 999px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  transition: opacity 0.2s;
+
+  &:hover { opacity: 0.8; }
+}
+
+// Investigación y divulgación son los dos frentes de trabajo del semillero:
+// se destacan en todos los listados con los colores de identidad del sitio.
+.listing-category.cat-investigacion {
+  color: #000000 !important;
+  font-weight: 800;
+  background: $mc-ink;
+  border-color: $mc-ink !important;
+}
+
+// $secondary es un tono demasiado apagado para usarlo como relleno sólido;
+// se usa $body-color (el lavanda claro del texto) para que el pill contraste
+// tanto con el fondo de la página como con su propio texto.
+.listing-category.cat-divulgacion {
+  color: $body-bg-alt !important;
+  font-weight: 800;
+  background: $body-color;
+  border-color: $body-color !important;
+}
+
+// El script en include-after-body separa cada .listing-categories original
+// en dos filas: identidad (tipo + rol) y frentes de trabajo.
+.listing-categories-frentes {
+  margin-top: 0.1rem;
 }
 
 /* ── Tarjetas de listing (grid) ──────────────────────── */

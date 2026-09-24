@@ -1,7 +1,7 @@
 ---
 title: "Samuel Felipe Castillo"
 description: "Psicólogo en formación"
-categories: [estudiante]
+categories: [estudiante, integrante, investigación, divulgación]
 order: 9
 semestre: 5
 ---

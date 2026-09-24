@@ -2,7 +2,7 @@
 title: "Juan David Leongómez"
 description: "Director del semillero · Profesor Asociado"
 image: ../assets/people/juan-david-leongomez.jpg
-categories: [docente, investigación, divulgación]
+categories: [docente, director, investigación, divulgación]
 order: 1
 ---
 

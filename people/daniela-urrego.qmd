@@ -1,7 +1,7 @@
 ---
 title: "Daniela Urrego Alvarado"
 description: "Psicóloga en formación"
-categories: [estudiante]
+categories: [estudiante, integrante, investigación, divulgación]
 order: 8
 semestre: 5
 ---

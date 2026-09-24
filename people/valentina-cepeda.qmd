@@ -1,20 +1,25 @@
 ---
 title: "Valentina Cepeda Monsalve"
 description: "Docente"
-categories: [docente]
+image: ../assets/people/valentina-cepeda.jpg
+categories: [docente, integrante, investigación, divulgación]
 order: 4
 ---
 
 ::: {.person-header}
 ::: {.person-photo}
-[{{< fa solid envelope >}}](mailto:)
+![](../assets/people/valentina-cepeda.jpg){.avatar alt="Foto de Valentina Cepeda Monsalve"}
+
+[{{< fa brands orcid >}}](https://orcid.org/0009-0007-2620-6743){.no-external}
 :::
 
 ::: {.person-info}
 <span class="badge-rol">Docente</span>
-<span class="badge-area">Ciencia abierta</span>
+<span class="badge-area">Psicología clínica</span>
+<span class="badge-area">Sexualidad humana</span>
+<span class="badge-area">Eye-tracking</span>
 
-*(Perfil en construcción)*
+Psicóloga clínica, asistente de investigación y docente universitaria en la Facultad de Psicología de la Universidad El Bosque, en Bogotá, Colombia. Especialista en Psicología Clínica y Autoeficacia Personal, con experiencia en investigación centrada en sexualidad humana, sesgos atencionales y trastornos afectivos.
 :::
 :::
 
@@ -22,12 +27,18 @@ order: 4
 
 ## Áreas de interés
 
-- *(próximamente)*
+- Trastornos afectivos
+- Terapia de pareja
+- Sexualidad en víctimas y victimarios
+- Sexualidad abierta y diversidad de prácticas
+- Preferencias sexuales típicas y atípicas
+- Sesgos atencionales asociados a contenido sexual
+- Eye-tracking como herramienta para el estudio del comportamiento humano
 
 ## Proyectos
 
-- *(por asignar)*
+- Implementación de un kit artesanal para la cuantificación de testosterona en saliva — Universidad El Bosque, desde 2025 (supervisores: Juan David Leongómez y Oscar R. Sánchez).
 
 ## Publicaciones seleccionadas
 
-- *(próximamente)*
+- Próximamente...

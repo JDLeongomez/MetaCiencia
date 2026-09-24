@@ -33,8 +33,6 @@ Los Reportes Registrados invierten la lógica tradicional en dos etapas:
    El artículo final se revisa para verificar que los procedimientos se siguieron
    correctamente, y luego se publica.
 
-![](../../../assets/rr.png){width="80%" fig-align="center"}
-
 ## ¿Por qué importa?
 Este formato ataca directamente varias de las fuentes de sesgo en la ciencia:
 

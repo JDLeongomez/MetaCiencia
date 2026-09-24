@@ -1,7 +1,7 @@
 ---
 title: "Luna Valencia Guevara"
 description: "Psicóloga en formación"
-categories: [estudiante]
+categories: [estudiante, integrante, investigación, divulgación]
 order: 7
 semestre: 6
 ---

@@ -2,7 +2,7 @@
 title: "Gloria del Pilar Cardona"
 description: "Docente Investigadora"
 image: ../assets/people/pilar-cardona.jpeg
-categories: [docente, investigación]
+categories: [docente, integrante, investigación]
 order: 3
 ---
 

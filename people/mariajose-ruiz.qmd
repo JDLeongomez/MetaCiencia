@@ -1,7 +1,7 @@
 ---
 title: "Mariajosé Ruiz Suescún"
 description: "Psicóloga en formación"
-categories: [estudiante, investigación]
+categories: [estudiante, "estudiante líder", investigación, divulgación]
 order: 2
 semestre: 8
 ---

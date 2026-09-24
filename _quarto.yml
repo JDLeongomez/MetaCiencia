@@ -9,6 +9,11 @@ website:
   site-url: https://mc-ueb.netlify.app
   repo-url: https://github.com/JDLeongomez/MetaCiencia
   repo-actions: [issue]
+  image: /assets/og-image.png
+  open-graph:
+    image: /assets/og-image.png
+  twitter-card:
+    image: /assets/og-image.png
 
   navbar:
     logo: assets/logo_MetaCiencia.svg
@@ -64,6 +69,32 @@ format:
     link-external-icon: true
     code-copy: true
     highlight-style: dracula
+    include-after-body:
+      text: |
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          // Separa las etiquetas de cada tarjeta en dos filas: identidad
+          // (tipo + rol) y frentes de trabajo (investigación / divulgación).
+          var frentes = ['investigación', 'divulgación'];
+          document.querySelectorAll('.listing-categories').forEach(function (container) {
+            var pills = Array.prototype.slice.call(container.querySelectorAll('.listing-category'));
+            if (!pills.length) return;
+            var meta = document.createElement('div');
+            meta.className = 'listing-categories listing-categories-meta';
+            var frentesRow = document.createElement('div');
+            frentesRow.className = 'listing-categories listing-categories-frentes';
+            pills.forEach(function (el) {
+              var label = el.textContent.trim().toLowerCase();
+              if (label === 'investigación') el.classList.add('cat-investigacion');
+              if (label === 'divulgación') el.classList.add('cat-divulgacion');
+              (frentes.indexOf(label) === -1 ? meta : frentesRow).appendChild(el);
+            });
+            if (meta.children.length) container.parentNode.insertBefore(meta, container);
+            if (frentesRow.children.length) container.parentNode.insertBefore(frentesRow, container);
+            container.remove();
+          });
+        });
+        </script>
 
 execute:
   freeze: auto
