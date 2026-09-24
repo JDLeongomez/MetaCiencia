@@ -10,3 +10,4 @@
 **/*.quarto_ipynb
 .Rproj.user
 .positai
+/divulgacion/_youtube-videos.qmd

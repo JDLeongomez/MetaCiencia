@@ -266,6 +266,13 @@ h2, h3 {
   margin-top: 0.1rem;
 }
 
+/* ── Grilla de videos de YouTube (divulgación) ───────── */
+.video-title {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: $body-color;
+}
+
 /* ── Tarjetas de listing (grid) ──────────────────────── */
 .thumbnail {
   height: auto;

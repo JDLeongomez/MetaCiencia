@@ -93,3 +93,9 @@ Estamos trabajando en la creación de este sitio web para reunir la información
 
 ¿Quieres unirte al semillero o colaborar con nosotros?
 Escríbenos a **jleongomez@unbosque.edu.co** o visita nuestro [repositorio en GitHub](https://github.com/JDLeongomez/MetaCiencia).
+
+Síguenos también en nuestras redes sociales:
+
+[{{< fa brands youtube >}} YouTube](https://www.youtube.com/@metaciencia_ueb_s){.btn .btn-outline-light .btn-sm .me-2 target="_blank"}
+[{{< fa brands instagram >}} Instagram](https://www.instagram.com/metaciencia_ueb/){.btn .btn-outline-light .btn-sm .me-2 target="_blank"}
+[{{< fa brands tiktok >}} TikTok](https://www.tiktok.com/@metaciencia_ueb_s){.btn .btn-outline-light .btn-sm target="_blank"}

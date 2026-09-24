@@ -20,8 +20,12 @@ Aquí encontrarás materiales de divulgación científica producidos por
 infografías, videos, episodios de podcast y más.
 
 ::: {.callout-note appearance="simple"}
-El semillero MetaCiencia fue registrado formalmente en marzo de 2026. Los productos de divulgación aparecerán aquí a medida que estén disponibles.
+El semillero MetaCiencia fue registrado formalmente en marzo de 2026. Los productos de divulgación aparecerán aquí a medida que estén disponibles. Mientras tanto, ya puedes seguirnos en [YouTube](https://www.youtube.com/@metaciencia_ueb_s), [Instagram](https://www.instagram.com/metaciencia_ueb/) y [TikTok](https://www.tiktok.com/@metaciencia_ueb_s), donde iremos publicando el contenido.
 :::
+
+## Últimos videos en YouTube
+
+{{< include _youtube-videos.qmd >}}
 
 ::: {#div-listing}
 :::

@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: _site
+  pre-render: scripts/fetch_youtube_videos.py
 
 website:
   title: "MetaCiencia"
@@ -37,6 +38,15 @@ website:
       - text: "¿Y qué significa...?"
         href: glosario/index.qmd
     right:
+      - icon: youtube
+        href: https://www.youtube.com/@metaciencia_ueb_s
+        aria-label: YouTube
+      - icon: instagram
+        href: https://www.instagram.com/metaciencia_ueb/
+        aria-label: Instagram
+      - icon: tiktok
+        href: https://www.tiktok.com/@metaciencia_ueb_s
+        aria-label: TikTok
       - icon: github
         href: https://github.com/JDLeongomez/MetaCiencia
         aria-label: GitHub
@@ -50,8 +60,18 @@ website:
       - text: "Contribuir"
         href: contribuir/index.qmd
     right:
+      - icon: youtube
+        href: https://www.youtube.com/@metaciencia_ueb_s
+        aria-label: YouTube
+      - icon: instagram
+        href: https://www.instagram.com/metaciencia_ueb/
+        aria-label: Instagram
+      - icon: tiktok
+        href: https://www.tiktok.com/@metaciencia_ueb_s
+        aria-label: TikTok
       - icon: github
         href: https://github.com/JDLeongomez/MetaCiencia
+        aria-label: GitHub
 
   page-navigation: true
   back-to-top-navigation: true
