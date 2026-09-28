@@ -28,10 +28,11 @@ desarrollamos materiales formativos y divulgativos dirigidos a investigadores, e
 | Nombre | Rol |
 |---|---|
 | [Juan David Leongómez](../people/juan-david-leongomez.qmd) | Investigador principal |
-| [Juan Camilo García Córdoba](../people/juan-camilo-garcia.qmd) | Investigador |
 | [Mariajose Ruiz Suescún](../people/mariajose-ruiz.qmd) | Investigadora |
+| [Marcela Puentes](../people/marcela-puentes.qmd) | Investigadora |
 | [Pilar Cardona](../people/pilar-cardona.qmd) | Investigadora |
 | [Andrés Lemus Morales](../people/andres-lemus.qmd) | Investigador |
+| [Juan Camilo García Córdoba](../people/juan-camilo-garcia.qmd) | Antiguo investigador |
 
 ## Objetivos
 

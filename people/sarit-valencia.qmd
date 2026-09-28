@@ -30,3 +30,7 @@ categories: [estudiante, divulgación]
 ## Publicaciones seleccionadas
 
 - *(próximamente)*
+
+## Productos de divulgación
+
+- *(próximamente)*

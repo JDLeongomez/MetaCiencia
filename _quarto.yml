@@ -1,7 +1,6 @@
 project:
   type: website
   output-dir: _site
-  pre-render: scripts/fetch_youtube_videos.py
 
 website:
   title: "MetaCiencia"

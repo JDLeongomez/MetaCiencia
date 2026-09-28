@@ -1,0 +1,30 @@
+---
+title: "Bienvenidos a MetaCiencia"
+description: "Nuestra primera pieza de divulgación: una serie de tres imágenes que presenta al semillero y a quiénes buscamos."
+date: 2026-09-28
+date-format: "D [de] MMMM [de] YYYY"
+author:
+  - name: Marcela Puentes
+    url: ../../../people/marcela-puentes.qmd
+    orcid: 0009-0008-4111-2590
+categories: [imágenes, Instagram, YouTube, semillero, presentación]
+image: imagen-1.jpg
+lightbox: true
+---
+
+Nuestra primera publicación de divulgación es una serie de tres imágenes estáticas diseñada por [Marcela Puentes](../../../people/marcela-puentes.qmd). Presenta a <strong>Meta<span class="mc-ink">Ciencia</span></strong> como un semillero abierto dedicado a la ciencia, la reproducibilidad y la transparencia, y hace una invitación a quienes quieran cuestionar cómo hacemos ciencia.
+
+::: {layout-ncol=3}
+![Bienvenidos a MetaCiencia](imagen-1.jpg){group="serie" alt="Bienvenidos a MetaCiencia. Somos un semillero abierto de ciencia, reproducibilidad y transparencia. Facultad de Psicología, Universidad El Bosque."}
+
+![Nuestro objetivo](imagen-2.jpg){group="serie" alt="Nuestro objetivo es impulsar la ciencia abierta a través de la investigación y la divulgación. Somos agnósticos respecto a la disciplina de origen."}
+
+![A quiénes buscamos](imagen-3.jpg){group="serie" alt="Estamos abiertos a estudiantes y docentes en cualquier nivel de formación que tengan interés en cuestionar cómo hacemos ciencia."}
+:::
+
+Somos un semillero abierto de la Universidad El Bosque. Recibimos estudiantes y docentes de cualquier programa y nivel (pregrado, posgrado, graduados). Si quieres participar, escríbenos a [jleongomez@unbosque.edu.co](mailto:jleongomez@unbosque.edu.co).
+
+## Publicación original
+
+- {{< fa brands instagram >}} [Ver en Instagram](https://www.instagram.com/p/Dd1evVplmBc/)
+- {{< fa brands youtube >}} [Ver en YouTube](https://www.youtube.com/post/UgkxyM4q8jAWWS_12WdZrHIxHBWYd5lB8hHq)
