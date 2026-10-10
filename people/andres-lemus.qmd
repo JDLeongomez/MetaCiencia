@@ -57,3 +57,7 @@ Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos
 ## Publicaciones seleccionadas
 
 - Próximamente...
+
+## Productos de divulgación
+
+- {{< fa pen-to-square >}} [Bienvenidos a MetaCiencia](../blog/posts/bienvenida/index.qmd) — entrada de blog, 2026
