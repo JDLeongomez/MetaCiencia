@@ -1,0 +1,36 @@
+---
+title: "¿Qué es Acceso Abierto?"
+description: "Una serie de siete imágenes que explica qué es el acceso abierto, cómo funciona el ciclo de publicación científica y sus tres rutas principales: dorada, verde y diamante."
+date: 2026-10-02
+date-format: "D [de] MMMM [de] YYYY"
+author:
+  - name: Marcela Puentes
+    url: ../../../people/marcela-puentes.qmd
+    orcid: 0009-0008-4111-2590
+categories: [imágenes, Instagram, YouTube, acceso abierto, ciencia abierta, publicación científica]
+image: imagen-1.jpg
+lightbox: true
+---
+
+Esta es nuestra segunda serie de imágenes estáticas diseñada por [Marcela Puentes](../../../people/marcela-puentes.qmd). En ella explicamos qué es el acceso abierto, por qué el ciclo tradicional de publicación científica reproduce una lógica comercial, y cuáles son las tres rutas principales para hacer que un artículo sea de acceso abierto: dorada, verde y diamante.
+
+::: {layout-ncol=3}
+![¿Qué es Acceso Abierto?](imagen-1.jpg){group="serie" alt="¿Qué es Acceso Abierto? Facultad de Psicología, Universidad El Bosque."}
+
+![El principio del acceso abierto](imagen-2.jpg){group="serie" alt="Es el principio de que los artículos y publicaciones científicas deben estar disponibles en internet de forma gratuita y sin restricciones. Así, cualquiera puede leerlos."}
+
+![El ciclo de publicación](imagen-3.jpg){group="serie" alt="¿Cuál es el ciclo de publicación? Investigadores producen artículos, que pasan por revisión de pares no remunerada; las editoriales venden esos artículos a precios altísimos a las mismas universidades que los produjeron. Este modelo reproduce una lógica comercial en la ciencia."}
+
+![Tres rutas principales](imagen-4.jpg){group="serie" alt="Para romper ese ciclo hay tres rutas principales: acceso dorado, acceso verde y acceso diamante."}
+
+![Acceso dorado](imagen-5.jpg){group="serie" alt="Acceso dorado: el artículo se publica directamente en una revista de acceso abierto. El costo lo asume el autor o su institución a través de cargos de procesamiento de artículos, que pueden ser considerables."}
+
+![Acceso verde](imagen-6.jpg){group="serie" alt="Acceso verde: el autor deposita una versión del artículo (preprint o postprint) en un repositorio abierto, incluso si la versión oficial está detrás de un muro de pago."}
+
+![Acceso diamante](imagen-7.jpg){group="serie" alt="Acceso diamante: revistas que no cobran ni a los autores ni a los lectores, sostenidas por comunidades académicas o instituciones."}
+:::
+
+## Publicación original
+
+- {{< fa brands instagram >}} [Ver en Instagram](https://www.instagram.com/p/DeAP3-9Fv_w/)
+- {{< fa brands youtube >}} [Ver en YouTube](http://youtube.com/post/Ugkxet1oRfi3tTd4lZKSdUaAJjAGdDqpsmgC)
