@@ -38,7 +38,7 @@ website:
         href: glosario/index.qmd
     right:
       - icon: youtube
-        href: https://www.youtube.com/@metaciencia_ueb_s
+        href: https://www.youtube.com/@metaciencia_ueb
         aria-label: YouTube
       - icon: instagram
         href: https://www.instagram.com/metaciencia_ueb/
@@ -60,7 +60,7 @@ website:
         href: contribuir/index.qmd
     right:
       - icon: youtube
-        href: https://www.youtube.com/@metaciencia_ueb_s
+        href: https://www.youtube.com/@metaciencia_ueb
         aria-label: YouTube
       - icon: instagram
         href: https://www.instagram.com/metaciencia_ueb/
