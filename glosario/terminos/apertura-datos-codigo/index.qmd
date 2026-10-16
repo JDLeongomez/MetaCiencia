@@ -31,6 +31,7 @@ En esos casos, la práctica recomendada es compartir los datos de manera control
 
 ## Relacionado con
 
+- [Principios FAIR](../principios-fair/index.qmd)
 - [Análisis reproducibles](../analisis-reproducibles/index.qmd)
 - [Ciencia abierta](../ciencia-abierta/index.qmd)
 - [OSF](../osf/index.qmd)

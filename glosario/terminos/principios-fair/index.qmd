@@ -1,0 +1,32 @@
+---
+title: "Principios FAIR"
+description: "Conjunto de principios que establecen que los datos y el código deben ser fáciles de encontrar, accesibles, interoperables y reutilizables"
+categories: [ciencia abierta, datos, reproducibilidad, políticas editoriales]
+---
+
+## En una frase
+
+Los principios FAIR establecen que los datos (y, por extensión, el código) de una investigación deben ser **F**áciles de encontrar, **A**ccesibles, **I**nteroperables y **R**eutilizables, para maximizar su valor científico.
+
+## Un poco más de detalle
+
+El acrónimo FAIR fue propuesto en 2016 (Wilkinson et al.) y resume cuatro atributos que debería tener cualquier material de investigación:
+
+- **Findable (fácil de encontrar):** los datos y el código tienen identificadores persistentes (como DOIs) y metadatos que permiten localizarlos.
+- **Accessible (accesible):** una vez localizados, pueden obtenerse mediante un protocolo estándar (por ejemplo, descargándolos de un repositorio), incluso si requieren autenticación o tienen restricciones.
+- **Interoperable (interoperable):** usan formatos y vocabularios estándar que permiten combinarlos o integrarlos con otros datos y sistemas.
+- **Reusable (reutilizable):** incluyen licencias claras y suficiente documentación (procedencia, metodología) para que otros puedan reutilizarlos legítimamente.
+
+Un punto que suele confundirse: FAIR no es lo mismo que "abierto". Unos datos pueden ser FAIR sin ser públicos (por ejemplo, datos sensibles con acceso controlado, pero bien documentados e identificables), aunque en la práctica la apertura facilita cumplir varios de estos criterios.
+
+## ¿Por qué importa?
+
+Las políticas editoriales son una de las principales vías para promover la adopción de FAIR: cuando una revista exige depositar los datos en un repositorio con identificador persistente, o licenciar el código explícitamente, está empujando a los autores hacia prácticas alineadas con estos principios, incluso si no los menciona por su nombre.
+
+## Relacionado con
+
+- [Apertura de datos y código](../apertura-datos-codigo/index.qmd)
+- [Zenodo](../zenodo/index.qmd)
+- [OSF](../osf/index.qmd)
+- [Software libre](../software-libre/index.qmd)
+- [Ciencia abierta](../ciencia-abierta/index.qmd)
