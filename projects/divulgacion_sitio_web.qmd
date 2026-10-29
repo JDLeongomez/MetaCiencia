@@ -6,7 +6,10 @@ date-format: "MMMM YYYY"
 categories: [divulgación, ciencia abierta, comunicación científica, sitio web]
 Tipo: "<i class='fa-solid fa-bullhorn'></i> Divulgación"
 status: "En curso"
+image: ../assets/og-image.png
 ---
+
+![](../assets/og-image.png){.project-logo fig-alt="MetaCiencia: Semillero abierto de ciencia, reproducibilidad y transparencia"}
 
 ::: {.callout-note}
 ## Conceptos clave

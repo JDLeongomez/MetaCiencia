@@ -3,19 +3,38 @@ title: "Proyectos"
 description: "Investigaciones activas y pasadas del semillero MetaCiencia"
 toc: false
 listing:
-  id: projects-listing
-  contents: "*.qmd"
-  exclude:
-    filename: "index.qmd"
-  type: grid
-  grid-columns: 2
-  fields: [title, description, Tipo, categories, date]
-  field-types:
-    Tipo: markdown
-  sort: "date desc"
+  - id: projects-investigacion
+    contents:
+      - "fair_lalaf.qmd"
+      - "rruta_latam.qmd"
+    type: grid
+    grid-columns: 2
+    image-height: "180px"
+    fields: [image, title, description, Tipo, categories, date]
+    field-types:
+      Tipo: markdown
+    sort: "date desc"
+  - id: projects-divulgacion
+    contents:
+      - "divulgacion_sitio_web.qmd"
+      - "redes_sociales_contenidos.qmd"
+    type: grid
+    grid-columns: 2
+    image-height: "180px"
+    fields: [image, title, description, Tipo, categories, date]
+    field-types:
+      Tipo: markdown
+    sort: "date desc"
 ---
 
 Desarrollamos proyectos de investigación {{< fa microscope >}} y divulgación {{< fa bullhorn >}}.
 
-::: {#projects-listing}
+## Investigación
+
+::: {#projects-investigacion}
+:::
+
+## Divulgación
+
+::: {#projects-divulgacion}
 :::

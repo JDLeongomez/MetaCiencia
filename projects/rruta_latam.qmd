@@ -6,7 +6,10 @@ date-format: "MMMM YYYY"
 categories: [reportes registrados, ciencia abierta, Latinoamérica, divulgación científica, metainvestigación]
 Tipo: "<i class='fa-solid fa-microscope'></i> Investigación"
 status: "En curso"
+image: ../assets/projects/rruta-latam-logo.jpg
 ---
+
+![](../assets/projects/rruta-latam-logo.jpg){.project-logo fig-alt="Logo de RRuta Latam"}
 
 ::: {.callout-note}
 ## Conceptos clave

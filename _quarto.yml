@@ -22,6 +22,8 @@ website:
     left:
       - text: "Inicio"
         href: index.qmd
+      - text: "Sobre el semillero"
+        href: sobre/index.qmd
       - text: "Integrantes"
         href: people/index.qmd
       - text: "Proyectos"
@@ -44,7 +46,7 @@ website:
         href: https://www.instagram.com/metaciencia_ueb/
         aria-label: Instagram
       - icon: tiktok
-        href: https://www.tiktok.com/@metaciencia_ueb_s
+        href: https://www.tiktok.com/@metaciencia_ueb
         aria-label: TikTok
       - icon: github
         href: https://github.com/JDLeongomez/MetaCiencia
@@ -66,7 +68,7 @@ website:
         href: https://www.instagram.com/metaciencia_ueb/
         aria-label: Instagram
       - icon: tiktok
-        href: https://www.tiktok.com/@metaciencia_ueb_s
+        href: https://www.tiktok.com/@metaciencia_ueb
         aria-label: TikTok
       - icon: github
         href: https://github.com/JDLeongomez/MetaCiencia

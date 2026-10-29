@@ -1,0 +1,55 @@
+---
+title: "Creación de Redes Sociales y Contenidos de Divulgación"
+description: "Creación y gestión de los canales de redes sociales de MetaCiencia y producción de piezas de divulgación científica"
+date: 2026-09-28
+date-format: "MMMM YYYY"
+categories: [divulgación, redes sociales, ciencia abierta, comunicación científica]
+Tipo: "<i class='fa-solid fa-bullhorn'></i> Divulgación"
+status: "En curso"
+image: ../divulgacion/posts/bienvenidos-a-metaciencia/imagen-1.jpg
+---
+
+![](../divulgacion/posts/bienvenidos-a-metaciencia/imagen-1.jpg){.project-logo fig-alt="Bienvenidos a MetaCiencia"}
+
+## Descripción
+
+Este proyecto consiste en la creación y gestión de los canales de redes sociales de <strong>Meta<span class="mc-ink">Ciencia</span></strong> ([YouTube](https://www.youtube.com/@metaciencia_ueb), [Instagram](https://www.instagram.com/metaciencia_ueb/) y [TikTok](https://www.tiktok.com/@metaciencia_ueb)), y en la producción de piezas de divulgación científica dirigidas a estudiantes, docentes e investigadores. Las piezas comunican, de forma accesible, principios y prácticas de [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd) y metaciencia.
+
+## Equipo
+
+| Nombre | Rol |
+|---|---|
+| [Juan David Leongómez](../people/juan-david-leongomez.qmd) | Dirección |
+| [Marcela Puentes](../people/marcela-puentes.qmd) | Creación de contenidos |
+| [Valentina Cepeda Monsalve](../people/valentina-cepeda.qmd) | Divulgación y contenidos |
+| [Andrés Lemus Morales](../people/andres-lemus.qmd) | Divulgación y contenidos |
+| [Luna Valencia Guevara](../people/luna-valencia.qmd) | Divulgación y contenidos |
+| [Daniela Urrego Alvarado](../people/daniela-urrego.qmd) | Divulgación y contenidos |
+| [Samuel Felipe Castillo](../people/samuel-castillo.qmd) | Divulgación y contenidos |
+
+## Objetivos
+
+1. Crear y mantener activos los canales de redes sociales del semillero.
+2. Producir piezas de divulgación científica sobre ciencia abierta y metaciencia, accesibles para públicos no especializados.
+3. Adaptar el contenido a los formatos propios de cada plataforma (imágenes y carruseles para Instagram y YouTube, video corto para TikTok).
+4. Fortalecer la presencia pública del semillero y su vínculo con la comunidad académica.
+
+## Estado
+
+::: {.callout-note}
+**Estado:** En curso · Inicio: septiembre 2026 · Fin esperado: continuo
+:::
+
+## Piezas publicadas
+
+- [Bienvenidos a MetaCiencia](../divulgacion/posts/bienvenidos-a-metaciencia/index.qmd)
+- [¿Qué es Acceso Abierto?](../divulgacion/posts/que-es-acceso-abierto/index.qmd)
+- [Revistas depredadoras](../divulgacion/posts/revistas-depredadoras/index.qmd)
+
+Los videos para TikTok todavía están en producción.
+
+## Materiales
+
+- [YouTube](https://www.youtube.com/@metaciencia_ueb){.no-external}
+- [Instagram](https://www.instagram.com/metaciencia_ueb/){.no-external}
+- [TikTok](https://www.tiktok.com/@metaciencia_ueb){.no-external}

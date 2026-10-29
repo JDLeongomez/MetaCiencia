@@ -217,6 +217,234 @@ hr {
   border-color: rgba($mc-ink, 0.2);
 }
 
+/* ── Modo "banner" para pantalla de feria ─────────────── */
+.feria-stand {
+  font-size: 1.1rem;
+
+  .hero-banner {
+    padding: 1.75rem 1.5rem;
+    margin-bottom: 1.5rem;
+
+    .hero-logo {
+      width: 90px;
+      margin-bottom: 0.75rem;
+    }
+
+    h1 { font-size: 2rem; }
+    p { font-size: 1rem; }
+  }
+}
+
+.feria-accordion {
+  .callout {
+    margin-bottom: 1.75rem;
+    border-width: 2px;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.35);
+  }
+
+  /* El ícono "i" por defecto de Quarto se oculta: cada sección ya
+     trae su propio ícono de Font Awesome en el título. */
+  .callout-icon-container {
+    display: none;
+  }
+
+  .callout-header {
+    background: linear-gradient(135deg, rgba($mc-ink, 0.8) 0%, rgba($secondary, 0.7) 50%, rgba($mc-ink, 0.85) 100%);
+    border-radius: $card-border-radius $card-border-radius 0 0;
+    padding: 1rem 1.25rem;
+  }
+
+  .callout-title-container {
+    font-size: clamp(1.35rem, 1.6vw + 1rem, 1.2rem);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: #ffffff;
+    font-weight: 800;
+  }
+
+  .callout-title-container svg,
+  .callout-title-container .fa,
+  .callout-title-container .fab,
+  .callout-title-container .fas {
+    transform: scale(1.4);
+  }
+
+  .callout-toggle::before {
+    color: #ffffff;
+  }
+
+  .callout-body-container {
+    font-size: clamp(1.05rem, 0.5vw + 1rem, 1.3rem);
+    line-height: 1.75;
+  }
+
+  ul, ol { margin-bottom: 0; }
+}
+
+/* ── Franja de cifras (modo feria) ────────────────────── */
+.stats-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 0 0 2rem;
+  text-align: center;
+
+  .stat-item { min-width: 120px; }
+
+  .stat-number {
+    display: block;
+    font-size: clamp(2.2rem, 3vw + 1rem, 3.4rem);
+    font-weight: 800;
+    color: $mc-ink;
+    line-height: 1;
+    text-shadow: 0 0 20px rgba($mc-ink, 0.5);
+  }
+
+  .stat-label {
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 1rem;
+    color: $body-color-muted;
+  }
+}
+
+/* ── Listado oculto (solo para contar integrantes) ────── */
+.sr-only-listing {
+  display: none;
+}
+
+/* ── Listados de Quarto dentro de las tarjetas (modo feria) ─
+   "Proyectos de investigación" y "Divulgación" en Sobre el
+   semillero ya no son texto escrito a mano: son listados reales
+   de Quarto (type: default), por eso se ven como filas con
+   .quarto-post en vez de nuestras propias clases. Aquí los
+   comprimimos para que quepan bien dentro del acordeón. ────── */
+#listing-sobre-proyectos-investigacion,
+#listing-sobre-divulgacion-piezas {
+  .quarto-post {
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba($mc-ink, 0.2);
+
+    &:last-of-type {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+  }
+
+  .metadata { display: none; }
+
+  .body {
+    flex-basis: auto;
+
+    h3.listing-title { font-size: 1.1rem; }
+    .listing-description { font-size: 0.95rem; color: $body-color-muted; }
+  }
+}
+
+#listing-sobre-divulgacion-piezas .thumbnail {
+  flex-basis: 100px;
+
+  img.thumbnail-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: $border-radius;
+    border: 2px solid rgba($mc-ink, 0.5);
+  }
+}
+
+/* ── Códigos QR (modo feria) ──────────────────────────── */
+.qr-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.75rem;
+  margin: 2.5rem 0 1rem;
+
+  // Pandoc envuelve los <a> (elementos en línea) en un único <p>,
+  // lo que rompe el layout flex (el <p> termina siendo el único
+  // hijo). display: contents hace que ese <p> "desaparezca" del
+  // árbol de cajas y los <a> queden como hijos directos del grid.
+  p {
+    display: contents;
+  }
+
+  .qr-item {
+    display: block;
+    width: 170px;
+    text-align: center;
+    background: $card-bg;
+    border: 1px solid rgba($mc-ink, 0.35);
+    border-radius: $card-border-radius;
+    padding: 1.1rem;
+    text-decoration: none;
+    transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+
+    &:hover {
+      transform: translateY(-3px);
+      border-color: $mc-ink;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+    }
+  }
+
+  img {
+    width: 130px;
+    height: 130px;
+    background: #ffffff;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+  }
+
+  .qr-label {
+    display: block;
+    margin-top: 0.6rem;
+    font-weight: 700;
+    color: #ffffff;
+  }
+}
+
+/* ── Logo de proyecto ─────────────────────────────────── */
+.project-logo {
+  display: block;
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto 1.5rem;
+  border-radius: $card-border-radius;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);
+}
+
+/* ── Listado de proyectos: oculta el recuadro gris cuando
+   un proyecto no tiene imagen propia ─────────────────── */
+#listing-projects-investigacion .listing-item-img-placeholder,
+#listing-projects-divulgacion .listing-item-img-placeholder {
+  display: none;
+}
+
+/* ── Encuadre de imágenes en listados (grid) ──────────── */
+// Por defecto Quarto fuerza object-fit: cover en un recuadro ancho
+// y bajo, lo que recorta cabezas en fotos de retrato y deforma
+// logos. Para integrantes mantenemos el recorte (cover) pero lo
+// anclamos arriba, para no cortar la cabeza. Para proyectos usamos
+// contain, con fondo blanco, para que los logos se vean completos.
+// Nota: Quarto antepone "listing-" al id declarado en el YAML para
+// el contenedor generado (ej. id: projects-investigacion -> #listing-projects-investigacion).
+#listing-people-actuales .thumbnail-image,
+#listing-people-alumni .thumbnail-image {
+  object-position: top center;
+}
+
+#listing-projects-investigacion .thumbnail-image,
+#listing-projects-divulgacion .thumbnail-image {
+  object-fit: contain;
+  background-color: #ffffff;
+  padding: 0.75rem;
+}
+
 /* ── Encabezados de sección ──────────────────────────── */
 h2, h3 {
   border-bottom: 1px solid rgba($mc-ink, 0.15);
