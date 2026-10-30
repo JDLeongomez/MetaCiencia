@@ -315,14 +315,12 @@ hr {
   display: none;
 }
 
-/* ── Listados de Quarto dentro de las tarjetas (modo feria) ─
-   "Proyectos de investigación" y "Divulgación" en Sobre el
-   semillero ya no son texto escrito a mano: son listados reales
-   de Quarto (type: default), por eso se ven como filas con
-   .quarto-post en vez de nuestras propias clases. Aquí los
-   comprimimos para que quepan bien dentro del acordeón. ────── */
-#listing-sobre-proyectos-investigacion,
-#listing-sobre-divulgacion-piezas {
+/* ── Listado de Quarto dentro de la tarjeta "Proyectos de
+   investigación" (modo feria): ya no es texto escrito a mano,
+   es un listado real de Quarto (type: default), por eso se ve
+   como filas con .quarto-post en vez de nuestras propias clases.
+   Aquí lo comprimimos para que quepa bien dentro del acordeón. ── */
+#listing-sobre-proyectos-investigacion {
   .quarto-post {
     gap: 1rem;
     margin-bottom: 1rem;
@@ -340,19 +338,68 @@ hr {
 
   .body {
     flex-basis: auto;
+    flex-shrink: 1;
+    min-width: 0;
 
     h3.listing-title { font-size: 1.1rem; }
     .listing-description { font-size: 0.95rem; color: $body-color-muted; }
   }
 }
 
-#listing-sobre-divulgacion-piezas .thumbnail {
+/* ── Listado de Quarto dentro de la tarjeta "Divulgación" (modo
+   feria): mismas tarjetas en fila que los códigos QR, en vez de
+   la lista vertical por defecto de Quarto. ───────────────────── */
+#listing-sobre-divulgacion-piezas {
+  .metadata { display: none; }
+
+  .list.quarto-listing-default {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .quarto-post {
+    flex: 0 1 130px;
+    flex-direction: column !important;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  .thumbnail {
+    flex-basis: auto;
+
+    img.thumbnail-image {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: $border-radius;
+      border: 2px solid rgba($mc-ink, 0.5);
+    }
+  }
+
+  .body {
+    flex-basis: auto;
+    text-align: center;
+
+    h3.listing-title { font-size: 0.95rem; }
+  }
+}
+
+// Logos de proyecto (no fotos): usamos contain + fondo blanco, como en
+// el listado de la página Proyectos, para que no se deformen.
+#listing-sobre-proyectos-investigacion .thumbnail {
   flex-basis: 100px;
 
   img.thumbnail-image {
     width: 100px;
     height: 100px;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: #ffffff;
+    padding: 0.4rem;
     border-radius: $border-radius;
     border: 2px solid rgba($mc-ink, 0.5);
   }
@@ -421,7 +468,8 @@ hr {
 /* ── Listado de proyectos: oculta el recuadro gris cuando
    un proyecto no tiene imagen propia ─────────────────── */
 #listing-projects-investigacion .listing-item-img-placeholder,
-#listing-projects-divulgacion .listing-item-img-placeholder {
+#listing-projects-divulgacion .listing-item-img-placeholder,
+#listing-sobre-proyectos-investigacion .listing-item-img-placeholder {
   display: none;
 }
 

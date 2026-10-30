@@ -48,7 +48,7 @@ listing:
       - "../projects/fair_lalaf.qmd"
       - "../projects/rruta_latam.qmd"
     type: default
-    fields: [title, description]
+    fields: [image, title, description]
     sort: "date desc"
     sort-ui: false
     filter-ui: false
@@ -101,9 +101,9 @@ Haz clic sobre cada título para ver el contenido.
 ::: {.callout-note collapse="true"}
 ## {{< fa compass >}} Misión y visión
 
-**Misión.** Formar una comunidad académica transdisciplinar comprometida con transformar la práctica científica desde la crítica informada, la apertura y la reproducibilidad. <strong>Meta<span class="mc-ink">Ciencia</span></strong> busca cuestionar las estructuras tradicionales de producción de conocimiento, promover el uso de herramientas abiertas y fomentar una cultura científica ética, transparente y socialmente responsable, formando estudiantes que actúen como agentes de cambio en sus comunidades académicas.
+**Misión.** <strong>Meta<span class="mc-ink">Ciencia</span></strong> busca cuestionar las estructuras tradicionales de producción de conocimiento, promover el uso de herramientas abiertas y fomentar una cultura científica ética, transparente y socialmente responsable.
 
-**Visión.** Ser un referente nacional e internacional en la formación de nuevas generaciones de científicas y científicos que lideren una revolución metodológica en la ciencia, basada en la transparencia, la reproducibilidad, el acceso abierto y la justicia epistémica. <strong>Meta<span class="mc-ink">Ciencia</span></strong> aspira a impactar no solo la academia, sino también las políticas científicas y la cultura investigativa en Colombia y América Latina.
+**Visión.** <strong>Meta<span class="mc-ink">Ciencia</span></strong> aspira a impactar no solo la academia, sino también las políticas científicas y la cultura investigativa en Colombia y América Latina.
 :::
 
 ::: {.callout-note collapse="true"}
@@ -114,6 +114,8 @@ Haz clic sobre cada título para ver el contenido.
 **Objetivos específicos:**
 
 ::: {#objetivos-especificos}
+![](software_libre.png)
+
 - Formar a estudiantes en herramientas y metodologías para la investigación reproducible, incluyendo el uso de [software libre](/glosario/terminos/software-libre/index.qmd), [preregistro](/glosario/terminos/prerregistro/index.qmd), [Reportes Registrados](/glosario/terminos/reportes-registrados/index.qmd) y análisis transparentes.
 - Fomentar una cultura de ciencia abierta que trascienda el [acceso abierto](/glosario/terminos/acceso-abierto/index.qmd) tradicional, promoviendo el acceso abierto no comercial (vía verde), la apertura de datos y la documentación rigurosa de procesos científicos.
 - Desarrollar productos de divulgación científica que comuniquen de forma accesible y crítica los principios de la metaciencia y la reproducibilidad, tanto dentro como fuera de la Universidad.

@@ -6,7 +6,10 @@ date-format: "MMMM YYYY"
 categories: [principios FAIR, ciencia abierta, datos abiertos, políticas editoriales, Latinoamérica, África, metainvestigación]
 Tipo: "<i class='fa-solid fa-microscope'></i> Investigación"
 status: "En curso"
+image: ../assets/projects/fair-lataf-logo.png
 ---
+
+![](../assets/projects/fair-lataf-logo.png){.project-logo fig-alt="Logo de FAIR-LatAf"}
 
 ::: {.callout-note}
 ## Conceptos clave
