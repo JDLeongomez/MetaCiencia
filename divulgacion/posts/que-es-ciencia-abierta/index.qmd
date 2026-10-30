@@ -1,0 +1,44 @@
+---
+title: "¿Qué es Ciencia Abierta?"
+description: "Es abrir el proceso científico para que cualquiera pueda verlo, revisarlo y verificarlo."
+
+date: 2026-10-30
+date-format: "D [de] MMMM [de] YYYY"
+author:
+  - name: Marcela Puentes
+    url: ../../../people/marcela-puentes.qmd
+    orcid: 0009-0008-4111-2590
+categories: [imágenes, Instagram, YouTube, acceso abierto, ciencia abierta, publicación científica]
+image: imagen-1.png
+lightbox: true
+---
+
+Esta es nuestra segunda serie de imágenes estáticas diseñada por [Marcela Puentes](../../../people/marcela-puentes.qmd).
+En ella explicamos qué es la ciencia abierta, por qué surge como respuesta a la crisis de reproducibilidad y cómo la falta de transparencia en el proceso de investigación puede producir resultados falsos. También presentamos las prácticas que la componen (acceso abierto, datos y código abiertos, análisis reproducibles, preregistro y reportes registrados, replicación y enseñanza), la evidencia de que funcionan y algunos recursos para empezar a aplicarlas.
+
+::: {layout-ncol=3}
+![¿Qué es Ciencia Abierta?](imagen-1.png){group="serie" alt="¿Qué es ciencia abierta? Facultad de Psicología, Universidad El Bosque."}
+
+![Origen de la ciencia abierta](imagen-2.png){group="serie" alt="La ciencia abierta surge como respuesta a la crisis de reproducibilidad. La propuesta es abrir el proceso científico para que otros puedan verlo, revisarlo y verificarlo."}
+
+![Prácticas de la ciencia abierta](imagen-3.png){group="serie" alt="Reúne varias prácticas: acceso abierto; datos, materiales y código abiertos; análisis reproducibles; preregistro y reportes registrados; replicación; y enseñanza de la ciencia abierta."}
+
+![¿Por qué es necesaria?](imagen-4.png){group="serie" alt="¿Por qué es necesaria? Sin transparencia, el proceso de investigación puede producir resultados falsos. Las decisiones como qué variables reportar, cuándo dejar de recolectar datos o qué participantes excluir, si se toman después de ver los resultados, aumentan la probabilidad de encontrar un efecto que no existe del 5 % al 60,7 %."}
+
+![¿Funciona?](imagen-5.png){group="serie" alt="¿Funciona? En psicología, el 96 % de los artículos tradicionales reporta resultados positivos respecto a las hipótesis planteadas. En los reportes registrados, donde el estudio se evalúa y acepta antes de conocer los resultados, esa cifra baja al 44 %."}
+
+![Preregistro](imagen-6.png){group="serie" alt="Definir, registrar y seguir un plan de análisis antes de conocer los resultados reduce tanto el sesgo de publicación como el riesgo de falsos positivos."}
+
+![Otros cambios en estudio](imagen-7.png){group="serie" alt="Otros cambios se están estudiando. Una revisión de 485 estudios sobre prácticas como el acceso abierto, los datos y el código abiertos encontró impactos mayormente positivos en la investigación."}
+
+![Ejemplos de impacto](imagen-8.png){group="serie" alt="Por ejemplo: cuando se comparte el código además de los datos, la reproducibilidad de los resultados aumenta; las revisiones por pares con identidad abierta fueron de mayor calidad que las anónimas; y los artículos que comparten sus datos reciben más citas."}
+
+![Obstáculos](imagen-9.png){group="serie" alt="Estas prácticas pueden transformar la manera en que se hace ciencia, pero todavía son poco conocidas. De hecho, el principal obstáculo para su impacto es la falta de habilidades, recursos e infraestructura para aplicarlas."}
+
+![Recursos para aprender más](imagen-10.png){group="serie" alt="Una ciencia más abierta empieza por conocerla, y se construye entre todxs. Algunos recursos para aprender más: MetaCiencia, Universidad El Bosque; The Turing Way Handbook; Peer Community In; Center for Open Science; y AmeliCA."}
+:::
+
+## Publicación original
+
+- {{< fa brands instagram >}} [Ver en Instagram](https://www.instagram.com/reel/DfHz7c9oRLx/?utm_source=ig_web_copy_link&obrf=NTc4MTIwNjQ2YQ==)
+- {{< fa brands youtube >}} [Ver en YouTube](https://youtube.com/post/Ugkx3tQhjxAKw0pgukD_TNIc8A_tDGiEUKWE?si=ALLuWbmIFo0GTxKE)
