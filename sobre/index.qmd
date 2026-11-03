@@ -101,9 +101,19 @@ Haz clic sobre cada título para ver el contenido.
 ::: {.callout-note collapse="true"}
 ## {{< fa compass >}} Misión y visión
 
-**Misión.** <strong>Meta<span class="mc-ink">Ciencia</span></strong> busca cuestionar las estructuras tradicionales de producción de conocimiento, promover el uso de herramientas abiertas y fomentar una cultura científica ética, transparente y socialmente responsable.
+::: {.caja-abierta-banner}
+![Comparación entre un cubo opaco con un signo de interrogación, etiquetado "Ciencia cerrada (status quo)", y un cubo transparente con un ojo e íconos de engranaje, datos, documentos y red dentro, etiquetado "Ciencia abierta".](ciencia_abierta.png)
+:::
 
+::: {.mision-vision}
+::: {.mv-item}
+**Misión.** <strong>Meta<span class="mc-ink">Ciencia</span></strong> busca cuestionar las estructuras tradicionales de producción de conocimiento, promover el uso de herramientas abiertas y fomentar una cultura científica ética, transparente y socialmente responsable.
+:::
+
+::: {.mv-item}
 **Visión.** <strong>Meta<span class="mc-ink">Ciencia</span></strong> aspira a impactar no solo la academia, sino también las políticas científicas y la cultura investigativa en Colombia y América Latina.
+:::
+:::
 :::
 
 ::: {.callout-note collapse="true"}
@@ -114,14 +124,16 @@ Haz clic sobre cada título para ver el contenido.
 **Objetivos específicos:**
 
 ::: {#objetivos-especificos}
-![](software_libre.png)
-
 - Formar a estudiantes en herramientas y metodologías para la investigación reproducible, incluyendo el uso de [software libre](/glosario/terminos/software-libre/index.qmd), [preregistro](/glosario/terminos/prerregistro/index.qmd), [Reportes Registrados](/glosario/terminos/reportes-registrados/index.qmd) y análisis transparentes.
 - Fomentar una cultura de ciencia abierta que trascienda el [acceso abierto](/glosario/terminos/acceso-abierto/index.qmd) tradicional, promoviendo el acceso abierto no comercial (vía verde), la apertura de datos y la documentación rigurosa de procesos científicos.
 - Desarrollar productos de divulgación científica que comuniquen de forma accesible y crítica los principios de la metaciencia y la reproducibilidad, tanto dentro como fuera de la Universidad.
 - Articular saberes y metodologías de distintas disciplinas para abordar problemas científicos desde una perspectiva transdisciplinar, ética y socialmente comprometida.
 - Cuestionar y reflexionar sobre las estructuras de evaluación, publicación y validación científica, promoviendo prácticas más justas, inclusivas y rigurosas.
 - Promover el liderazgo estudiantil como motor de cambio hacia una cultura científica más abierta, crítica y colaborativa en los distintos programas académicos de la Universidad.
+
+::: {.software-libre-banner}
+![Algunas herramientas de software libre que conocemos y hemos usado: Inkscape, Wikipedia, jamovi, LibreOffice, Firefox y R.](software_libre.png)
+:::
 :::
 :::
 

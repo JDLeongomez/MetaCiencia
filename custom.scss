@@ -405,6 +405,45 @@ hr {
   }
 }
 
+/* ── Caja negra vs. caja transparente (Misión y visión) ──── */
+.caja-abierta-banner {
+  text-align: center;
+  margin: 0.25rem 0 1.25rem;
+
+  img {
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.mision-vision {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+  .mv-item {
+    flex: 1 1 260px;
+  }
+}
+
+/* ── Banner de software libre (sección Objetivos) ────────── */
+.software-libre-banner {
+  margin: 1.5rem 0 0.5rem;
+  text-align: center;
+
+  img {
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+  }
+
+  figcaption {
+    font-size: 0.8rem;
+    opacity: 0.75;
+  }
+}
+
 /* ── Códigos QR (modo feria) ──────────────────────────── */
 .qr-grid {
   display: flex;
