@@ -18,7 +18,7 @@ Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos
 
 ## Descripción
 
-Este proyecto consiste en el diseño, desarrollo y mantenimiento del **sitio web del semillero MetaCiencia**, una plataforma de divulgación científica orientada a difundir los principios y prácticas de la [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd) en el contexto colombiano e iberoamericano. El sitio incluye perfiles del equipo, presentación de proyectos de investigación, un glosario de conceptos clave en metainvestigación y ciencia abierta, así como entradas de blog con contenido divulgativo accesible para estudiantes, docentes e investigadores.
+Este proyecto consiste en el diseño, desarrollo y mantenimiento del **sitio web del semillero MetaCiencia**, una plataforma de divulgación científica orientada a difundir los principios y prácticas de la [ciencia abierta](../glosario/terminos/ciencia-abierta/index.qmd) en el contexto colombiano y latinoamericano. El sitio incluye perfiles del equipo, presentación de proyectos de investigación, un glosario de conceptos clave en metainvestigación y ciencia abierta, así como entradas de blog con contenido divulgativo accesible para estudiantes, docentes e investigadores.
 
 El sitio está construido con [Quarto](https://quarto.org/){.no-external}, una herramienta de publicación científica y técnica de código abierto, lo que garantiza que el propio proceso de construcción del sitio sea reproducible y transparente.
 
@@ -36,7 +36,7 @@ El sitio está construido con [Quarto](https://quarto.org/){.no-external}, una h
 1. Construir una plataforma web accesible y atractiva para la divulgación de la ciencia abierta.
 2. Documentar los proyectos, integrantes y publicaciones del semillero MetaCiencia.
 3. Desarrollar un glosario de referencia sobre conceptos de metainvestigación y ciencia abierta.
-4. Publicar contenido divulgativo (blog, guías, cápsulas) dirigido a la comunidad académica iberoamericana.
+4. Publicar contenido divulgativo (blog, guías, cápsulas) dirigido a la comunidad académica hispanohablante.
 5. Modelar buenas prácticas de reproducibilidad y apertura en el propio proceso de desarrollo del sitio.
 
 ## Estado

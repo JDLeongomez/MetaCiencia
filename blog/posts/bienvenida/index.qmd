@@ -72,7 +72,7 @@ Esa diversidad no es decorativa. Los problemas de reproducibilidad, opacidad y m
 El semillero contempla, entre otras actividades:
 
 - Formación en herramientas para investigación reproducible (R, Quarto, OSF, pre-registro).
-- Desarrollo de proyectos de investigación en metaciencia — incluyendo una propuesta en curso sobre *Expansión y Adopción de los Reportes Registrados en Iberoamérica*.
+- Desarrollo de proyectos de investigación en metaciencia — incluyendo una propuesta en curso sobre *Expansión y Adopción de los Reportes Registrados en Latinoamérica*.
 - Producción de materiales de divulgación científica accesibles y críticos.
 - Promoción activa de una cultura científica más abierta dentro de la Universidad.
 
