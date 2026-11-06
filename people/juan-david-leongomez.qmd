@@ -46,7 +46,7 @@ Algunos conceptos usados en esta página: [ciencia abierta](../glosario/terminos
 
 ## Proyectos
 
-- {{< fa microscope >}} [Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/adopcion_reportes_registrados.qmd)
+- {{< fa microscope >}} [**RRuta Latam**: Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/rruta_latam.qmd)
 - {{< fa bullhorn >}} [Creación del Sitio Web de MetaCiencia](../projects/divulgacion_sitio_web.qmd)
 
 ## Publicaciones seleccionadas

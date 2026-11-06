@@ -8,7 +8,7 @@ author:
   - name: Marcela Puentes
     url: ../../../people/marcela-puentes.qmd
     orcid: 0009-0008-4111-2590
-categories: [imágenes, Instagram, YouTube, acceso abierto, ciencia abierta, publicación científica]
+categories: [imágenes, Instagram, YouTube, TikTok, acceso abierto, ciencia abierta, publicación científica]
 image: imagen-1.png
 lightbox: true
 ---
@@ -42,3 +42,4 @@ En ella explicamos qué es la ciencia abierta, por qué surge como respuesta a l
 
 - {{< fa brands instagram >}} [Ver en Instagram](https://www.instagram.com/reel/DfHz7c9oRLx/?utm_source=ig_web_copy_link&obrf=NTc4MTIwNjQ2YQ==)
 - {{< fa brands youtube >}} [Ver en YouTube](https://youtube.com/post/Ugkx3tQhjxAKw0pgukD_TNIc8A_tDGiEUKWE?si=ALLuWbmIFo0GTxKE)
+- {{< fa brands tiktok >}} [Ver en TikTok](https://www.tiktok.com/@metaciencia_ueb/video/7705095978688220424)

@@ -66,7 +66,7 @@ Debido a la diversidad de intereses de los integrantes, y a la amplitud de nuest
 
 ::: {.g-col-12 .g-col-md-6}
 ### {{< fa microscope >}} Investigación
-Estamos iniciando nuestro primer proyecto, centrado en [promoción del formato de Reportes Registrados en América Latina](/projects/adopcion_reportes_registrados.qmd).
+Estamos iniciando nuestro primer proyecto, centrado en [promoción del formato de Reportes Registrados en América Latina](/projects/rruta_latam.qmd).
 :::
 
 ::: {.g-col-12 .g-col-md-6}

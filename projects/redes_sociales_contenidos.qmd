@@ -7,6 +7,18 @@ categories: [divulgación, redes sociales, ciencia abierta, comunicación cient�
 Tipo: "<i class='fa-solid fa-bullhorn'></i> Divulgación"
 status: "En curso"
 image: ../divulgacion/posts/bienvenidos-a-metaciencia/imagen-1.jpg
+listing:
+  id: piezas-listing
+  contents: "../divulgacion/posts/*/index.qmd"
+  type: table
+  fields: [date, title]
+  field-display-names:
+    date: "Fecha"
+    title: "Pieza"
+  date-format: "D [de] MMMM [de] YYYY"
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
 ---
 
 ![](../divulgacion/posts/bienvenidos-a-metaciencia/imagen-1.jpg){.project-logo fig-alt="Bienvenidos a MetaCiencia"}
@@ -42,11 +54,10 @@ Este proyecto consiste en la creación y gestión de los canales de redes social
 
 ## Piezas publicadas
 
-- [Bienvenidos a MetaCiencia](../divulgacion/posts/bienvenidos-a-metaciencia/index.qmd)
-- [¿Qué es Acceso Abierto?](../divulgacion/posts/que-es-acceso-abierto/index.qmd)
-- [Revistas depredadoras](../divulgacion/posts/revistas-depredadoras/index.qmd)
+::: {#piezas-listing}
+:::
 
-Los videos para TikTok todavía están en producción.
+La serie «¿Qué es Ciencia Abierta?» ya está publicada en TikTok; los videos cortos para esa plataforma todavía están en producción.
 
 ## Materiales
 

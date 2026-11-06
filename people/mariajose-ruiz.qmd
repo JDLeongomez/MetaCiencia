@@ -27,7 +27,7 @@ semestre: 8
 
 ## Proyectos
 
-- {{< fa microscope >}} [Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/adopcion_reportes_registrados.qmd)
+- {{< fa microscope >}} [**RRuta Latam**: Expansión y Adopción de los Reportes Registrados en Latinoamérica](../projects/rruta_latam.qmd)
 
 ## Publicaciones seleccionadas
 

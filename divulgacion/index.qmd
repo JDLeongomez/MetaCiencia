@@ -5,8 +5,6 @@ toc: false
 listing:
   id: div-listing
   contents: "posts/*/index.qmd"
-  exclude:
-    path: "posts/que-es-ciencia-abierta/index.qmd"
   type: grid
   grid-columns: 3
   fields: [image, date, title, description, categories]
